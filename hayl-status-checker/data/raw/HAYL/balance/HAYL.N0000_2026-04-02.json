@@ -2,67 +2,12 @@
   {
     "symbol": "HAYL.N0000",
     "company": "HAYLEYS PLC",
-    "issued_shares": null,
-    "par_value": 1.0,
-    "market_cap": 161250000000.0,
-    "market_cap_percent": null,
-    "foreign_holdings": null,
-    "foreign_percentage": null,
-    "fetched_at": "2026-04-02T15:58:23.914879Z"
-  },
-  {
-    "symbol": "HAYL.N0000",
-    "company": "HAYLEYS PLC",
-    "issued_shares": null,
-    "par_value": 1.0,
-    "market_cap": 161250000000.0,
-    "market_cap_percent": null,
-    "foreign_holdings": null,
-    "foreign_percentage": null,
-    "fetched_at": "2026-04-02T15:59:18.895619Z"
-  },
-  {
-    "symbol": "HAYL.N0000",
-    "company": "HAYLEYS PLC",
     "issued_shares": 750000000,
     "par_value": 1.0,
     "market_cap": 161250000000.0,
     "market_cap_percent": 2.1469605,
     "foreign_holdings": null,
     "foreign_percentage": null,
-    "fetched_at": "2026-04-02T15:59:38.714713Z"
-  },
-  {
-    "symbol": "HAYL.N0000",
-    "company": "HAYLEYS PLC",
-    "issued_shares": 750000000,
-    "par_value": 1.0,
-    "market_cap": 161250000000.0,
-    "market_cap_percent": 2.1469605,
-    "foreign_holdings": null,
-    "foreign_percentage": null,
-    "fetched_at": "2026-04-02T16:00:07.521494Z"
-  },
-  {
-    "symbol": "HAYL.N0000",
-    "company": "HAYLEYS PLC",
-    "issued_shares": 750000000,
-    "par_value": 1.0,
-    "market_cap": 161250000000.0,
-    "market_cap_percent": 2.1469605,
-    "foreign_holdings": null,
-    "foreign_percentage": null,
-    "fetched_at": "2026-04-02T16:01:28.405604Z"
-  },
-  {
-    "symbol": "HAYL.N0000",
-    "company": "HAYLEYS PLC",
-    "issued_shares": 750000000,
-    "par_value": 1.0,
-    "market_cap": 161250000000.0,
-    "market_cap_percent": 2.1469605,
-    "foreign_holdings": null,
-    "foreign_percentage": null,
-    "fetched_at": "2026-04-02T16:01:49.444077Z"
+    "fetched_at": "2026-04-02T16:04:22.598187Z"
   }
 ]
