@@ -336,8 +336,14 @@ def has_new_data(all_data, symbol=SYMBOL):
     if not isinstance(new_price, dict):
         return True
 
+    new_date = str(new_price.get("fetched_at", ""))[:10]
     latest_price = _get_latest_saved_record("price", symbol=symbol)
     if not isinstance(latest_price, dict):
+        return True
+
+    latest_date = str(latest_price.get("fetched_at", ""))[:10]
+    if new_date and latest_date and new_date != latest_date:
+        # Always keep at least one snapshot per day, even if values are unchanged.
         return True
 
     return _strip_fetched_at(new_price) != _strip_fetched_at(latest_price)

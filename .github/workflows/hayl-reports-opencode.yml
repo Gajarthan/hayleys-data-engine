@@ -1,0 +1,114 @@
+name: Hayl Reports Opencode Extract
+
+on:
+  workflow_dispatch:
+    inputs:
+      force:
+        description: "Re-extract all files even if outputs are up to date"
+        required: false
+        default: false
+        type: boolean
+      max_files:
+        description: "Maximum number of PDFs to process (leave empty for all)"
+        required: false
+        default: ""
+        type: string
+      match:
+        description: "Optional filename filter substring"
+        required: false
+        default: ""
+        type: string
+
+permissions:
+  contents: write
+
+concurrency:
+  group: hayl-reports-opencode
+  cancel-in-progress: false
+
+jobs:
+  extract:
+    runs-on: ubuntu-latest
+    timeout-minutes: 60
+    env:
+      OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
+      ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Set up Python 3.11
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+
+      - name: Install runtime dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install requests beautifulsoup4 pdfplumber
+          npm install -g opencode-ai
+
+      - name: Validate analyzer credentials
+        run: |
+          if [ -z "${OPENAI_API_KEY}" ] && [ -z "${ANTHROPIC_API_KEY}" ]; then
+            echo "Missing credentials. Add OPENAI_API_KEY or ANTHROPIC_API_KEY secret."
+            exit 1
+          fi
+          opencode --version
+
+      - name: Run opencode extraction
+        run: |
+          ARGS=()
+
+          if [ "${{ inputs.force }}" = "true" ]; then
+            ARGS+=(--force)
+          fi
+
+          if [ -n "${{ inputs.max_files }}" ]; then
+            ARGS+=(--max-files "${{ inputs.max_files }}")
+          fi
+
+          if [ -n "${{ inputs.match }}" ]; then
+            ARGS+=(--match "${{ inputs.match }}")
+          fi
+
+          python hayl-status-checker/extract_reports_with_opencode.py "${ARGS[@]}"
+
+      - name: Upload extraction artifacts
+        if: ${{ always() }}
+        uses: actions/upload-artifact@v4
+        with:
+          name: hayl-opencode-output-${{ github.run_number }}
+          path: |
+            hayl-status-checker/data/raw/HAYL/reports/parsed_opencode
+            hayl-status-checker/data/raw/HAYL/reports/parsed_trusted
+            hayl-status-checker/data/raw/HAYL/reports/metadata
+          retention-days: 14
+
+      - name: Commit extraction outputs if changed
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add hayl-status-checker/data/raw/HAYL/reports
+          if git diff --cached --quiet; then
+            echo "No extracted data changes to commit."
+            exit 0
+          fi
+          git commit -m "chore(data): refresh HAYL report extraction [skip ci]"
+          git push
+
+      - name: Slack alert on failure (optional)
+        if: ${{ failure() && secrets.SLACK_WEBHOOK_URL != '' }}
+        env:
+          SLACK_WEBHOOK_URL: ${{ secrets.SLACK_WEBHOOK_URL }}
+          REPOSITORY: ${{ github.repository }}
+          RUN_ID: ${{ github.run_id }}
+        run: |
+          curl -X POST -H 'Content-type: application/json' --data "{\"text\":\"Hayl Reports Opencode Extract failed for ${REPOSITORY}. Run: https://github.com/${REPOSITORY}/actions/runs/${RUN_ID}\"}" "$SLACK_WEBHOOK_URL"
