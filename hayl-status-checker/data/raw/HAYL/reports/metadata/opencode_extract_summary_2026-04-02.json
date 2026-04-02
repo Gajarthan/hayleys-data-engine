@@ -142,5 +142,23 @@
     "processed": 0,
     "skipped": 0,
     "failed": 0
+  },
+  {
+    "run_at": "2026-04-02T18:51:55.995821Z",
+    "symbol": "HAYL.N0000",
+    "analyzer": "opencode",
+    "total_pdfs": 31,
+    "processed": 0,
+    "skipped": 31,
+    "failed": 0
+  },
+  {
+    "run_at": "2026-04-02T18:57:34.536528Z",
+    "symbol": "HAYL.N0000",
+    "analyzer": "opencode",
+    "total_pdfs": 31,
+    "processed": 0,
+    "skipped": 31,
+    "failed": 0
   }
 ]

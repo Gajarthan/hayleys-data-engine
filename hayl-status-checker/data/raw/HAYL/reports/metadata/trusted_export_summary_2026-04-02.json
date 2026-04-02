@@ -12,5 +12,19 @@
     "trusted_reports_written": 31,
     "dataset_written": true,
     "dataset_path": "data/raw/HAYL/reports/parsed_trusted/trusted_reports_dataset.json"
+  },
+  {
+    "run_at": "2026-04-02T18:51:56.057026Z",
+    "total_source_reports": 31,
+    "trusted_reports_written": 31,
+    "dataset_written": true,
+    "dataset_path": "data/raw/HAYL/reports/parsed_trusted/trusted_reports_dataset.json"
+  },
+  {
+    "run_at": "2026-04-02T18:57:34.587811Z",
+    "total_source_reports": 31,
+    "trusted_reports_written": 31,
+    "dataset_written": true,
+    "dataset_path": "data/raw/HAYL/reports/parsed_trusted/trusted_reports_dataset.json"
   }
 ]
