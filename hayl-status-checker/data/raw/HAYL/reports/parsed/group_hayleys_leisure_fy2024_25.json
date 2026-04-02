@@ -1,0 +1,44 @@
+{
+  "symbol": "HAYL.N0000",
+  "report_type": "group_company_reports",
+  "financial_year": "FY2024-25",
+  "source_pdf": "data/raw/HAYL/reports/pdfs/group_hayleys_leisure_FY2024-25.pdf",
+  "extracted_at": "2026-04-02T17:33:11.881436Z",
+  "metrics": {
+    "revenue": {
+      "value": 2877808.0,
+      "unit": "LKR",
+      "page": 46,
+      "confidence": 0.86,
+      "source": "table"
+    },
+    "net_income": {
+      "value": 159512393.0,
+      "unit": "LKR",
+      "page": 138,
+      "confidence": 0.86,
+      "source": "table"
+    },
+    "eps": {
+      "value": -22733053.0,
+      "unit": "LKR/share",
+      "page": 159,
+      "confidence": 0.86,
+      "source": "table"
+    },
+    "operating_profit": {
+      "value": 20624059.0,
+      "unit": "LKR",
+      "page": 140,
+      "confidence": 0.86,
+      "source": "table"
+    },
+    "ebitda": {
+      "value": 96.0,
+      "unit": "LKR",
+      "page": 10,
+      "confidence": 0.62,
+      "source": "text"
+    }
+  }
+}

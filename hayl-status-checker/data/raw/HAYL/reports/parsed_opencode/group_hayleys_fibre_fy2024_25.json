@@ -3,34 +3,34 @@
   "report_type": "group_company_reports",
   "financial_year": "FY2024-25",
   "source_pdf": "data/raw/HAYL/reports/pdfs/group_hayleys_fibre_FY2024-25.pdf",
-  "extracted_at": "2026-04-02T17:22:15.352267Z",
+  "extracted_at": "2026-04-02T18:41:29.695326Z",
   "analyzer": "opencode",
   "analyzer_input": "data/raw/HAYL/reports/analyzer_input/group_hayleys_fibre_fy2024_25.txt",
-  "analyzer_chars": 70000,
+  "analyzer_chars": 70065,
   "metrics": {
     "revenue": {
       "value": 4751.0,
-      "unit": "Rs. Mn",
-      "page": 20,
+      "unit": "lkr_mn",
+      "page": 18,
       "confidence": 0.95
     },
     "net_income": {
       "value": 34.0,
-      "unit": "Rs. Mn",
-      "page": 20,
+      "unit": "lkr_mn",
+      "page": 18,
       "confidence": 0.95
     },
     "eps": {
       "value": -1.78,
-      "unit": "Rs.",
-      "page": 20,
+      "unit": "lkr_per_share",
+      "page": 18,
       "confidence": 0.95
     },
     "operating_profit": {
-      "value": 95.0,
-      "unit": "Rs. Mn (EBIT)",
-      "page": 20,
-      "confidence": 0.7
+      "value": 39.0,
+      "unit": "lkr_mn",
+      "page": 18,
+      "confidence": 0.9
     },
     "ebitda": {
       "value": null,
@@ -51,10 +51,10 @@
       "confidence": null
     },
     "market_cap": {
-      "value": 1106.4,
-      "unit": "Rs. Mn (est)",
-      "page": 20,
-      "confidence": 0.7
+      "value": null,
+      "unit": null,
+      "page": null,
+      "confidence": null
     },
     "foreign_percentage": {
       "value": null,
@@ -69,10 +69,10 @@
       "confidence": null
     },
     "pb_ratio": {
-      "value": 0.81,
-      "unit": "ratio",
-      "page": 20,
-      "confidence": 0.8
+      "value": null,
+      "unit": null,
+      "page": null,
+      "confidence": null
     },
     "dividend_yield": {
       "value": null,

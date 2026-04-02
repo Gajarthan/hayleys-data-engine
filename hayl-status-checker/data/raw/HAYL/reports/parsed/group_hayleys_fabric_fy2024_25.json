@@ -1,0 +1,44 @@
+{
+  "symbol": "HAYL.N0000",
+  "report_type": "group_company_reports",
+  "financial_year": "FY2024-25",
+  "source_pdf": "data/raw/HAYL/reports/pdfs/group_hayleys_fabric_FY2024-25.pdf",
+  "extracted_at": "2026-04-02T17:32:14.185391Z",
+  "metrics": {
+    "revenue": {
+      "value": 96180.0,
+      "unit": "LKR",
+      "page": 32,
+      "confidence": 0.86,
+      "source": "table"
+    },
+    "net_income": {
+      "value": 6609.0,
+      "unit": "LKR",
+      "page": 32,
+      "confidence": 0.86,
+      "source": "table"
+    },
+    "eps": {
+      "value": 0.016,
+      "unit": "LKR/share",
+      "page": 32,
+      "confidence": 0.86,
+      "source": "table"
+    },
+    "operating_profit": {
+      "value": 1876.0,
+      "unit": "LKR",
+      "page": 116,
+      "confidence": 0.86,
+      "source": "table"
+    },
+    "ebitda": {
+      "value": null,
+      "unit": null,
+      "page": null,
+      "confidence": 0.0,
+      "source": null
+    }
+  }
+}

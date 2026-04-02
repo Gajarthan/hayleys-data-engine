@@ -3,21 +3,21 @@
   "report_type": "group_company_reports",
   "financial_year": "FY2024-25",
   "source_pdf": "data/raw/HAYL/reports/pdfs/group_alumex_FY2024-25.pdf",
-  "extracted_at": "2026-04-02T17:20:14.910408Z",
+  "extracted_at": "2026-04-02T18:40:30.260770Z",
   "analyzer": "opencode",
   "analyzer_input": "data/raw/HAYL/reports/analyzer_input/group_alumex_fy2024_25.txt",
-  "analyzer_chars": 70000,
+  "analyzer_chars": 70065,
   "metrics": {
     "revenue": {
-      "value": 14300000000.0,
-      "unit": "LKR",
-      "page": 18,
+      "value": 14300.0,
+      "unit": "lkr_mn",
+      "page": 13,
       "confidence": 0.95
     },
     "net_income": {
-      "value": 867000000.0,
-      "unit": "LKR",
-      "page": 18,
+      "value": 867.0,
+      "unit": "lkr_mn",
+      "page": 13,
       "confidence": 0.95
     },
     "eps": {
@@ -27,10 +27,10 @@
       "confidence": null
     },
     "operating_profit": {
-      "value": 1141000000.0,
-      "unit": "LKR",
-      "page": 18,
-      "confidence": 0.9
+      "value": 1141.0,
+      "unit": "lkr_mn",
+      "page": 17,
+      "confidence": 0.95
     },
     "ebitda": {
       "value": null,

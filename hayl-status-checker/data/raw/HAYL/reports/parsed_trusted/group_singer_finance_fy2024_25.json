@@ -1,0 +1,82 @@
+{
+  "symbol": "HAYL.N0000",
+  "report_type": "group_company_reports",
+  "financial_year": "FY2024-25",
+  "source_pdf": "data/raw/HAYL/reports/pdfs/group_singer_finance_FY2024-25.pdf",
+  "trusted_at": "2026-04-02T18:49:01.966207Z",
+  "metrics": {
+    "revenue": {
+      "value": 9.706033,
+      "unit": "lkr_mn",
+      "page": 14,
+      "confidence": 0.95
+    },
+    "net_income": {
+      "value": null,
+      "unit": null,
+      "page": null,
+      "confidence": null
+    },
+    "eps": {
+      "value": 4.21,
+      "unit": "lkr_per_share",
+      "page": 14,
+      "confidence": 0.95
+    },
+    "operating_profit": {
+      "value": 1.458143,
+      "unit": "lkr_mn",
+      "page": 14,
+      "confidence": 0.95
+    },
+    "ebitda": {
+      "value": null,
+      "unit": null,
+      "page": null,
+      "confidence": null
+    },
+    "issued_shares": {
+      "value": null,
+      "unit": null,
+      "page": null,
+      "confidence": null
+    },
+    "par_value": {
+      "value": null,
+      "unit": null,
+      "page": null,
+      "confidence": null
+    },
+    "market_cap": {
+      "value": null,
+      "unit": null,
+      "page": null,
+      "confidence": null
+    },
+    "foreign_percentage": {
+      "value": null,
+      "unit": null,
+      "page": null,
+      "confidence": null
+    },
+    "pe_ratio": {
+      "value": 5.91,
+      "unit": "ratio",
+      "page": 14,
+      "confidence": 0.95
+    },
+    "pb_ratio": {
+      "value": null,
+      "unit": null,
+      "page": null,
+      "confidence": null
+    },
+    "dividend_yield": {
+      "value": 0.0,
+      "unit": "percent",
+      "page": 13,
+      "confidence": 0.95
+    }
+  },
+  "trusted_non_null_metrics": 5
+}

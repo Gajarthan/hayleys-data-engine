@@ -3,32 +3,32 @@
   "report_type": "group_company_reports",
   "financial_year": "FY2024-25",
   "source_pdf": "data/raw/HAYL/reports/pdfs/group_singer_finance_FY2024-25.pdf",
-  "extracted_at": "2026-04-02T17:23:29.103618Z",
+  "extracted_at": "2026-04-02T18:42:19.849539Z",
   "analyzer": "opencode",
   "analyzer_input": "data/raw/HAYL/reports/analyzer_input/group_singer_finance_fy2024_25.txt",
-  "analyzer_chars": 70000,
+  "analyzer_chars": 70055,
   "metrics": {
     "revenue": {
-      "value": 9706033000.0,
-      "unit": "LKR",
+      "value": 9.706033,
+      "unit": "lkr_mn",
       "page": 14,
       "confidence": 0.95
     },
     "net_income": {
-      "value": 851723000.0,
-      "unit": "LKR",
-      "page": 14,
-      "confidence": 0.95
+      "value": null,
+      "unit": null,
+      "page": null,
+      "confidence": null
     },
     "eps": {
       "value": 4.21,
-      "unit": "LKR",
+      "unit": "lkr_per_share",
       "page": 14,
       "confidence": 0.95
     },
     "operating_profit": {
-      "value": 1458143000.0,
-      "unit": "LKR",
+      "value": 1.458143,
+      "unit": "lkr_mn",
       "page": 14,
       "confidence": 0.95
     },
@@ -63,10 +63,10 @@
       "confidence": null
     },
     "pe_ratio": {
-      "value": null,
-      "unit": null,
-      "page": null,
-      "confidence": null
+      "value": 5.91,
+      "unit": "ratio",
+      "page": 14,
+      "confidence": 0.95
     },
     "pb_ratio": {
       "value": null,
@@ -75,10 +75,21 @@
       "confidence": null
     },
     "dividend_yield": {
-      "value": null,
-      "unit": null,
-      "page": null,
-      "confidence": null
+      "value": 0.0,
+      "unit": "percent",
+      "page": 13,
+      "confidence": 0.95
     }
-  }
+  },
+  "rejected_metrics": [
+    {
+      "metric": "net_income",
+      "value": 0.851723,
+      "unit": "lkr_mn",
+      "reasons": [
+        "implausibly_small_for_lkr_mn"
+      ],
+      "low_quality_text": false
+    }
+  ]
 }

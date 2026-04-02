@@ -3,40 +3,40 @@
   "report_type": "quarterly_results",
   "financial_year": "FY2023-24",
   "source_pdf": "data/raw/HAYL/reports/pdfs/quarterly_Q4_FY2023-24.pdf",
-  "extracted_at": "2026-04-02T17:26:25.106061Z",
+  "extracted_at": "2026-04-02T18:44:36.427627Z",
   "analyzer": "opencode",
   "analyzer_input": "data/raw/HAYL/reports/analyzer_input/quarterly_q4_fy2023_24.txt",
-  "analyzer_chars": 53620,
+  "analyzer_chars": 53653,
   "metrics": {
     "revenue": {
       "value": 492201.092,
-      "unit": "Rs million",
+      "unit": "lkr_mn",
       "page": 2,
       "confidence": 0.95
     },
     "net_income": {
       "value": 22512.592,
-      "unit": "Rs million",
+      "unit": "lkr_mn",
       "page": 2,
       "confidence": 0.95
     },
     "eps": {
       "value": 17.93,
-      "unit": "Rs",
+      "unit": "lkr_per_share",
       "page": 2,
       "confidence": 0.95
     },
     "operating_profit": {
       "value": 47766.935,
-      "unit": "Rs million",
+      "unit": "lkr_mn",
       "page": 2,
-      "confidence": 0.9
+      "confidence": 0.95
     },
     "ebitda": {
-      "value": 60018.625,
-      "unit": "Rs million",
-      "page": 11,
-      "confidence": 0.85
+      "value": null,
+      "unit": null,
+      "page": null,
+      "confidence": null
     },
     "issued_shares": {
       "value": 750000000.0,
@@ -45,14 +45,14 @@
       "confidence": 0.95
     },
     "par_value": {
-      "value": 100.0,
-      "unit": "Rs",
+      "value": 2.1000000000000002e-06,
+      "unit": "lkr_mn",
       "page": 13,
-      "confidence": 0.95
+      "confidence": 0.7
     },
     "market_cap": {
       "value": 102750.0,
-      "unit": "Rs million",
+      "unit": "lkr_mn",
       "page": 15,
       "confidence": 0.95
     },
@@ -64,15 +64,15 @@
     },
     "pe_ratio": {
       "value": 7.64,
-      "unit": "times",
+      "unit": "ratio",
       "page": 15,
       "confidence": 0.95
     },
     "pb_ratio": {
-      "value": 1.37,
-      "unit": null,
+      "value": 1.1,
+      "unit": "ratio",
       "page": 15,
-      "confidence": 0.85
+      "confidence": 0.9
     },
     "dividend_yield": {
       "value": null,

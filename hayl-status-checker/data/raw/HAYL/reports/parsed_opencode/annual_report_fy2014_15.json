@@ -3,33 +3,33 @@
   "report_type": "annual_reports",
   "financial_year": "FY2014-15",
   "source_pdf": "data/raw/HAYL/reports/pdfs/annual_report_FY2014-15.pdf",
-  "extracted_at": "2026-04-02T17:15:27.397298Z",
+  "extracted_at": "2026-04-02T18:37:51.395027Z",
   "analyzer": "opencode",
   "analyzer_input": "data/raw/HAYL/reports/analyzer_input/annual_report_fy2014_15.txt",
-  "analyzer_chars": 69551,
+  "analyzer_chars": 69630,
   "metrics": {
     "revenue": {
       "value": 92562.0,
-      "unit": "Rs. mn",
-      "page": 10,
+      "unit": "lkr_mn",
+      "page": 12,
       "confidence": 0.95
     },
     "net_income": {
       "value": 4886.0,
-      "unit": "Rs. mn",
-      "page": 10,
+      "unit": "lkr_mn",
+      "page": 12,
       "confidence": 0.95
     },
     "eps": {
       "value": 34.42,
-      "unit": "Rs.",
-      "page": 10,
+      "unit": "lkr_per_share",
+      "page": 12,
       "confidence": 0.95
     },
     "operating_profit": {
       "value": 8511.0,
-      "unit": "Rs. mn",
-      "page": 10,
+      "unit": "lkr_mn",
+      "page": 12,
       "confidence": 0.95
     },
     "ebitda": {
@@ -39,9 +39,9 @@
       "confidence": null
     },
     "issued_shares": {
-      "value": 75.0,
-      "unit": "million",
-      "page": 10,
+      "value": 75000000.0,
+      "unit": "shares",
+      "page": 12,
       "confidence": 0.95
     },
     "par_value": {
@@ -52,8 +52,8 @@
     },
     "market_cap": {
       "value": 22500.0,
-      "unit": "Rs. mn",
-      "page": 10,
+      "unit": "lkr_mn",
+      "page": 12,
       "confidence": 0.95
     },
     "foreign_percentage": {
@@ -64,8 +64,8 @@
     },
     "pe_ratio": {
       "value": 8.72,
-      "unit": "times",
-      "page": 10,
+      "unit": "ratio",
+      "page": 12,
       "confidence": 0.95
     },
     "pb_ratio": {
@@ -76,8 +76,8 @@
     },
     "dividend_yield": {
       "value": 2.0,
-      "unit": "%",
-      "page": 10,
+      "unit": "percent",
+      "page": 12,
       "confidence": 0.95
     }
   }

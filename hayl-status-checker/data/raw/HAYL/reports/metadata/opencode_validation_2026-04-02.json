@@ -1,0 +1,219 @@
+{
+  "generated_at": "2026-04-02T18:44:44.061166Z",
+  "total_reports": 31,
+  "summary": {
+    "all_null_report_count": 0,
+    "unit_issue_count": 1,
+    "cross_report_unit_inconsistency_count": 0,
+    "suspicious_value_count": 28
+  },
+  "all_null_reports": [],
+  "unit_issues": [
+    {
+      "report": "annual_report_fy2023_24.json",
+      "metric": "pb_ratio",
+      "unit": null,
+      "normalized_unit": "none",
+      "reason": "unit_missing_or_unrecognized_for_non_null_value"
+    }
+  ],
+  "cross_report_unit_inconsistencies": [],
+  "suspicious_values": [
+    {
+      "report": "annual_report_fy2009_10.json",
+      "metric": "issued_shares",
+      "value": 75000000.0,
+      "unit": "shares",
+      "reason": "value_not_found_in_analyzer_input_text"
+    },
+    {
+      "report": "annual_report_fy2010_11.json",
+      "metric": "issued_shares",
+      "value": 75050000.0,
+      "unit": "shares",
+      "reason": "value_not_found_in_analyzer_input_text"
+    },
+    {
+      "report": "annual_report_fy2012_13.json",
+      "metric": "issued_shares",
+      "value": 74980.0,
+      "unit": "shares",
+      "reason": "value_not_found_in_analyzer_input_text"
+    },
+    {
+      "report": "annual_report_fy2013_14.json",
+      "metric": "issued_shares",
+      "value": 75000000.0,
+      "unit": "shares",
+      "reason": "value_not_found_in_analyzer_input_text"
+    },
+    {
+      "report": "annual_report_fy2014_15.json",
+      "metric": "issued_shares",
+      "value": 75000000.0,
+      "unit": "shares",
+      "reason": "value_not_found_in_analyzer_input_text"
+    },
+    {
+      "report": "annual_report_fy2016_17.json",
+      "metric": "issued_shares",
+      "value": 75000000.0,
+      "unit": "shares",
+      "reason": "value_not_found_in_analyzer_input_text"
+    },
+    {
+      "report": "annual_report_fy2017_18.json",
+      "metric": "issued_shares",
+      "value": 75000000.0,
+      "unit": "shares",
+      "reason": "value_not_found_in_analyzer_input_text"
+    },
+    {
+      "report": "annual_report_fy2019_20.json",
+      "metric": "issued_shares",
+      "value": 75000000.0,
+      "unit": "shares",
+      "reason": "value_not_found_in_analyzer_input_text"
+    },
+    {
+      "report": "annual_report_fy2020_21.json",
+      "metric": "issued_shares",
+      "value": 750000000.0,
+      "unit": "shares",
+      "reason": "value_not_found_in_analyzer_input_text"
+    },
+    {
+      "report": "annual_report_fy2022_23.json",
+      "metric": "issued_shares",
+      "value": 750000000.0,
+      "unit": "shares",
+      "reason": "value_not_found_in_analyzer_input_text"
+    },
+    {
+      "report": "annual_report_fy2023_24.json",
+      "metric": "issued_shares",
+      "value": 750000000.0,
+      "unit": "shares",
+      "reason": "value_not_found_in_analyzer_input_text"
+    },
+    {
+      "report": "annual_report_fy2024_25.json",
+      "metric": "issued_shares",
+      "value": 750000000.0,
+      "unit": "shares",
+      "reason": "value_not_found_in_analyzer_input_text"
+    },
+    {
+      "report": "group_haycarb_fy2024_25.json",
+      "metric": "revenue",
+      "value": 43200.0,
+      "unit": "lkr_mn",
+      "reason": "value_not_found_in_analyzer_input_text"
+    },
+    {
+      "report": "group_haycarb_fy2024_25.json",
+      "metric": "net_income",
+      "value": 4270.0,
+      "unit": "lkr_mn",
+      "reason": "value_not_found_in_analyzer_input_text"
+    },
+    {
+      "report": "group_hayleys_leisure_fy2024_25.json",
+      "metric": "operating_profit",
+      "value": 470.768,
+      "unit": "lkr_mn",
+      "reason": "value_not_found_in_analyzer_input_text"
+    },
+    {
+      "report": "group_singer_sri_lanka_fy2024_25.json",
+      "metric": "issued_shares",
+      "value": 1138857000.0,
+      "unit": "shares",
+      "reason": "value_not_found_in_analyzer_input_text"
+    },
+    {
+      "report": "group_singer_sri_lanka_fy2024_25.json",
+      "metric": "market_cap",
+      "value": 37818047.0,
+      "unit": "lkr_mn",
+      "reason": "value_not_found_in_analyzer_input_text"
+    },
+    {
+      "report": "group_the_kingsbury_fy2024_25.json",
+      "metric": "operating_profit",
+      "value": 705.502,
+      "unit": "lkr_mn",
+      "reason": "value_not_found_in_analyzer_input_text"
+    },
+    {
+      "report": "group_the_kingsbury_fy2024_25.json",
+      "metric": "market_cap",
+      "value": 5759.6,
+      "unit": "lkr_mn",
+      "reason": "value_not_found_in_analyzer_input_text"
+    },
+    {
+      "report": "quarterly_q1_fy2025.json",
+      "metric": "revenue",
+      "value": 130638.065,
+      "unit": "lkr_mn",
+      "reason": "value_not_found_in_analyzer_input_text"
+    },
+    {
+      "report": "quarterly_q1_fy2025.json",
+      "metric": "operating_profit",
+      "value": 8875.822,
+      "unit": "lkr_mn",
+      "reason": "value_not_found_in_analyzer_input_text"
+    },
+    {
+      "report": "quarterly_q1_fy2025.json",
+      "metric": "ebitda",
+      "value": 12228.773,
+      "unit": "lkr_mn",
+      "reason": "value_not_found_in_analyzer_input_text"
+    },
+    {
+      "report": "quarterly_q2.json",
+      "metric": "ebitda",
+      "value": 24946.904,
+      "unit": "lkr_mn",
+      "reason": "value_not_found_in_analyzer_input_text"
+    },
+    {
+      "report": "quarterly_q3_fy2025_26.json",
+      "metric": "net_income",
+      "value": 14018.646,
+      "unit": "lkr_mn",
+      "reason": "value_not_found_in_analyzer_input_text"
+    },
+    {
+      "report": "quarterly_q3_fy2025_26.json",
+      "metric": "operating_profit",
+      "value": 32496.739,
+      "unit": "lkr_mn",
+      "reason": "value_not_found_in_analyzer_input_text"
+    },
+    {
+      "report": "quarterly_q4_fy2023_24.json",
+      "metric": "net_income",
+      "value": 22512.592,
+      "unit": "lkr_mn",
+      "reason": "value_not_found_in_analyzer_input_text"
+    },
+    {
+      "report": "quarterly_q4_fy2023_24.json",
+      "metric": "operating_profit",
+      "value": 47766.935,
+      "unit": "lkr_mn",
+      "reason": "value_not_found_in_analyzer_input_text"
+    },
+    {
+      "report": "quarterly_q4_fy2023_24.json",
+      "metric": "market_cap",
+      "value": 102750.0,
+      "unit": "lkr_mn",
+      "reason": "value_not_found_in_analyzer_input_text"
+    }
+  ]
+}

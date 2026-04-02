@@ -1,0 +1,2544 @@
+[
+  {
+    "symbol": "HAYL.N0000",
+    "report_type": "annual_reports",
+    "financial_year": "FY2009-10",
+    "source_pdf": "data/raw/HAYL/reports/pdfs/annual_report_FY2009-10.pdf",
+    "trusted_at": "2026-04-02T18:49:01.934207Z",
+    "metrics": {
+      "revenue": {
+        "value": 43716.0,
+        "unit": "lkr_mn",
+        "page": 4,
+        "confidence": 0.95
+      },
+      "net_income": {
+        "value": 2671.0,
+        "unit": "lkr_mn",
+        "page": 4,
+        "confidence": 0.95
+      },
+      "eps": {
+        "value": 23.67,
+        "unit": "lkr_per_share",
+        "page": 4,
+        "confidence": 0.95
+      },
+      "operating_profit": {
+        "value": 4000.0,
+        "unit": "lkr_mn",
+        "page": 27,
+        "confidence": 0.9
+      },
+      "ebitda": {
+        "value": 4888.0,
+        "unit": "lkr_mn",
+        "page": 27,
+        "confidence": 0.9
+      },
+      "issued_shares": {
+        "value": 75000000.0,
+        "unit": "shares",
+        "page": 4,
+        "confidence": 0.85
+      },
+      "par_value": {
+        "value": null,
+        "unit": null,
+        "page": null,
+        "confidence": null
+      },
+      "market_cap": {
+        "value": 16875.0,
+        "unit": "lkr_mn",
+        "page": 4,
+        "confidence": 0.95
+      },
+      "foreign_percentage": {
+        "value": null,
+        "unit": null,
+        "page": null,
+        "confidence": null
+      },
+      "pe_ratio": {
+        "value": 9.51,
+        "unit": "ratio",
+        "page": 4,
+        "confidence": 0.95
+      },
+      "pb_ratio": {
+        "value": 1.1,
+        "unit": "ratio",
+        "page": 4,
+        "confidence": 0.9
+      },
+      "dividend_yield": {
+        "value": 1.8,
+        "unit": "percent",
+        "page": 4,
+        "confidence": 0.95
+      }
+    },
+    "trusted_non_null_metrics": 10
+  },
+  {
+    "symbol": "HAYL.N0000",
+    "report_type": "annual_reports",
+    "financial_year": "FY2010-11",
+    "source_pdf": "data/raw/HAYL/reports/pdfs/annual_report_FY2010-11.pdf",
+    "trusted_at": "2026-04-02T18:49:01.935590Z",
+    "metrics": {
+      "revenue": {
+        "value": 55753.0,
+        "unit": "lkr_mn",
+        "page": 5,
+        "confidence": 0.95
+      },
+      "net_income": {
+        "value": 1207.0,
+        "unit": "lkr_mn",
+        "page": 5,
+        "confidence": 0.95
+      },
+      "eps": {
+        "value": 9.66,
+        "unit": "lkr_per_share",
+        "page": 5,
+        "confidence": 0.95
+      },
+      "operating_profit": {
+        "value": 2915.0,
+        "unit": "lkr_mn",
+        "page": 13,
+        "confidence": 0.85
+      },
+      "ebitda": {
+        "value": null,
+        "unit": null,
+        "page": null,
+        "confidence": null
+      },
+      "issued_shares": {
+        "value": 75050000.0,
+        "unit": "shares",
+        "page": 5,
+        "confidence": 0.8
+      },
+      "par_value": {
+        "value": null,
+        "unit": null,
+        "page": null,
+        "confidence": null
+      },
+      "market_cap": {
+        "value": 28658.0,
+        "unit": "lkr_mn",
+        "page": 5,
+        "confidence": 0.95
+      },
+      "foreign_percentage": {
+        "value": null,
+        "unit": null,
+        "page": null,
+        "confidence": null
+      },
+      "pe_ratio": {
+        "value": 39.55,
+        "unit": "ratio",
+        "page": 5,
+        "confidence": 0.95
+      },
+      "pb_ratio": {
+        "value": 1.83,
+        "unit": "ratio",
+        "page": 5,
+        "confidence": 0.85
+      },
+      "dividend_yield": {
+        "value": 1.0,
+        "unit": "percent",
+        "page": 5,
+        "confidence": 0.95
+      }
+    },
+    "trusted_non_null_metrics": 9
+  },
+  {
+    "symbol": "HAYL.N0000",
+    "report_type": "annual_reports",
+    "financial_year": "FY2011-12",
+    "source_pdf": "data/raw/HAYL/reports/pdfs/annual_report_FY2011-12.pdf",
+    "trusted_at": "2026-04-02T18:49:01.936885Z",
+    "metrics": {
+      "revenue": {
+        "value": 62465.0,
+        "unit": "lkr_mn",
+        "page": 6,
+        "confidence": 0.95
+      },
+      "net_income": {
+        "value": 3845.0,
+        "unit": "lkr_mn",
+        "page": 6,
+        "confidence": 0.95
+      },
+      "eps": {
+        "value": 33.6,
+        "unit": "lkr_per_share",
+        "page": 6,
+        "confidence": 0.95
+      },
+      "operating_profit": {
+        "value": 4806.0,
+        "unit": "lkr_mn",
+        "page": 6,
+        "confidence": 0.95
+      },
+      "ebitda": {
+        "value": null,
+        "unit": null,
+        "page": null,
+        "confidence": null
+      },
+      "issued_shares": {
+        "value": null,
+        "unit": null,
+        "page": null,
+        "confidence": null
+      },
+      "par_value": {
+        "value": null,
+        "unit": null,
+        "page": null,
+        "confidence": null
+      },
+      "market_cap": {
+        "value": 27000.0,
+        "unit": "lkr_mn",
+        "page": 6,
+        "confidence": 0.95
+      },
+      "foreign_percentage": {
+        "value": null,
+        "unit": null,
+        "page": null,
+        "confidence": null
+      },
+      "pe_ratio": {
+        "value": 10.72,
+        "unit": "ratio",
+        "page": 6,
+        "confidence": 0.95
+      },
+      "pb_ratio": {
+        "value": null,
+        "unit": null,
+        "page": null,
+        "confidence": null
+      },
+      "dividend_yield": {
+        "value": 1.1,
+        "unit": "percent",
+        "page": 6,
+        "confidence": 0.95
+      }
+    },
+    "trusted_non_null_metrics": 7
+  },
+  {
+    "symbol": "HAYL.N0000",
+    "report_type": "annual_reports",
+    "financial_year": "FY2012-13",
+    "source_pdf": "data/raw/HAYL/reports/pdfs/annual_report_FY2012-13.pdf",
+    "trusted_at": "2026-04-02T18:49:01.937889Z",
+    "metrics": {
+      "revenue": {
+        "value": 74302.0,
+        "unit": "lkr_mn",
+        "page": 14,
+        "confidence": 0.95
+      },
+      "net_income": {
+        "value": 3619.0,
+        "unit": "lkr_mn",
+        "page": 14,
+        "confidence": 0.95
+      },
+      "eps": {
+        "value": 24.72,
+        "unit": "lkr_per_share",
+        "page": 14,
+        "confidence": 0.95
+      },
+      "operating_profit": {
+        "value": 5025.0,
+        "unit": "lkr_mn",
+        "page": 14,
+        "confidence": 0.95
+      },
+      "ebitda": {
+        "value": null,
+        "unit": null,
+        "page": null,
+        "confidence": null
+      },
+      "issued_shares": {
+        "value": 74980.0,
+        "unit": "shares",
+        "page": 14,
+        "confidence": 0.7
+      },
+      "par_value": {
+        "value": null,
+        "unit": null,
+        "page": null,
+        "confidence": null
+      },
+      "market_cap": {
+        "value": 22403.0,
+        "unit": "lkr_mn",
+        "page": 14,
+        "confidence": 0.95
+      },
+      "foreign_percentage": {
+        "value": null,
+        "unit": null,
+        "page": null,
+        "confidence": null
+      },
+      "pe_ratio": {
+        "value": 12.08,
+        "unit": "ratio",
+        "page": 14,
+        "confidence": 0.95
+      },
+      "pb_ratio": {
+        "value": null,
+        "unit": null,
+        "page": null,
+        "confidence": null
+      },
+      "dividend_yield": {
+        "value": 1.5,
+        "unit": "percent",
+        "page": 14,
+        "confidence": 0.95
+      }
+    },
+    "trusted_non_null_metrics": 8
+  },
+  {
+    "symbol": "HAYL.N0000",
+    "report_type": "annual_reports",
+    "financial_year": "FY2013-14",
+    "source_pdf": "data/raw/HAYL/reports/pdfs/annual_report_FY2013-14.pdf",
+    "trusted_at": "2026-04-02T18:49:01.940062Z",
+    "metrics": {
+      "revenue": {
+        "value": 80554.0,
+        "unit": "lkr_mn",
+        "page": 8,
+        "confidence": 0.95
+      },
+      "net_income": {
+        "value": 3709.0,
+        "unit": "lkr_mn",
+        "page": 8,
+        "confidence": 0.9
+      },
+      "eps": {
+        "value": 24.11,
+        "unit": "lkr_per_share",
+        "page": 8,
+        "confidence": 0.95
+      },
+      "operating_profit": {
+        "value": 7213.0,
+        "unit": "lkr_mn",
+        "page": 8,
+        "confidence": 0.95
+      },
+      "ebitda": {
+        "value": null,
+        "unit": null,
+        "page": null,
+        "confidence": null
+      },
+      "issued_shares": {
+        "value": 75000000.0,
+        "unit": "shares",
+        "page": 8,
+        "confidence": 0.95
+      },
+      "par_value": {
+        "value": null,
+        "unit": null,
+        "page": null,
+        "confidence": null
+      },
+      "market_cap": {
+        "value": 21375.0,
+        "unit": "lkr_mn",
+        "page": 8,
+        "confidence": 0.95
+      },
+      "foreign_percentage": {
+        "value": null,
+        "unit": null,
+        "page": null,
+        "confidence": null
+      },
+      "pe_ratio": {
+        "value": 11.82,
+        "unit": "ratio",
+        "page": 8,
+        "confidence": 0.95
+      },
+      "pb_ratio": {
+        "value": 0.9,
+        "unit": "ratio",
+        "page": 8,
+        "confidence": 0.85
+      },
+      "dividend_yield": {
+        "value": 1.8,
+        "unit": "percent",
+        "page": 8,
+        "confidence": 0.95
+      }
+    },
+    "trusted_non_null_metrics": 9
+  },
+  {
+    "symbol": "HAYL.N0000",
+    "report_type": "annual_reports",
+    "financial_year": "FY2014-15",
+    "source_pdf": "data/raw/HAYL/reports/pdfs/annual_report_FY2014-15.pdf",
+    "trusted_at": "2026-04-02T18:49:01.942185Z",
+    "metrics": {
+      "revenue": {
+        "value": 92562.0,
+        "unit": "lkr_mn",
+        "page": 12,
+        "confidence": 0.95
+      },
+      "net_income": {
+        "value": 4886.0,
+        "unit": "lkr_mn",
+        "page": 12,
+        "confidence": 0.95
+      },
+      "eps": {
+        "value": 34.42,
+        "unit": "lkr_per_share",
+        "page": 12,
+        "confidence": 0.95
+      },
+      "operating_profit": {
+        "value": 8511.0,
+        "unit": "lkr_mn",
+        "page": 12,
+        "confidence": 0.95
+      },
+      "ebitda": {
+        "value": null,
+        "unit": null,
+        "page": null,
+        "confidence": null
+      },
+      "issued_shares": {
+        "value": 75000000.0,
+        "unit": "shares",
+        "page": 12,
+        "confidence": 0.95
+      },
+      "par_value": {
+        "value": null,
+        "unit": null,
+        "page": null,
+        "confidence": null
+      },
+      "market_cap": {
+        "value": 22500.0,
+        "unit": "lkr_mn",
+        "page": 12,
+        "confidence": 0.95
+      },
+      "foreign_percentage": {
+        "value": null,
+        "unit": null,
+        "page": null,
+        "confidence": null
+      },
+      "pe_ratio": {
+        "value": 8.72,
+        "unit": "ratio",
+        "page": 12,
+        "confidence": 0.95
+      },
+      "pb_ratio": {
+        "value": null,
+        "unit": null,
+        "page": null,
+        "confidence": null
+      },
+      "dividend_yield": {
+        "value": 2.0,
+        "unit": "percent",
+        "page": 12,
+        "confidence": 0.95
+      }
+    },
+    "trusted_non_null_metrics": 8
+  },
+  {
+    "symbol": "HAYL.N0000",
+    "report_type": "annual_reports",
+    "financial_year": "FY2015-16",
+    "source_pdf": "data/raw/HAYL/reports/pdfs/annual_report_FY2015-16.pdf",
+    "trusted_at": "2026-04-02T18:49:01.943312Z",
+    "metrics": {
+      "revenue": {
+        "value": null,
+        "unit": null,
+        "page": null,
+        "confidence": null
+      },
+      "net_income": {
+        "value": null,
+        "unit": null,
+        "page": null,
+        "confidence": null
+      },
+      "eps": {
+        "value": 16.4,
+        "unit": "lkr_per_share",
+        "page": 121,
+        "confidence": 0.62
+      },
+      "operating_profit": {
+        "value": null,
+        "unit": null,
+        "page": null,
+        "confidence": null
+      },
+      "ebitda": {
+        "value": null,
+        "unit": null,
+        "page": null,
+        "confidence": null
+      },
+      "issued_shares": {
+        "value": null,
+        "unit": null,
+        "page": null,
+        "confidence": null
+      },
+      "par_value": {
+        "value": null,
+        "unit": null,
+        "page": null,
+        "confidence": null
+      },
+      "market_cap": {
+        "value": null,
+        "unit": null,
+        "page": null,
+        "confidence": null
+      },
+      "foreign_percentage": {
+        "value": null,
+        "unit": null,
+        "page": null,
+        "confidence": null
+      },
+      "pe_ratio": {
+        "value": null,
+        "unit": null,
+        "page": null,
+        "confidence": null
+      },
+      "pb_ratio": {
+        "value": null,
+        "unit": null,
+        "page": null,
+        "confidence": null
+      },
+      "dividend_yield": {
+        "value": null,
+        "unit": null,
+        "page": null,
+        "confidence": null
+      }
+    },
+    "trusted_non_null_metrics": 1
+  },
+  {
+    "symbol": "HAYL.N0000",
+    "report_type": "annual_reports",
+    "financial_year": "FY2016-17",
+    "source_pdf": "data/raw/HAYL/reports/pdfs/annual_report_FY2016-17.pdf",
+    "trusted_at": "2026-04-02T18:49:01.945323Z",
+    "metrics": {
+      "revenue": {
+        "value": 111383.0,
+        "unit": "lkr_mn",
+        "page": 17,
+        "confidence": 0.95
+      },
+      "net_income": {
+        "value": 2784.0,
+        "unit": "lkr_mn",
+        "page": 17,
+        "confidence": 0.95
+      },
+      "eps": {
+        "value": 37.12,
+        "unit": "lkr_per_share",
+        "page": 17,
+        "confidence": 0.95
+      },
+      "operating_profit": {
+        "value": 9675.0,
+        "unit": "lkr_mn",
+        "page": 17,
+        "confidence": 0.95
+      },
+      "ebitda": {
+        "value": null,
+        "unit": null,
+        "page": null,
+        "confidence": null
+      },
+      "issued_shares": {
+        "value": 75000000.0,
+        "unit": "shares",
+        "page": 17,
+        "confidence": 0.95
+      },
+      "par_value": {
+        "value": null,
+        "unit": null,
+        "page": null,
+        "confidence": null
+      },
+      "market_cap": {
+        "value": 19875.0,
+        "unit": "lkr_mn",
+        "page": 17,
+        "confidence": 0.95
+      },
+      "foreign_percentage": {
+        "value": null,
+        "unit": null,
+        "page": null,
+        "confidence": null
+      },
+      "pe_ratio": {
+        "value": 7.14,
+        "unit": "ratio",
+        "page": 17,
+        "confidence": 0.95
+      },
+      "pb_ratio": {
+        "value": null,
+        "unit": null,
+        "page": null,
+        "confidence": null
+      },
+      "dividend_yield": {
+        "value": 2.8,
+        "unit": "percent",
+        "page": 17,
+        "confidence": 0.95
+      }
+    },
+    "trusted_non_null_metrics": 8
+  },
+  {
+    "symbol": "HAYL.N0000",
+    "report_type": "annual_reports",
+    "financial_year": "FY2017-18",
+    "source_pdf": "data/raw/HAYL/reports/pdfs/annual_report_FY2017-18.pdf",
+    "trusted_at": "2026-04-02T18:49:01.947326Z",
+    "metrics": {
+      "revenue": {
+        "value": 163249.0,
+        "unit": "lkr_mn",
+        "page": 10,
+        "confidence": 0.95
+      },
+      "net_income": {
+        "value": 3272.0,
+        "unit": "lkr_mn",
+        "page": 10,
+        "confidence": 0.95
+      },
+      "eps": {
+        "value": 13.65,
+        "unit": "lkr_per_share",
+        "page": 10,
+        "confidence": 0.95
+      },
+      "operating_profit": {
+        "value": 11403.0,
+        "unit": "lkr_mn",
+        "page": 10,
+        "confidence": 0.95
+      },
+      "ebitda": {
+        "value": null,
+        "unit": null,
+        "page": null,
+        "confidence": null
+      },
+      "issued_shares": {
+        "value": 75000000.0,
+        "unit": "shares",
+        "page": 10,
+        "confidence": 0.95
+      },
+      "par_value": {
+        "value": null,
+        "unit": null,
+        "page": null,
+        "confidence": null
+      },
+      "market_cap": {
+        "value": 15053.0,
+        "unit": "lkr_mn",
+        "page": 13,
+        "confidence": 0.9
+      },
+      "foreign_percentage": {
+        "value": null,
+        "unit": null,
+        "page": null,
+        "confidence": null
+      },
+      "pe_ratio": {
+        "value": 14.7,
+        "unit": "ratio",
+        "page": 13,
+        "confidence": 0.95
+      },
+      "pb_ratio": {
+        "value": 0.38,
+        "unit": "ratio",
+        "page": 13,
+        "confidence": 0.85
+      },
+      "dividend_yield": {
+        "value": 2.49,
+        "unit": "percent",
+        "page": 13,
+        "confidence": 0.95
+      }
+    },
+    "trusted_non_null_metrics": 9
+  },
+  {
+    "symbol": "HAYL.N0000",
+    "report_type": "annual_reports",
+    "financial_year": "FY2018-19",
+    "source_pdf": "data/raw/HAYL/reports/pdfs/annual_report_FY2018-19.pdf",
+    "trusted_at": "2026-04-02T18:49:01.948325Z",
+    "metrics": {
+      "revenue": {
+        "value": null,
+        "unit": null,
+        "page": null,
+        "confidence": null
+      },
+      "net_income": {
+        "value": null,
+        "unit": null,
+        "page": null,
+        "confidence": null
+      },
+      "eps": {
+        "value": 2.0,
+        "unit": "lkr_per_share",
+        "page": 199,
+        "confidence": 0.62
+      },
+      "operating_profit": {
+        "value": null,
+        "unit": null,
+        "page": null,
+        "confidence": null
+      },
+      "ebitda": {
+        "value": null,
+        "unit": null,
+        "page": null,
+        "confidence": null
+      },
+      "issued_shares": {
+        "value": null,
+        "unit": null,
+        "page": null,
+        "confidence": null
+      },
+      "par_value": {
+        "value": null,
+        "unit": null,
+        "page": null,
+        "confidence": null
+      },
+      "market_cap": {
+        "value": null,
+        "unit": null,
+        "page": null,
+        "confidence": null
+      },
+      "foreign_percentage": {
+        "value": null,
+        "unit": null,
+        "page": null,
+        "confidence": null
+      },
+      "pe_ratio": {
+        "value": null,
+        "unit": null,
+        "page": null,
+        "confidence": null
+      },
+      "pb_ratio": {
+        "value": null,
+        "unit": null,
+        "page": null,
+        "confidence": null
+      },
+      "dividend_yield": {
+        "value": null,
+        "unit": null,
+        "page": null,
+        "confidence": null
+      }
+    },
+    "trusted_non_null_metrics": 1
+  },
+  {
+    "symbol": "HAYL.N0000",
+    "report_type": "annual_reports",
+    "financial_year": "FY2019-20",
+    "source_pdf": "data/raw/HAYL/reports/pdfs/annual_report_FY2019-20.pdf",
+    "trusted_at": "2026-04-02T18:49:01.949321Z",
+    "metrics": {
+      "revenue": {
+        "value": 210307.0,
+        "unit": "lkr_mn",
+        "page": 8,
+        "confidence": 0.95
+      },
+      "net_income": {
+        "value": 2895.0,
+        "unit": "lkr_mn",
+        "page": 8,
+        "confidence": 0.95
+      },
+      "eps": {
+        "value": 4.97,
+        "unit": "lkr_per_share",
+        "page": 8,
+        "confidence": 0.95
+      },
+      "operating_profit": {
+        "value": 16473.0,
+        "unit": "lkr_mn",
+        "page": 8,
+        "confidence": 0.95
+      },
+      "ebitda": {
+        "value": 23379.0,
+        "unit": "lkr_mn",
+        "page": 8,
+        "confidence": 0.95
+      },
+      "issued_shares": {
+        "value": 75000000.0,
+        "unit": "shares",
+        "page": 8,
+        "confidence": 0.95
+      },
+      "par_value": {
+        "value": null,
+        "unit": null,
+        "page": null,
+        "confidence": null
+      },
+      "market_cap": {
+        "value": 9270.0,
+        "unit": "lkr_mn",
+        "page": 8,
+        "confidence": 0.9
+      },
+      "foreign_percentage": {
+        "value": null,
+        "unit": null,
+        "page": null,
+        "confidence": null
+      },
+      "pe_ratio": {
+        "value": 24.89,
+        "unit": "ratio",
+        "page": 9,
+        "confidence": 0.9
+      },
+      "pb_ratio": {
+        "value": null,
+        "unit": null,
+        "page": null,
+        "confidence": null
+      },
+      "dividend_yield": {
+        "value": null,
+        "unit": null,
+        "page": null,
+        "confidence": null
+      }
+    },
+    "trusted_non_null_metrics": 8
+  },
+  {
+    "symbol": "HAYL.N0000",
+    "report_type": "annual_reports",
+    "financial_year": "FY2020-21",
+    "source_pdf": "data/raw/HAYL/reports/pdfs/annual_report_FY2020-21.pdf",
+    "trusted_at": "2026-04-02T18:49:01.951614Z",
+    "metrics": {
+      "revenue": {
+        "value": 241276.0,
+        "unit": "lkr_mn",
+        "page": 18,
+        "confidence": 0.95
+      },
+      "net_income": {
+        "value": 14046.0,
+        "unit": "lkr_mn",
+        "page": 18,
+        "confidence": 0.95
+      },
+      "eps": {
+        "value": 10.18,
+        "unit": "lkr_per_share",
+        "page": 18,
+        "confidence": 0.95
+      },
+      "operating_profit": {
+        "value": 25954.0,
+        "unit": "lkr_mn",
+        "page": 18,
+        "confidence": 0.95
+      },
+      "ebitda": {
+        "value": 33205.0,
+        "unit": "lkr_mn",
+        "page": 18,
+        "confidence": 0.95
+      },
+      "issued_shares": {
+        "value": 750000000.0,
+        "unit": "shares",
+        "page": 18,
+        "confidence": 0.9
+      },
+      "par_value": {
+        "value": null,
+        "unit": null,
+        "page": null,
+        "confidence": null
+      },
+      "market_cap": {
+        "value": 45600.0,
+        "unit": "lkr_mn",
+        "page": 18,
+        "confidence": 0.95
+      },
+      "foreign_percentage": {
+        "value": null,
+        "unit": null,
+        "page": null,
+        "confidence": null
+      },
+      "pe_ratio": {
+        "value": 5.97,
+        "unit": "ratio",
+        "page": 18,
+        "confidence": 0.95
+      },
+      "pb_ratio": {
+        "value": 0.96,
+        "unit": "ratio",
+        "page": 18,
+        "confidence": 0.85
+      },
+      "dividend_yield": {
+        "value": 2.14,
+        "unit": "percent",
+        "page": 18,
+        "confidence": 0.95
+      }
+    },
+    "trusted_non_null_metrics": 10
+  },
+  {
+    "symbol": "HAYL.N0000",
+    "report_type": "annual_reports",
+    "financial_year": "FY2021-22",
+    "source_pdf": "data/raw/HAYL/reports/pdfs/annual_report_FY2021-22.pdf",
+    "trusted_at": "2026-04-02T18:49:01.952774Z",
+    "metrics": {
+      "revenue": {
+        "value": 338010.0,
+        "unit": "lkr_mn",
+        "page": 14,
+        "confidence": 0.95
+      },
+      "net_income": {
+        "value": 28100.0,
+        "unit": "lkr_mn",
+        "page": 4,
+        "confidence": 0.95
+      },
+      "eps": {
+        "value": null,
+        "unit": null,
+        "page": null,
+        "confidence": null
+      },
+      "operating_profit": {
+        "value": null,
+        "unit": null,
+        "page": null,
+        "confidence": null
+      },
+      "ebitda": {
+        "value": null,
+        "unit": null,
+        "page": null,
+        "confidence": null
+      },
+      "issued_shares": {
+        "value": null,
+        "unit": null,
+        "page": null,
+        "confidence": null
+      },
+      "par_value": {
+        "value": null,
+        "unit": null,
+        "page": null,
+        "confidence": null
+      },
+      "market_cap": {
+        "value": 146130.0,
+        "unit": "lkr_mn",
+        "page": 14,
+        "confidence": 0.95
+      },
+      "foreign_percentage": {
+        "value": null,
+        "unit": null,
+        "page": null,
+        "confidence": null
+      },
+      "pe_ratio": {
+        "value": null,
+        "unit": null,
+        "page": null,
+        "confidence": null
+      },
+      "pb_ratio": {
+        "value": null,
+        "unit": null,
+        "page": null,
+        "confidence": null
+      },
+      "dividend_yield": {
+        "value": null,
+        "unit": null,
+        "page": null,
+        "confidence": null
+      }
+    },
+    "trusted_non_null_metrics": 3
+  },
+  {
+    "symbol": "HAYL.N0000",
+    "report_type": "annual_reports",
+    "financial_year": "FY2022-23",
+    "source_pdf": "data/raw/HAYL/reports/pdfs/annual_report_FY2022-23.pdf",
+    "trusted_at": "2026-04-02T18:49:01.953774Z",
+    "metrics": {
+      "revenue": {
+        "value": 487431.0,
+        "unit": "lkr_mn",
+        "page": 20,
+        "confidence": 0.95
+      },
+      "net_income": {
+        "value": 27672.0,
+        "unit": "lkr_mn",
+        "page": 20,
+        "confidence": 0.95
+      },
+      "eps": {
+        "value": 21.8,
+        "unit": "lkr_per_share",
+        "page": 20,
+        "confidence": 0.95
+      },
+      "operating_profit": {
+        "value": 61073.0,
+        "unit": "lkr_mn",
+        "page": 20,
+        "confidence": 0.95
+      },
+      "ebitda": {
+        "value": 71088.0,
+        "unit": "lkr_mn",
+        "page": 20,
+        "confidence": 0.95
+      },
+      "issued_shares": {
+        "value": 750000000.0,
+        "unit": "shares",
+        "page": 20,
+        "confidence": 0.95
+      },
+      "par_value": {
+        "value": null,
+        "unit": null,
+        "page": null,
+        "confidence": null
+      },
+      "market_cap": {
+        "value": 54000.0,
+        "unit": "lkr_mn",
+        "page": 20,
+        "confidence": 0.9
+      },
+      "foreign_percentage": {
+        "value": null,
+        "unit": null,
+        "page": null,
+        "confidence": null
+      },
+      "pe_ratio": {
+        "value": 3.3,
+        "unit": "ratio",
+        "page": 20,
+        "confidence": 0.95
+      },
+      "pb_ratio": {
+        "value": 1.46,
+        "unit": "ratio",
+        "page": 20,
+        "confidence": 0.85
+      },
+      "dividend_yield": {
+        "value": 7.43,
+        "unit": "percent",
+        "page": 20,
+        "confidence": 0.95
+      }
+    },
+    "trusted_non_null_metrics": 10
+  },
+  {
+    "symbol": "HAYL.N0000",
+    "report_type": "annual_reports",
+    "financial_year": "FY2023-24",
+    "source_pdf": "data/raw/HAYL/reports/pdfs/annual_report_FY2023-24.pdf",
+    "trusted_at": "2026-04-02T18:49:01.955142Z",
+    "metrics": {
+      "revenue": {
+        "value": 436833.0,
+        "unit": "lkr_mn",
+        "page": 16,
+        "confidence": 0.95
+      },
+      "net_income": {
+        "value": 14847.0,
+        "unit": "lkr_mn",
+        "page": 16,
+        "confidence": 0.95
+      },
+      "eps": {
+        "value": 9.19,
+        "unit": "lkr_per_share",
+        "page": 16,
+        "confidence": 0.95
+      },
+      "operating_profit": {
+        "value": 42723.0,
+        "unit": "lkr_mn",
+        "page": 16,
+        "confidence": 0.95
+      },
+      "ebitda": {
+        "value": 53507.0,
+        "unit": "lkr_mn",
+        "page": 16,
+        "confidence": 0.95
+      },
+      "issued_shares": {
+        "value": 750000000.0,
+        "unit": "shares",
+        "page": 16,
+        "confidence": 0.95
+      },
+      "par_value": {
+        "value": null,
+        "unit": null,
+        "page": null,
+        "confidence": null
+      },
+      "market_cap": {
+        "value": 61575.0,
+        "unit": "lkr_mn",
+        "page": 16,
+        "confidence": 0.95
+      },
+      "foreign_percentage": {
+        "value": null,
+        "unit": null,
+        "page": null,
+        "confidence": null
+      },
+      "pe_ratio": {
+        "value": 8.94,
+        "unit": "ratio",
+        "page": 16,
+        "confidence": 0.95
+      },
+      "pb_ratio": {
+        "value": 0.768,
+        "unit": null,
+        "page": 16,
+        "confidence": 0.85
+      },
+      "dividend_yield": {
+        "value": 6.52,
+        "unit": "percent",
+        "page": 16,
+        "confidence": 0.95
+      }
+    },
+    "trusted_non_null_metrics": 10
+  },
+  {
+    "symbol": "HAYL.N0000",
+    "report_type": "annual_reports",
+    "financial_year": "FY2024-25",
+    "source_pdf": "data/raw/HAYL/reports/pdfs/annual_report_FY2024-25.pdf",
+    "trusted_at": "2026-04-02T18:49:01.956142Z",
+    "metrics": {
+      "revenue": {
+        "value": 492201.0,
+        "unit": "lkr_mn",
+        "page": 19,
+        "confidence": 0.95
+      },
+      "net_income": {
+        "value": 22513.0,
+        "unit": "lkr_mn",
+        "page": 19,
+        "confidence": 0.95
+      },
+      "eps": {
+        "value": 17.93,
+        "unit": "lkr_per_share",
+        "page": 19,
+        "confidence": 0.95
+      },
+      "operating_profit": {
+        "value": 47767.0,
+        "unit": "lkr_mn",
+        "page": 19,
+        "confidence": 0.95
+      },
+      "ebitda": {
+        "value": 60019.0,
+        "unit": "lkr_mn",
+        "page": 19,
+        "confidence": 0.95
+      },
+      "issued_shares": {
+        "value": 750000000.0,
+        "unit": "shares",
+        "page": 19,
+        "confidence": 0.95
+      },
+      "par_value": {
+        "value": null,
+        "unit": null,
+        "page": null,
+        "confidence": null
+      },
+      "market_cap": {
+        "value": 102750.0,
+        "unit": "lkr_mn",
+        "page": 19,
+        "confidence": 0.95
+      },
+      "foreign_percentage": {
+        "value": null,
+        "unit": null,
+        "page": null,
+        "confidence": null
+      },
+      "pe_ratio": {
+        "value": 7.64,
+        "unit": "ratio",
+        "page": 19,
+        "confidence": 0.95
+      },
+      "pb_ratio": {
+        "value": 1.1,
+        "unit": "ratio",
+        "page": 19,
+        "confidence": 0.8
+      },
+      "dividend_yield": {
+        "value": 4.38,
+        "unit": "percent",
+        "page": 19,
+        "confidence": 0.95
+      }
+    },
+    "trusted_non_null_metrics": 10
+  },
+  {
+    "symbol": "HAYL.N0000",
+    "report_type": "group_company_reports",
+    "financial_year": "FY2024-25",
+    "source_pdf": "data/raw/HAYL/reports/pdfs/group_alumex_FY2024-25.pdf",
+    "trusted_at": "2026-04-02T18:49:01.958319Z",
+    "metrics": {
+      "revenue": {
+        "value": 14300.0,
+        "unit": "lkr_mn",
+        "page": 13,
+        "confidence": 0.95
+      },
+      "net_income": {
+        "value": 867.0,
+        "unit": "lkr_mn",
+        "page": 13,
+        "confidence": 0.95
+      },
+      "eps": {
+        "value": null,
+        "unit": null,
+        "page": null,
+        "confidence": null
+      },
+      "operating_profit": {
+        "value": 1141.0,
+        "unit": "lkr_mn",
+        "page": 17,
+        "confidence": 0.95
+      },
+      "ebitda": {
+        "value": null,
+        "unit": null,
+        "page": null,
+        "confidence": null
+      },
+      "issued_shares": {
+        "value": null,
+        "unit": null,
+        "page": null,
+        "confidence": null
+      },
+      "par_value": {
+        "value": null,
+        "unit": null,
+        "page": null,
+        "confidence": null
+      },
+      "market_cap": {
+        "value": null,
+        "unit": null,
+        "page": null,
+        "confidence": null
+      },
+      "foreign_percentage": {
+        "value": null,
+        "unit": null,
+        "page": null,
+        "confidence": null
+      },
+      "pe_ratio": {
+        "value": null,
+        "unit": null,
+        "page": null,
+        "confidence": null
+      },
+      "pb_ratio": {
+        "value": null,
+        "unit": null,
+        "page": null,
+        "confidence": null
+      },
+      "dividend_yield": {
+        "value": null,
+        "unit": null,
+        "page": null,
+        "confidence": null
+      }
+    },
+    "trusted_non_null_metrics": 3
+  },
+  {
+    "symbol": "HAYL.N0000",
+    "report_type": "group_company_reports",
+    "financial_year": "FY2024-25",
+    "source_pdf": "data/raw/HAYL/reports/pdfs/group_dipped_products_dpl_FY2024-25.pdf",
+    "trusted_at": "2026-04-02T18:49:01.958319Z",
+    "metrics": {
+      "revenue": {
+        "value": 79289.0,
+        "unit": "lkr_mn",
+        "page": 24,
+        "confidence": 0.95
+      },
+      "net_income": {
+        "value": 5032.0,
+        "unit": "lkr_mn",
+        "page": 24,
+        "confidence": 0.95
+      },
+      "eps": {
+        "value": 6.47,
+        "unit": "lkr_per_share",
+        "page": 23,
+        "confidence": 0.95
+      },
+      "operating_profit": {
+        "value": 7172.0,
+        "unit": "lkr_mn",
+        "page": 24,
+        "confidence": 0.95
+      },
+      "ebitda": {
+        "value": null,
+        "unit": null,
+        "page": null,
+        "confidence": null
+      },
+      "issued_shares": {
+        "value": 598615120.0,
+        "unit": "shares",
+        "page": 23,
+        "confidence": 0.95
+      },
+      "par_value": {
+        "value": null,
+        "unit": null,
+        "page": null,
+        "confidence": null
+      },
+      "market_cap": {
+        "value": 32924.0,
+        "unit": "lkr_mn",
+        "page": 23,
+        "confidence": 0.95
+      },
+      "foreign_percentage": {
+        "value": null,
+        "unit": null,
+        "page": null,
+        "confidence": null
+      },
+      "pe_ratio": {
+        "value": 8.5,
+        "unit": "ratio",
+        "page": 23,
+        "confidence": 0.95
+      },
+      "pb_ratio": {
+        "value": 1.04,
+        "unit": "ratio",
+        "page": 23,
+        "confidence": 0.85
+      },
+      "dividend_yield": {
+        "value": 3.0,
+        "unit": "percent",
+        "page": 23,
+        "confidence": 0.95
+      }
+    },
+    "trusted_non_null_metrics": 9
+  },
+  {
+    "symbol": "HAYL.N0000",
+    "report_type": "group_company_reports",
+    "financial_year": "FY2024-25",
+    "source_pdf": "data/raw/HAYL/reports/pdfs/group_haycarb_FY2024-25.pdf",
+    "trusted_at": "2026-04-02T18:49:01.959704Z",
+    "metrics": {
+      "revenue": {
+        "value": 43200.0,
+        "unit": "lkr_mn",
+        "page": 20,
+        "confidence": 0.95
+      },
+      "net_income": {
+        "value": 4270.0,
+        "unit": "lkr_mn",
+        "page": 20,
+        "confidence": 0.95
+      },
+      "eps": {
+        "value": 12.1,
+        "unit": "lkr_per_share",
+        "page": 18,
+        "confidence": 0.98
+      },
+      "operating_profit": {
+        "value": 5754.0,
+        "unit": "lkr_mn",
+        "page": 18,
+        "confidence": 0.98
+      },
+      "ebitda": {
+        "value": null,
+        "unit": null,
+        "page": null,
+        "confidence": null
+      },
+      "issued_shares": {
+        "value": null,
+        "unit": null,
+        "page": null,
+        "confidence": null
+      },
+      "par_value": {
+        "value": null,
+        "unit": null,
+        "page": null,
+        "confidence": null
+      },
+      "market_cap": {
+        "value": null,
+        "unit": null,
+        "page": null,
+        "confidence": null
+      },
+      "foreign_percentage": {
+        "value": null,
+        "unit": null,
+        "page": null,
+        "confidence": null
+      },
+      "pe_ratio": {
+        "value": null,
+        "unit": null,
+        "page": null,
+        "confidence": null
+      },
+      "pb_ratio": {
+        "value": null,
+        "unit": null,
+        "page": null,
+        "confidence": null
+      },
+      "dividend_yield": {
+        "value": 4.6,
+        "unit": "percent",
+        "page": 18,
+        "confidence": 0.98
+      }
+    },
+    "trusted_non_null_metrics": 5
+  },
+  {
+    "symbol": "HAYL.N0000",
+    "report_type": "group_company_reports",
+    "financial_year": "FY2024-25",
+    "source_pdf": "data/raw/HAYL/reports/pdfs/group_hayleys_fabric_FY2024-25.pdf",
+    "trusted_at": "2026-04-02T18:49:01.960935Z",
+    "metrics": {
+      "revenue": {
+        "value": null,
+        "unit": null,
+        "page": null,
+        "confidence": null
+      },
+      "net_income": {
+        "value": null,
+        "unit": null,
+        "page": null,
+        "confidence": null
+      },
+      "eps": {
+        "value": 0.016,
+        "unit": "lkr_per_share",
+        "page": 32,
+        "confidence": 0.86
+      },
+      "operating_profit": {
+        "value": null,
+        "unit": null,
+        "page": null,
+        "confidence": null
+      },
+      "ebitda": {
+        "value": null,
+        "unit": null,
+        "page": null,
+        "confidence": null
+      },
+      "issued_shares": {
+        "value": null,
+        "unit": null,
+        "page": null,
+        "confidence": null
+      },
+      "par_value": {
+        "value": null,
+        "unit": null,
+        "page": null,
+        "confidence": null
+      },
+      "market_cap": {
+        "value": null,
+        "unit": null,
+        "page": null,
+        "confidence": null
+      },
+      "foreign_percentage": {
+        "value": null,
+        "unit": null,
+        "page": null,
+        "confidence": null
+      },
+      "pe_ratio": {
+        "value": null,
+        "unit": null,
+        "page": null,
+        "confidence": null
+      },
+      "pb_ratio": {
+        "value": null,
+        "unit": null,
+        "page": null,
+        "confidence": null
+      },
+      "dividend_yield": {
+        "value": null,
+        "unit": null,
+        "page": null,
+        "confidence": null
+      }
+    },
+    "trusted_non_null_metrics": 1
+  },
+  {
+    "symbol": "HAYL.N0000",
+    "report_type": "group_company_reports",
+    "financial_year": "FY2024-25",
+    "source_pdf": "data/raw/HAYL/reports/pdfs/group_hayleys_fibre_FY2024-25.pdf",
+    "trusted_at": "2026-04-02T18:49:01.962059Z",
+    "metrics": {
+      "revenue": {
+        "value": 4751.0,
+        "unit": "lkr_mn",
+        "page": 18,
+        "confidence": 0.95
+      },
+      "net_income": {
+        "value": 34.0,
+        "unit": "lkr_mn",
+        "page": 18,
+        "confidence": 0.95
+      },
+      "eps": {
+        "value": -1.78,
+        "unit": "lkr_per_share",
+        "page": 18,
+        "confidence": 0.95
+      },
+      "operating_profit": {
+        "value": 39.0,
+        "unit": "lkr_mn",
+        "page": 18,
+        "confidence": 0.9
+      },
+      "ebitda": {
+        "value": null,
+        "unit": null,
+        "page": null,
+        "confidence": null
+      },
+      "issued_shares": {
+        "value": null,
+        "unit": null,
+        "page": null,
+        "confidence": null
+      },
+      "par_value": {
+        "value": null,
+        "unit": null,
+        "page": null,
+        "confidence": null
+      },
+      "market_cap": {
+        "value": null,
+        "unit": null,
+        "page": null,
+        "confidence": null
+      },
+      "foreign_percentage": {
+        "value": null,
+        "unit": null,
+        "page": null,
+        "confidence": null
+      },
+      "pe_ratio": {
+        "value": null,
+        "unit": null,
+        "page": null,
+        "confidence": null
+      },
+      "pb_ratio": {
+        "value": null,
+        "unit": null,
+        "page": null,
+        "confidence": null
+      },
+      "dividend_yield": {
+        "value": null,
+        "unit": null,
+        "page": null,
+        "confidence": null
+      }
+    },
+    "trusted_non_null_metrics": 4
+  },
+  {
+    "symbol": "HAYL.N0000",
+    "report_type": "group_company_reports",
+    "financial_year": "FY2024-25",
+    "source_pdf": "data/raw/HAYL/reports/pdfs/group_hayleys_leisure_FY2024-25.pdf",
+    "trusted_at": "2026-04-02T18:49:01.964206Z",
+    "metrics": {
+      "revenue": {
+        "value": 3332.079,
+        "unit": "lkr_mn",
+        "page": 10,
+        "confidence": 0.95
+      },
+      "net_income": {
+        "value": 159.512,
+        "unit": "lkr_mn",
+        "page": 10,
+        "confidence": 0.95
+      },
+      "eps": {
+        "value": 1.45,
+        "unit": "lkr_per_share",
+        "page": 10,
+        "confidence": 0.95
+      },
+      "operating_profit": {
+        "value": 470.768,
+        "unit": "lkr_mn",
+        "page": 10,
+        "confidence": 0.95
+      },
+      "ebitda": {
+        "value": 670.932,
+        "unit": "lkr_mn",
+        "page": 10,
+        "confidence": 0.95
+      },
+      "issued_shares": {
+        "value": 107989958.0,
+        "unit": "shares",
+        "page": 10,
+        "confidence": 0.95
+      },
+      "par_value": {
+        "value": null,
+        "unit": null,
+        "page": null,
+        "confidence": null
+      },
+      "market_cap": {
+        "value": 3045.317,
+        "unit": "lkr_mn",
+        "page": 10,
+        "confidence": 0.95
+      },
+      "foreign_percentage": {
+        "value": null,
+        "unit": null,
+        "page": null,
+        "confidence": null
+      },
+      "pe_ratio": {
+        "value": 19.42,
+        "unit": "ratio",
+        "page": 10,
+        "confidence": 0.95
+      },
+      "pb_ratio": {
+        "value": 2.03,
+        "unit": "ratio",
+        "page": 10,
+        "confidence": 0.85
+      },
+      "dividend_yield": {
+        "value": null,
+        "unit": null,
+        "page": null,
+        "confidence": null
+      }
+    },
+    "trusted_non_null_metrics": 9
+  },
+  {
+    "symbol": "HAYL.N0000",
+    "report_type": "group_company_reports",
+    "financial_year": "FY2024-25",
+    "source_pdf": "data/raw/HAYL/reports/pdfs/group_horana_plantations_FY2024-25.pdf",
+    "trusted_at": "2026-04-02T18:49:01.965205Z",
+    "metrics": {
+      "revenue": {
+        "value": 3697.0,
+        "unit": "lkr_mn",
+        "page": 19,
+        "confidence": 0.95
+      },
+      "net_income": {
+        "value": null,
+        "unit": null,
+        "page": null,
+        "confidence": null
+      },
+      "eps": {
+        "value": null,
+        "unit": null,
+        "page": null,
+        "confidence": null
+      },
+      "operating_profit": {
+        "value": null,
+        "unit": null,
+        "page": null,
+        "confidence": null
+      },
+      "ebitda": {
+        "value": null,
+        "unit": null,
+        "page": null,
+        "confidence": null
+      },
+      "issued_shares": {
+        "value": null,
+        "unit": null,
+        "page": null,
+        "confidence": null
+      },
+      "par_value": {
+        "value": null,
+        "unit": null,
+        "page": null,
+        "confidence": null
+      },
+      "market_cap": {
+        "value": null,
+        "unit": null,
+        "page": null,
+        "confidence": null
+      },
+      "foreign_percentage": {
+        "value": null,
+        "unit": null,
+        "page": null,
+        "confidence": null
+      },
+      "pe_ratio": {
+        "value": null,
+        "unit": null,
+        "page": null,
+        "confidence": null
+      },
+      "pb_ratio": {
+        "value": null,
+        "unit": null,
+        "page": null,
+        "confidence": null
+      },
+      "dividend_yield": {
+        "value": null,
+        "unit": null,
+        "page": null,
+        "confidence": null
+      }
+    },
+    "trusted_non_null_metrics": 1
+  },
+  {
+    "symbol": "HAYL.N0000",
+    "report_type": "group_company_reports",
+    "financial_year": "FY2024-25",
+    "source_pdf": "data/raw/HAYL/reports/pdfs/group_singer_finance_FY2024-25.pdf",
+    "trusted_at": "2026-04-02T18:49:01.966207Z",
+    "metrics": {
+      "revenue": {
+        "value": 9.706033,
+        "unit": "lkr_mn",
+        "page": 14,
+        "confidence": 0.95
+      },
+      "net_income": {
+        "value": null,
+        "unit": null,
+        "page": null,
+        "confidence": null
+      },
+      "eps": {
+        "value": 4.21,
+        "unit": "lkr_per_share",
+        "page": 14,
+        "confidence": 0.95
+      },
+      "operating_profit": {
+        "value": 1.458143,
+        "unit": "lkr_mn",
+        "page": 14,
+        "confidence": 0.95
+      },
+      "ebitda": {
+        "value": null,
+        "unit": null,
+        "page": null,
+        "confidence": null
+      },
+      "issued_shares": {
+        "value": null,
+        "unit": null,
+        "page": null,
+        "confidence": null
+      },
+      "par_value": {
+        "value": null,
+        "unit": null,
+        "page": null,
+        "confidence": null
+      },
+      "market_cap": {
+        "value": null,
+        "unit": null,
+        "page": null,
+        "confidence": null
+      },
+      "foreign_percentage": {
+        "value": null,
+        "unit": null,
+        "page": null,
+        "confidence": null
+      },
+      "pe_ratio": {
+        "value": 5.91,
+        "unit": "ratio",
+        "page": 14,
+        "confidence": 0.95
+      },
+      "pb_ratio": {
+        "value": null,
+        "unit": null,
+        "page": null,
+        "confidence": null
+      },
+      "dividend_yield": {
+        "value": 0.0,
+        "unit": "percent",
+        "page": 13,
+        "confidence": 0.95
+      }
+    },
+    "trusted_non_null_metrics": 5
+  },
+  {
+    "symbol": "HAYL.N0000",
+    "report_type": "group_company_reports",
+    "financial_year": "FY2024-25",
+    "source_pdf": "data/raw/HAYL/reports/pdfs/group_singer_sri_lanka_FY2024-25.pdf",
+    "trusted_at": "2026-04-02T18:49:01.968396Z",
+    "metrics": {
+      "revenue": {
+        "value": 88240.636,
+        "unit": "lkr_mn",
+        "page": 10,
+        "confidence": 0.95
+      },
+      "net_income": {
+        "value": 4178.262,
+        "unit": "lkr_mn",
+        "page": 10,
+        "confidence": 0.95
+      },
+      "eps": {
+        "value": 3.43,
+        "unit": "lkr_per_share",
+        "page": 10,
+        "confidence": 0.95
+      },
+      "operating_profit": {
+        "value": 8470.327,
+        "unit": "lkr_mn",
+        "page": 10,
+        "confidence": 0.95
+      },
+      "ebitda": {
+        "value": null,
+        "unit": null,
+        "page": null,
+        "confidence": null
+      },
+      "issued_shares": {
+        "value": 1138857000.0,
+        "unit": "shares",
+        "page": 10,
+        "confidence": 0.7
+      },
+      "par_value": {
+        "value": 1e-06,
+        "unit": "lkr_mn",
+        "page": null,
+        "confidence": 0.5
+      },
+      "market_cap": {
+        "value": 37818047.0,
+        "unit": "lkr_mn",
+        "page": 10,
+        "confidence": 0.85
+      },
+      "foreign_percentage": {
+        "value": null,
+        "unit": null,
+        "page": null,
+        "confidence": null
+      },
+      "pe_ratio": {
+        "value": 9.68,
+        "unit": "ratio",
+        "page": 10,
+        "confidence": 0.95
+      },
+      "pb_ratio": {
+        "value": 2.43,
+        "unit": "ratio",
+        "page": 10,
+        "confidence": 0.9
+      },
+      "dividend_yield": {
+        "value": 2.95,
+        "unit": "percent",
+        "page": 10,
+        "confidence": 0.95
+      }
+    },
+    "trusted_non_null_metrics": 10
+  },
+  {
+    "symbol": "HAYL.N0000",
+    "report_type": "group_company_reports",
+    "financial_year": "FY2024-25",
+    "source_pdf": "data/raw/HAYL/reports/pdfs/group_talawakelle_tea_estates_FY2024-25.pdf",
+    "trusted_at": "2026-04-02T18:49:01.969723Z",
+    "metrics": {
+      "revenue": {
+        "value": 7806.0,
+        "unit": "lkr_mn",
+        "page": 16,
+        "confidence": 0.95
+      },
+      "net_income": {
+        "value": 1235.0,
+        "unit": "lkr_mn",
+        "page": 16,
+        "confidence": 0.95
+      },
+      "eps": {
+        "value": 26.0,
+        "unit": "lkr_per_share",
+        "page": 16,
+        "confidence": 0.95
+      },
+      "operating_profit": {
+        "value": 1454.0,
+        "unit": "lkr_mn",
+        "page": 16,
+        "confidence": 0.95
+      },
+      "ebitda": {
+        "value": 2099.0,
+        "unit": "lkr_mn",
+        "page": 16,
+        "confidence": 0.95
+      },
+      "issued_shares": {
+        "value": 47500001.0,
+        "unit": "shares",
+        "page": 16,
+        "confidence": 0.95
+      },
+      "par_value": {
+        "value": null,
+        "unit": null,
+        "page": null,
+        "confidence": null
+      },
+      "market_cap": {
+        "value": 6614.38,
+        "unit": "lkr_mn",
+        "page": 17,
+        "confidence": 0.95
+      },
+      "foreign_percentage": {
+        "value": null,
+        "unit": null,
+        "page": null,
+        "confidence": null
+      },
+      "pe_ratio": {
+        "value": 5.35,
+        "unit": "ratio",
+        "page": 17,
+        "confidence": 0.95
+      },
+      "pb_ratio": {
+        "value": null,
+        "unit": null,
+        "page": null,
+        "confidence": null
+      },
+      "dividend_yield": {
+        "value": 5.14,
+        "unit": "percent",
+        "page": 17,
+        "confidence": 0.95
+      }
+    },
+    "trusted_non_null_metrics": 9
+  },
+  {
+    "symbol": "HAYL.N0000",
+    "report_type": "group_company_reports",
+    "financial_year": "FY2024-25",
+    "source_pdf": "data/raw/HAYL/reports/pdfs/group_the_kingsbury_FY2024-25.pdf",
+    "trusted_at": "2026-04-02T18:49:01.971934Z",
+    "metrics": {
+      "revenue": {
+        "value": 5327.046,
+        "unit": "lkr_mn",
+        "page": 12,
+        "confidence": 0.95
+      },
+      "net_income": {
+        "value": 551.153,
+        "unit": "lkr_mn",
+        "page": 12,
+        "confidence": 0.95
+      },
+      "eps": {
+        "value": 1.14,
+        "unit": "lkr_per_share",
+        "page": 12,
+        "confidence": 0.95
+      },
+      "operating_profit": {
+        "value": 705.502,
+        "unit": "lkr_mn",
+        "page": 12,
+        "confidence": 0.95
+      },
+      "ebitda": {
+        "value": 906.467,
+        "unit": "lkr_mn",
+        "page": 12,
+        "confidence": 0.95
+      },
+      "issued_shares": {
+        "value": null,
+        "unit": null,
+        "page": null,
+        "confidence": null
+      },
+      "par_value": {
+        "value": 1e-06,
+        "unit": "lkr_mn",
+        "page": null,
+        "confidence": 0.7
+      },
+      "market_cap": {
+        "value": 5759.6,
+        "unit": "lkr_mn",
+        "page": 12,
+        "confidence": 0.95
+      },
+      "foreign_percentage": {
+        "value": null,
+        "unit": null,
+        "page": null,
+        "confidence": null
+      },
+      "pe_ratio": {
+        "value": 10.45,
+        "unit": "ratio",
+        "page": 12,
+        "confidence": 0.95
+      },
+      "pb_ratio": {
+        "value": 3.0,
+        "unit": "ratio",
+        "page": 12,
+        "confidence": 0.9
+      },
+      "dividend_yield": {
+        "value": null,
+        "unit": null,
+        "page": null,
+        "confidence": null
+      }
+    },
+    "trusted_non_null_metrics": 9
+  },
+  {
+    "symbol": "HAYL.N0000",
+    "report_type": "quarterly_results",
+    "financial_year": "FY20-25",
+    "source_pdf": "data/raw/HAYL/reports/pdfs/quarterly_Q1_FY2025.pdf",
+    "trusted_at": "2026-04-02T18:49:01.972970Z",
+    "metrics": {
+      "revenue": {
+        "value": 130638.065,
+        "unit": "lkr_mn",
+        "page": 1,
+        "confidence": 0.95
+      },
+      "net_income": {
+        "value": 3177.311,
+        "unit": "lkr_mn",
+        "page": 1,
+        "confidence": 0.95
+      },
+      "eps": {
+        "value": 2.01,
+        "unit": "lkr_per_share",
+        "page": 1,
+        "confidence": 0.95
+      },
+      "operating_profit": {
+        "value": 8875.822,
+        "unit": "lkr_mn",
+        "page": 1,
+        "confidence": 0.95
+      },
+      "ebitda": {
+        "value": 12228.773,
+        "unit": "lkr_mn",
+        "page": 8,
+        "confidence": 0.85
+      },
+      "issued_shares": {
+        "value": 750000000.0,
+        "unit": "shares",
+        "page": 10,
+        "confidence": 0.95
+      },
+      "par_value": {
+        "value": 1e-06,
+        "unit": "lkr_mn",
+        "page": 10,
+        "confidence": 0.9
+      },
+      "market_cap": {
+        "value": 130125.0,
+        "unit": "lkr_mn",
+        "page": 11,
+        "confidence": 0.95
+      },
+      "foreign_percentage": {
+        "value": null,
+        "unit": null,
+        "page": null,
+        "confidence": null
+      },
+      "pe_ratio": {
+        "value": 21.59,
+        "unit": "ratio",
+        "page": 11,
+        "confidence": 0.95
+      },
+      "pb_ratio": {
+        "value": 1.37,
+        "unit": "ratio",
+        "page": 11,
+        "confidence": 0.9
+      },
+      "dividend_yield": {
+        "value": null,
+        "unit": null,
+        "page": null,
+        "confidence": null
+      }
+    },
+    "trusted_non_null_metrics": 10
+  },
+  {
+    "symbol": "HAYL.N0000",
+    "report_type": "quarterly_results",
+    "financial_year": null,
+    "source_pdf": "data/raw/HAYL/reports/pdfs/quarterly_Q2.pdf",
+    "trusted_at": "2026-04-02T18:49:01.974029Z",
+    "metrics": {
+      "revenue": {
+        "value": 269526.097,
+        "unit": "lkr_mn",
+        "page": 2,
+        "confidence": 0.95
+      },
+      "net_income": {
+        "value": 7563.484,
+        "unit": "lkr_mn",
+        "page": 2,
+        "confidence": 0.95
+      },
+      "eps": {
+        "value": 5.2,
+        "unit": "lkr_per_share",
+        "page": 2,
+        "confidence": 0.95
+      },
+      "operating_profit": {
+        "value": 19550.44,
+        "unit": "lkr_mn",
+        "page": 2,
+        "confidence": 0.95
+      },
+      "ebitda": {
+        "value": 24946.904,
+        "unit": "lkr_mn",
+        "page": 2,
+        "confidence": 0.85
+      },
+      "issued_shares": {
+        "value": 750000000.0,
+        "unit": "shares",
+        "page": 13,
+        "confidence": 0.9
+      },
+      "par_value": {
+        "value": 2.1000000000000002e-06,
+        "unit": "lkr_mn",
+        "page": 13,
+        "confidence": 0.8
+      },
+      "market_cap": {
+        "value": 139500.0,
+        "unit": "lkr_mn",
+        "page": 14,
+        "confidence": 0.95
+      },
+      "foreign_percentage": {
+        "value": null,
+        "unit": null,
+        "page": null,
+        "confidence": null
+      },
+      "pe_ratio": {
+        "value": 17.89,
+        "unit": "ratio",
+        "page": 14,
+        "confidence": 0.95
+      },
+      "pb_ratio": {
+        "value": 1.41,
+        "unit": "ratio",
+        "page": 14,
+        "confidence": 0.9
+      },
+      "dividend_yield": {
+        "value": null,
+        "unit": null,
+        "page": null,
+        "confidence": null
+      }
+    },
+    "trusted_non_null_metrics": 10
+  },
+  {
+    "symbol": "HAYL.N0000",
+    "report_type": "quarterly_results",
+    "financial_year": "FY2025-26",
+    "source_pdf": "data/raw/HAYL/reports/pdfs/quarterly_Q3_FY2025-26.pdf",
+    "trusted_at": "2026-04-02T18:49:01.976157Z",
+    "metrics": {
+      "revenue": {
+        "value": 421404.127,
+        "unit": "lkr_mn",
+        "page": 2,
+        "confidence": 0.95
+      },
+      "net_income": {
+        "value": 14018.646,
+        "unit": "lkr_mn",
+        "page": 2,
+        "confidence": 0.95
+      },
+      "eps": {
+        "value": 10.52,
+        "unit": "lkr_per_share",
+        "page": 2,
+        "confidence": 0.95
+      },
+      "operating_profit": {
+        "value": 32496.739,
+        "unit": "lkr_mn",
+        "page": 2,
+        "confidence": 0.95
+      },
+      "ebitda": {
+        "value": null,
+        "unit": null,
+        "page": null,
+        "confidence": null
+      },
+      "issued_shares": {
+        "value": 750000000.0,
+        "unit": "shares",
+        "page": 13,
+        "confidence": 0.95
+      },
+      "par_value": {
+        "value": 2.1000000000000002e-06,
+        "unit": "lkr_mn",
+        "page": 13,
+        "confidence": 0.85
+      },
+      "market_cap": {
+        "value": 146813.0,
+        "unit": "lkr_mn",
+        "page": 14,
+        "confidence": 0.95
+      },
+      "foreign_percentage": {
+        "value": null,
+        "unit": null,
+        "page": null,
+        "confidence": null
+      },
+      "pe_ratio": {
+        "value": 9.31,
+        "unit": "ratio",
+        "page": 14,
+        "confidence": 0.95
+      },
+      "pb_ratio": {
+        "value": 1.42,
+        "unit": "ratio",
+        "page": 14,
+        "confidence": 0.9
+      },
+      "dividend_yield": {
+        "value": 3.06,
+        "unit": "percent",
+        "page": 12,
+        "confidence": 0.85
+      }
+    },
+    "trusted_non_null_metrics": 10
+  },
+  {
+    "symbol": "HAYL.N0000",
+    "report_type": "quarterly_results",
+    "financial_year": "FY2023-24",
+    "source_pdf": "data/raw/HAYL/reports/pdfs/quarterly_Q4_FY2023-24.pdf",
+    "trusted_at": "2026-04-02T18:49:01.977158Z",
+    "metrics": {
+      "revenue": {
+        "value": 492201.092,
+        "unit": "lkr_mn",
+        "page": 2,
+        "confidence": 0.95
+      },
+      "net_income": {
+        "value": 22512.592,
+        "unit": "lkr_mn",
+        "page": 2,
+        "confidence": 0.95
+      },
+      "eps": {
+        "value": 17.93,
+        "unit": "lkr_per_share",
+        "page": 2,
+        "confidence": 0.95
+      },
+      "operating_profit": {
+        "value": 47766.935,
+        "unit": "lkr_mn",
+        "page": 2,
+        "confidence": 0.95
+      },
+      "ebitda": {
+        "value": null,
+        "unit": null,
+        "page": null,
+        "confidence": null
+      },
+      "issued_shares": {
+        "value": 750000000.0,
+        "unit": "shares",
+        "page": 13,
+        "confidence": 0.95
+      },
+      "par_value": {
+        "value": 2.1000000000000002e-06,
+        "unit": "lkr_mn",
+        "page": 13,
+        "confidence": 0.7
+      },
+      "market_cap": {
+        "value": 102750.0,
+        "unit": "lkr_mn",
+        "page": 15,
+        "confidence": 0.95
+      },
+      "foreign_percentage": {
+        "value": null,
+        "unit": null,
+        "page": null,
+        "confidence": null
+      },
+      "pe_ratio": {
+        "value": 7.64,
+        "unit": "ratio",
+        "page": 15,
+        "confidence": 0.95
+      },
+      "pb_ratio": {
+        "value": 1.1,
+        "unit": "ratio",
+        "page": 15,
+        "confidence": 0.9
+      },
+      "dividend_yield": {
+        "value": null,
+        "unit": null,
+        "page": null,
+        "confidence": null
+      }
+    },
+    "trusted_non_null_metrics": 9
+  }
+]

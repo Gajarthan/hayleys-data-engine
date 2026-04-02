@@ -8,19 +8,57 @@ import shutil
 import subprocess
 
 import pdfplumber
+from export_trusted_reports import export_trusted_reports
 
 SYMBOL = "HAYL.N0000"
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))
 REPORTS_DIR = os.path.join(BASE_DIR, "data", "raw", "HAYL", "reports")
 PDF_DIR = os.path.join(REPORTS_DIR, "pdfs")
 PARSED_DIR = os.path.join(REPORTS_DIR, "parsed_opencode")
+BASELINE_PARSED_DIR = os.path.join(REPORTS_DIR, "parsed")
 METADATA_DIR = os.path.join(REPORTS_DIR, "metadata")
 ANALYZER_INPUT_DIR = os.path.join(REPORTS_DIR, "analyzer_input")
 OPENCODE_TIMEOUT_SECONDS = 420
 MAX_OPENCODE_RETRIES = 2
 ANSI_PATTERN = re.compile(r"\x1b\[[0-9;]*m")
-MAX_ANALYZER_PAGES = 40
 MAX_ANALYZER_CHARS = 70000
+MAX_PAGE_BLOCK_CHARS = 3000
+ALWAYS_INCLUDE_FIRST_PAGES = 8
+MAX_TABLES_PER_PAGE = 6
+MAX_ROWS_PER_TABLE = 30
+
+KEYWORD_HINTS = (
+    "revenue",
+    "turnover",
+    "net income",
+    "profit after tax",
+    "earnings per share",
+    "eps",
+    "operating",
+    "ebitda",
+    "market capitalisation",
+    "market capitalization",
+    "p/e",
+    "p/b",
+    "dividend yield",
+)
+
+METRIC_HINTS = {
+    "revenue": ("revenue", "turnover", "sales"),
+    "net_income": ("net income", "profit after tax", "pat", "profit for the year"),
+    "eps": ("eps", "earnings per share"),
+    "operating_profit": ("operating profit", "operating income", "results from operating"),
+    "ebitda": ("ebitda",),
+    "issued_shares": ("issued shares", "no. of shares", "shares"),
+    "par_value": ("par value",),
+    "market_cap": ("market capitalisation", "market capitalization", "market cap"),
+    "foreign_percentage": ("foreign percentage", "foreign"),
+    "pe_ratio": ("p/e", "price earnings", "pe ratio"),
+    "pb_ratio": ("p/b", "price book", "pb ratio"),
+    "dividend_yield": ("dividend yield",),
+}
+
+NUMBER_PATTERN = re.compile(r"\(?-?\d[\d,]*(?:\.\d+)?\)?")
 
 METRIC_KEYS = (
     "revenue",
@@ -36,6 +74,14 @@ METRIC_KEYS = (
     "pb_ratio",
     "dividend_yield",
 )
+
+AMOUNT_METRICS = {
+    "revenue",
+    "net_income",
+    "operating_profit",
+    "ebitda",
+    "market_cap",
+}
 
 
 def _utc_now_iso():
@@ -154,12 +200,84 @@ def _to_int(value):
     return int(numeric)
 
 
-def _normalize_metric(metric):
+def _canonical_unit(metric_name, unit_value):
+    if unit_value is None:
+        return None
+
+    text = str(unit_value).strip().lower()
+    compact = re.sub(r"[\s\.\-_/]", "", text)
+
+    if metric_name == "issued_shares":
+        if "mn" in compact or "million" in compact:
+            return "shares_mn"
+        if "share" in compact or compact.startswith("no"):
+            return "shares"
+        return "shares" if compact else None
+
+    if metric_name in ("pe_ratio", "pb_ratio"):
+        return "ratio"
+
+    if metric_name == "dividend_yield":
+        if "%" in text or "percent" in text:
+            return "percent"
+        return "percent" if text else None
+
+    if metric_name == "foreign_percentage":
+        if "%" in text or "percent" in text:
+            return "percent"
+        return "percent" if text else None
+
+    if metric_name == "eps":
+        return "lkr_per_share"
+
+    if metric_name in AMOUNT_METRICS or metric_name == "par_value":
+        if "bn" in compact:
+            return "amount_bn"
+        if "mn" in compact or "million" in compact or "mrs" in compact:
+            return "amount_mn"
+        if "000" in compact:
+            return "amount_thousand"
+        if "rs" in compact or "lkr" in compact:
+            return "amount_lkr"
+        return "amount_lkr" if compact else None
+
+    return text or None
+
+
+def _normalize_value_for_unit(metric_name, value, unit):
+    if value is None or unit is None:
+        return value, unit
+
+    value = float(value)
+    if metric_name in AMOUNT_METRICS or metric_name == "par_value":
+        if unit == "amount_bn":
+            return value * 1000.0, "lkr_mn"
+        if unit == "amount_thousand":
+            return value / 1000.0, "lkr_mn"
+        if unit == "amount_lkr":
+            return value / 1_000_000.0, "lkr_mn"
+        if unit == "amount_mn":
+            return value, "lkr_mn"
+        return value, "lkr_mn"
+
+    if metric_name == "issued_shares":
+        if unit == "shares_mn":
+            return value * 1_000_000.0, "shares"
+        return value, "shares"
+
+    return value, unit
+
+
+def _normalize_metric(metric_name, metric):
     if not isinstance(metric, dict):
         metric = {}
+    raw_value = _to_number(metric.get("value"))
+    raw_unit = metric.get("unit") if isinstance(metric.get("unit"), str) else None
+    canonical_unit = _canonical_unit(metric_name, raw_unit)
+    normalized_value, normalized_unit = _normalize_value_for_unit(metric_name, raw_value, canonical_unit)
     return {
-        "value": _to_number(metric.get("value")),
-        "unit": metric.get("unit") if isinstance(metric.get("unit"), str) else None,
+        "value": normalized_value,
+        "unit": normalized_unit,
         "page": _to_int(metric.get("page")),
         "confidence": _to_number(metric.get("confidence")),
     }
@@ -169,8 +287,176 @@ def _normalize_parsed_payload(payload):
     metrics = payload.get("metrics", {}) if isinstance(payload, dict) else {}
     normalized_metrics = {}
     for key in METRIC_KEYS:
-        normalized_metrics[key] = _normalize_metric(metrics.get(key))
+        normalized_metrics[key] = _normalize_metric(key, metrics.get(key))
     return {"metrics": normalized_metrics}
+
+
+def _all_metrics_null(metrics):
+    for key in METRIC_KEYS:
+        metric = metrics.get(key) if isinstance(metrics.get(key), dict) else {}
+        if metric.get("value") is not None:
+            return False
+    return True
+
+
+def _load_baseline_metrics(stem):
+    baseline_path = os.path.join(BASELINE_PARSED_DIR, f"{stem}.json")
+    if not os.path.exists(baseline_path):
+        return None
+    try:
+        with open(baseline_path, "r", encoding="utf-8") as source:
+            loaded = json.load(source)
+        metrics = loaded.get("metrics", {})
+        return metrics if isinstance(metrics, dict) else None
+    except (OSError, json.JSONDecodeError):
+        return None
+
+
+def _apply_baseline_fallback(normalized_metrics, stem):
+    if not _all_metrics_null(normalized_metrics):
+        return normalized_metrics, False
+
+    baseline_metrics = _load_baseline_metrics(stem)
+    if not baseline_metrics:
+        return normalized_metrics, False
+
+    merged = dict(normalized_metrics)
+    changed = False
+    for key in METRIC_KEYS:
+        current = merged.get(key) if isinstance(merged.get(key), dict) else {}
+        if current.get("value") is not None:
+            continue
+        baseline_metric = baseline_metrics.get(key)
+        normalized_baseline = _normalize_metric(key, baseline_metric if isinstance(baseline_metric, dict) else {})
+        if normalized_baseline.get("value") is None:
+            continue
+        merged[key] = normalized_baseline
+        changed = True
+
+    return merged, changed
+
+
+def _extract_line_numbers(text, metric):
+    hints = METRIC_HINTS.get(metric, ())
+    if not hints:
+        return []
+
+    lines = text.splitlines()
+    matches = []
+    for idx, line in enumerate(lines, start=1):
+        lowered = line.lower()
+        if any(hint in lowered for hint in hints):
+            matches.append((idx, line))
+    return matches
+
+
+def _parse_number_token(token):
+    cleaned = token.strip().replace(",", "")
+    if not cleaned:
+        return None
+    negative = cleaned.startswith("(") and cleaned.endswith(")")
+    cleaned = cleaned.replace("(", "").replace(")", "")
+    try:
+        parsed = float(cleaned)
+        return -parsed if negative else parsed
+    except ValueError:
+        return None
+
+
+def _scaled_candidates(value):
+    if value is None:
+        return []
+    value = float(value)
+    scaled = [value, value * 1000.0, value / 1000.0, value * 1_000_000.0, value / 1_000_000.0]
+    dedup = []
+    seen = set()
+    for item in scaled:
+        rounded = round(item, 6)
+        if rounded in seen:
+            continue
+        seen.add(rounded)
+        dedup.append(item)
+    return dedup
+
+
+def _line_has_close_number(line, value):
+    candidates = _scaled_candidates(value)
+    if not candidates:
+        return False
+    numbers = []
+    for token in NUMBER_PATTERN.findall(line):
+        parsed = _parse_number_token(token)
+        if parsed is not None:
+            numbers.append(parsed)
+
+    for found in numbers:
+        for candidate in candidates:
+            tolerance = max(0.05, abs(candidate) * 0.015)
+            if abs(found - candidate) <= tolerance:
+                return True
+    return False
+
+
+def _string_candidates(value):
+    candidates = set()
+    for candidate in _scaled_candidates(value):
+        as_int = int(round(candidate))
+        candidates.add(str(as_int))
+        candidates.add(f"{candidate:.2f}".rstrip("0").rstrip("."))
+        candidates.add(f"{as_int:,}")
+        candidates.add(f"{candidate:,.2f}".rstrip("0").rstrip("."))
+    return {item for item in candidates if item}
+
+
+def _is_low_quality_text(text):
+    if not text:
+        return True
+    ascii_count = sum(1 for char in text if ord(char) < 128)
+    ascii_ratio = ascii_count / len(text)
+    cid_count = text.lower().count("(cid:")
+    return ascii_ratio < 0.75 or cid_count > 200
+
+
+def _sanitize_metrics_with_text(metrics, analyzer_text):
+    sanitized = {}
+    rejected = []
+    low_quality = _is_low_quality_text(analyzer_text)
+
+    for metric_name in METRIC_KEYS:
+        metric = metrics.get(metric_name) if isinstance(metrics.get(metric_name), dict) else {}
+        entry = dict(metric)
+        value = entry.get("value")
+        if value is None:
+            sanitized[metric_name] = entry
+            continue
+
+        reasons = []
+
+        if metric_name in AMOUNT_METRICS and abs(float(value)) < 1.0:
+            reasons.append("implausibly_small_for_lkr_mn")
+
+        lines = _extract_line_numbers(analyzer_text, metric_name)
+        keyword_match = any(_line_has_close_number(line, value) for _, line in lines)
+        global_match = any(candidate in analyzer_text for candidate in _string_candidates(value))
+
+        if not (keyword_match or global_match):
+            reasons.append("value_not_found_in_source_text")
+
+        if reasons:
+            rejected.append(
+                {
+                    "metric": metric_name,
+                    "value": value,
+                    "unit": entry.get("unit"),
+                    "reasons": reasons,
+                    "low_quality_text": low_quality,
+                }
+            )
+            entry = {"value": None, "unit": None, "page": None, "confidence": None}
+
+        sanitized[metric_name] = entry
+
+    return sanitized, rejected, low_quality
 
 
 def _write_json_atomic(file_path, payload):
@@ -225,16 +511,12 @@ def _append_summary_record(summary):
 
 
 def _extract_pdf_text_for_analyzer(pdf_path):
-    chunks = []
+    page_blocks = []
     current_chars = 0
-    page_count = 0
 
     with pdfplumber.open(pdf_path) as pdf:
         page_count = len(pdf.pages)
         for page_index, page in enumerate(pdf.pages, start=1):
-            if page_index > MAX_ANALYZER_PAGES or current_chars >= MAX_ANALYZER_CHARS:
-                break
-
             page_lines = [f"[Page {page_index}]"]
             text = page.extract_text() or ""
             if text.strip():
@@ -245,9 +527,9 @@ def _extract_pdf_text_for_analyzer(pdf_path):
             except Exception:
                 tables = []
 
-            for table in tables[:4]:
+            for table in tables[:MAX_TABLES_PER_PAGE]:
                 page_lines.append("[Table]")
-                for row in table[:20]:
+                for row in table[:MAX_ROWS_PER_TABLE]:
                     if not isinstance(row, list):
                         continue
                     row_values = [str(cell).strip() for cell in row if cell not in (None, "")]
@@ -258,14 +540,62 @@ def _extract_pdf_text_for_analyzer(pdf_path):
             if not page_block:
                 continue
 
-            remaining = MAX_ANALYZER_CHARS - current_chars
-            if len(page_block) > remaining:
-                page_block = page_block[:remaining]
-            chunks.append(page_block)
-            current_chars += len(page_block)
+            if len(page_block) > MAX_PAGE_BLOCK_CHARS:
+                page_block = page_block[:MAX_PAGE_BLOCK_CHARS]
 
-            if current_chars >= MAX_ANALYZER_CHARS:
-                break
+            lowered = page_block.lower()
+            keyword_hits = sum(1 for hint in KEYWORD_HINTS if hint in lowered)
+            numeric_hits = len(re.findall(r"\d", page_block))
+            cid_hits = lowered.count("(cid:")
+            score = keyword_hits * 10 + min(numeric_hits // 30, 8)
+            if page_index <= ALWAYS_INCLUDE_FIRST_PAGES:
+                score += 3
+            if cid_hits > 20:
+                score -= 8
+
+            page_blocks.append(
+                {
+                    "page": page_index,
+                    "block": page_block,
+                    "score": score,
+                    "keyword_hits": keyword_hits,
+                }
+            )
+
+    if not page_blocks:
+        return {"text": "", "page_count": 0, "char_count": 0}
+
+    selected = []
+    selected_pages = set()
+
+    for block in page_blocks:
+        if block["page"] <= ALWAYS_INCLUDE_FIRST_PAGES:
+            selected.append(block)
+            selected_pages.add(block["page"])
+
+    scored = sorted(page_blocks, key=lambda item: (item["score"], item["keyword_hits"], -item["page"]), reverse=True)
+    for block in scored:
+        if block["page"] in selected_pages:
+            continue
+        projected = current_chars + len(block["block"])
+        if projected > MAX_ANALYZER_CHARS:
+            continue
+        selected.append(block)
+        selected_pages.add(block["page"])
+        current_chars = projected
+        if current_chars >= MAX_ANALYZER_CHARS:
+            break
+
+    selected = sorted(selected, key=lambda item: item["page"])
+    chunks = []
+    current_chars = 0
+    for block in selected:
+        remaining = MAX_ANALYZER_CHARS - current_chars
+        if remaining <= 0:
+            break
+        text_block = block["block"][:remaining]
+        chunks.append(text_block)
+        current_chars += len(text_block)
 
     return {
         "text": "\n\n".join(chunks),
@@ -285,7 +615,7 @@ def _prepare_analyzer_input(pdf_path):
         try:
             with open(input_path, "r", encoding="utf-8") as source:
                 text = source.read()
-            return {"input_path": input_path, "page_count": None, "char_count": len(text)}
+            return {"input_path": input_path, "page_count": None, "char_count": len(text), "text": text}
         except OSError:
             pass
 
@@ -304,6 +634,7 @@ def _prepare_analyzer_input(pdf_path):
         "input_path": input_path,
         "page_count": extracted["page_count"],
         "char_count": extracted["char_count"],
+        "text": text,
     }
 
 
@@ -356,7 +687,7 @@ def _run_opencode_for_text(input_path, file_name, report_type, financial_year):
     return None
 
 
-def extract_with_opencode(max_files=None, force=False):
+def extract_with_opencode(max_files=None, force=False, match=None):
     _ensure_output_dirs()
     if not os.path.isdir(PDF_DIR):
         return {"total_pdfs": 0, "processed": 0, "skipped": 0, "failed": 0}
@@ -366,6 +697,9 @@ def extract_with_opencode(max_files=None, force=False):
         for name in os.listdir(PDF_DIR)
         if name.lower().endswith(".pdf")
     )
+    if match:
+        needle = match.lower()
+        pdf_files = [path for path in pdf_files if needle in os.path.basename(path).lower()]
     if max_files is not None:
         pdf_files = pdf_files[: max_files if max_files > 0 else 0]
 
@@ -401,6 +735,11 @@ def extract_with_opencode(max_files=None, force=False):
             continue
 
         normalized = _normalize_parsed_payload(opencode_payload)
+        merged_metrics, used_baseline_fallback = _apply_baseline_fallback(normalized["metrics"], stem)
+        sanitized_metrics, rejected_metrics, low_quality_text = _sanitize_metrics_with_text(
+            merged_metrics,
+            analyzer_input["text"],
+        )
         final_payload = {
             "symbol": SYMBOL,
             "report_type": report_type,
@@ -410,8 +749,14 @@ def extract_with_opencode(max_files=None, force=False):
             "analyzer": "opencode",
             "analyzer_input": os.path.relpath(analyzer_input["input_path"], BASE_DIR).replace("\\", "/"),
             "analyzer_chars": analyzer_input["char_count"],
-            "metrics": normalized["metrics"],
+            "metrics": sanitized_metrics,
         }
+        if used_baseline_fallback:
+            final_payload["fallback_source"] = "baseline_parsed"
+        if rejected_metrics:
+            final_payload["rejected_metrics"] = rejected_metrics
+        if low_quality_text:
+            final_payload["low_quality_source_text"] = True
 
         try:
             _write_json_atomic(output_path, final_payload)
@@ -434,11 +779,20 @@ def main():
     parser = argparse.ArgumentParser(description="Extract report metrics with opencode analyzer.")
     parser.add_argument("--max-files", type=int, default=None, help="Process only the first N PDFs.")
     parser.add_argument("--force", action="store_true", help="Re-extract even when output is up to date.")
+    parser.add_argument("--match", type=str, default=None, help="Process only PDFs whose filename contains this text.")
     args = parser.parse_args()
 
     logging.basicConfig(level=logging.INFO, format="%(asctime)s | %(levelname)s | %(message)s")
-    summary = extract_with_opencode(max_files=args.max_files, force=args.force)
-    print(json.dumps(summary, ensure_ascii=False))
+    extraction_summary = extract_with_opencode(max_files=args.max_files, force=args.force, match=args.match)
+
+    trusted_summary = None
+    try:
+        trusted_summary = export_trusted_reports()
+    except Exception as exc:
+        logging.error("Trusted export failed: %s", str(exc))
+
+    output = {"extraction": extraction_summary, "trusted_export": trusted_summary}
+    print(json.dumps(output, ensure_ascii=False))
 
 
 if __name__ == "__main__":

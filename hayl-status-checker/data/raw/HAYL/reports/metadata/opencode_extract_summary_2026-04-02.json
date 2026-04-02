@@ -25,5 +25,122 @@
     "processed": 30,
     "skipped": 1,
     "failed": 0
+  },
+  {
+    "run_at": "2026-04-02T18:25:35.667318Z",
+    "symbol": "HAYL.N0000",
+    "analyzer": "opencode",
+    "total_pdfs": 1,
+    "processed": 1,
+    "skipped": 0,
+    "failed": 0
+  },
+  {
+    "run_at": "2026-04-02T18:25:52.720865Z",
+    "symbol": "HAYL.N0000",
+    "analyzer": "opencode",
+    "total_pdfs": 1,
+    "processed": 1,
+    "skipped": 0,
+    "failed": 0
+  },
+  {
+    "run_at": "2026-04-02T18:26:53.355717Z",
+    "symbol": "HAYL.N0000",
+    "analyzer": "opencode",
+    "total_pdfs": 1,
+    "processed": 1,
+    "skipped": 0,
+    "failed": 0
+  },
+  {
+    "run_at": "2026-04-02T18:27:14.017322Z",
+    "symbol": "HAYL.N0000",
+    "analyzer": "opencode",
+    "total_pdfs": 1,
+    "processed": 1,
+    "skipped": 0,
+    "failed": 0
+  },
+  {
+    "run_at": "2026-04-02T18:28:01.709548Z",
+    "symbol": "HAYL.N0000",
+    "analyzer": "opencode",
+    "total_pdfs": 1,
+    "processed": 1,
+    "skipped": 0,
+    "failed": 0
+  },
+  {
+    "run_at": "2026-04-02T18:28:23.597803Z",
+    "symbol": "HAYL.N0000",
+    "analyzer": "opencode",
+    "total_pdfs": 1,
+    "processed": 1,
+    "skipped": 0,
+    "failed": 0
+  },
+  {
+    "run_at": "2026-04-02T18:33:07.400588Z",
+    "symbol": "HAYL.N0000",
+    "analyzer": "opencode",
+    "total_pdfs": 1,
+    "processed": 1,
+    "skipped": 0,
+    "failed": 0
+  },
+  {
+    "run_at": "2026-04-02T18:33:29.090203Z",
+    "symbol": "HAYL.N0000",
+    "analyzer": "opencode",
+    "total_pdfs": 1,
+    "processed": 1,
+    "skipped": 0,
+    "failed": 0
+  },
+  {
+    "run_at": "2026-04-02T18:33:46.908904Z",
+    "symbol": "HAYL.N0000",
+    "analyzer": "opencode",
+    "total_pdfs": 1,
+    "processed": 1,
+    "skipped": 0,
+    "failed": 0
+  },
+  {
+    "run_at": "2026-04-02T18:35:29.321131Z",
+    "symbol": "HAYL.N0000",
+    "analyzer": "opencode",
+    "total_pdfs": 1,
+    "processed": 1,
+    "skipped": 0,
+    "failed": 0
+  },
+  {
+    "run_at": "2026-04-02T18:35:47.884267Z",
+    "symbol": "HAYL.N0000",
+    "analyzer": "opencode",
+    "total_pdfs": 1,
+    "processed": 1,
+    "skipped": 0,
+    "failed": 0
+  },
+  {
+    "run_at": "2026-04-02T18:44:36.431623Z",
+    "symbol": "HAYL.N0000",
+    "analyzer": "opencode",
+    "total_pdfs": 31,
+    "processed": 31,
+    "skipped": 0,
+    "failed": 0
+  },
+  {
+    "run_at": "2026-04-02T18:49:01.931935Z",
+    "symbol": "HAYL.N0000",
+    "analyzer": "opencode",
+    "total_pdfs": 0,
+    "processed": 0,
+    "skipped": 0,
+    "failed": 0
   }
 ]

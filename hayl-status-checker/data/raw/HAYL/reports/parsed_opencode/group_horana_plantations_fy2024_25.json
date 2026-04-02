@@ -3,16 +3,16 @@
   "report_type": "group_company_reports",
   "financial_year": "FY2024-25",
   "source_pdf": "data/raw/HAYL/reports/pdfs/group_horana_plantations_FY2024-25.pdf",
-  "extracted_at": "2026-04-02T17:22:59.437678Z",
+  "extracted_at": "2026-04-02T18:42:02.335699Z",
   "analyzer": "opencode",
   "analyzer_input": "data/raw/HAYL/reports/analyzer_input/group_horana_plantations_fy2024_25.txt",
-  "analyzer_chars": 70000,
+  "analyzer_chars": 70073,
   "metrics": {
     "revenue": {
       "value": 3697.0,
-      "unit": "M Rs",
-      "page": 21,
-      "confidence": 0.9
+      "unit": "lkr_mn",
+      "page": 19,
+      "confidence": 0.95
     },
     "net_income": {
       "value": null,
@@ -27,10 +27,10 @@
       "confidence": null
     },
     "operating_profit": {
-      "value": 305.0,
-      "unit": "M Rs",
-      "page": 21,
-      "confidence": 0.8
+      "value": null,
+      "unit": null,
+      "page": null,
+      "confidence": null
     },
     "ebitda": {
       "value": null,

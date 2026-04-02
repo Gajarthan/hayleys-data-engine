@@ -3,16 +3,16 @@
   "report_type": "group_company_reports",
   "financial_year": "FY2024-25",
   "source_pdf": "data/raw/HAYL/reports/pdfs/group_hayleys_fabric_FY2024-25.pdf",
-  "extracted_at": "2026-04-02T17:21:17.966829Z",
+  "extracted_at": "2026-04-02T18:41:13.942908Z",
   "analyzer": "opencode",
   "analyzer_input": "data/raw/HAYL/reports/analyzer_input/group_hayleys_fabric_fy2024_25.txt",
-  "analyzer_chars": 70000,
+  "analyzer_chars": 70071,
   "metrics": {
     "revenue": {
-      "value": 96.24,
-      "unit": "Mn USD",
-      "page": 13,
-      "confidence": 0.6
+      "value": null,
+      "unit": null,
+      "page": null,
+      "confidence": null
     },
     "net_income": {
       "value": null,
@@ -21,10 +21,10 @@
       "confidence": null
     },
     "eps": {
-      "value": null,
-      "unit": null,
-      "page": null,
-      "confidence": null
+      "value": 0.016,
+      "unit": "lkr_per_share",
+      "page": 32,
+      "confidence": 0.86
     },
     "operating_profit": {
       "value": null,
@@ -80,5 +80,35 @@
       "page": null,
       "confidence": null
     }
-  }
+  },
+  "fallback_source": "baseline_parsed",
+  "rejected_metrics": [
+    {
+      "metric": "revenue",
+      "value": 0.09618,
+      "unit": "lkr_mn",
+      "reasons": [
+        "implausibly_small_for_lkr_mn"
+      ],
+      "low_quality_text": false
+    },
+    {
+      "metric": "net_income",
+      "value": 0.006609,
+      "unit": "lkr_mn",
+      "reasons": [
+        "implausibly_small_for_lkr_mn"
+      ],
+      "low_quality_text": false
+    },
+    {
+      "metric": "operating_profit",
+      "value": 0.001876,
+      "unit": "lkr_mn",
+      "reasons": [
+        "implausibly_small_for_lkr_mn"
+      ],
+      "low_quality_text": false
+    }
+  ]
 }

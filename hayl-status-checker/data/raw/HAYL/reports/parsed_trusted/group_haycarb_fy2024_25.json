@@ -1,0 +1,82 @@
+{
+  "symbol": "HAYL.N0000",
+  "report_type": "group_company_reports",
+  "financial_year": "FY2024-25",
+  "source_pdf": "data/raw/HAYL/reports/pdfs/group_haycarb_FY2024-25.pdf",
+  "trusted_at": "2026-04-02T18:49:01.959704Z",
+  "metrics": {
+    "revenue": {
+      "value": 43200.0,
+      "unit": "lkr_mn",
+      "page": 20,
+      "confidence": 0.95
+    },
+    "net_income": {
+      "value": 4270.0,
+      "unit": "lkr_mn",
+      "page": 20,
+      "confidence": 0.95
+    },
+    "eps": {
+      "value": 12.1,
+      "unit": "lkr_per_share",
+      "page": 18,
+      "confidence": 0.98
+    },
+    "operating_profit": {
+      "value": 5754.0,
+      "unit": "lkr_mn",
+      "page": 18,
+      "confidence": 0.98
+    },
+    "ebitda": {
+      "value": null,
+      "unit": null,
+      "page": null,
+      "confidence": null
+    },
+    "issued_shares": {
+      "value": null,
+      "unit": null,
+      "page": null,
+      "confidence": null
+    },
+    "par_value": {
+      "value": null,
+      "unit": null,
+      "page": null,
+      "confidence": null
+    },
+    "market_cap": {
+      "value": null,
+      "unit": null,
+      "page": null,
+      "confidence": null
+    },
+    "foreign_percentage": {
+      "value": null,
+      "unit": null,
+      "page": null,
+      "confidence": null
+    },
+    "pe_ratio": {
+      "value": null,
+      "unit": null,
+      "page": null,
+      "confidence": null
+    },
+    "pb_ratio": {
+      "value": null,
+      "unit": null,
+      "page": null,
+      "confidence": null
+    },
+    "dividend_yield": {
+      "value": 4.6,
+      "unit": "percent",
+      "page": 18,
+      "confidence": 0.98
+    }
+  },
+  "trusted_non_null_metrics": 5
+}

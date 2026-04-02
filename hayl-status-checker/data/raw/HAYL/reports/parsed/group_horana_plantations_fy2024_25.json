@@ -1,0 +1,44 @@
+{
+  "symbol": "HAYL.N0000",
+  "report_type": "group_company_reports",
+  "financial_year": "FY2024-25",
+  "source_pdf": "data/raw/HAYL/reports/pdfs/group_horana_plantations_FY2024-25.pdf",
+  "extracted_at": "2026-04-02T17:33:42.202165Z",
+  "metrics": {
+    "revenue": {
+      "value": 27.0,
+      "unit": "LKR",
+      "page": 110,
+      "confidence": 0.86,
+      "source": "table"
+    },
+    "net_income": {
+      "value": 8.0,
+      "unit": "LKR",
+      "page": 63,
+      "confidence": 0.86,
+      "source": "table"
+    },
+    "eps": {
+      "value": 2.45,
+      "unit": "LKR/share",
+      "page": 32,
+      "confidence": 0.62,
+      "source": "text"
+    },
+    "operating_profit": {
+      "value": 400.0,
+      "unit": "LKR",
+      "page": 32,
+      "confidence": 0.62,
+      "source": "text"
+    },
+    "ebitda": {
+      "value": 460.0,
+      "unit": "LKR",
+      "page": 111,
+      "confidence": 0.62,
+      "source": "text"
+    }
+  }
+}

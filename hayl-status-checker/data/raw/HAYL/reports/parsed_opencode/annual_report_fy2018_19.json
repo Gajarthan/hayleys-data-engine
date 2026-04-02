@@ -3,10 +3,10 @@
   "report_type": "annual_reports",
   "financial_year": "FY2018-19",
   "source_pdf": "data/raw/HAYL/reports/pdfs/annual_report_FY2018-19.pdf",
-  "extracted_at": "2026-04-02T17:16:29.425063Z",
+  "extracted_at": "2026-04-02T18:38:49.425300Z",
   "analyzer": "opencode",
   "analyzer_input": "data/raw/HAYL/reports/analyzer_input/annual_report_fy2018_19.txt",
-  "analyzer_chars": 70000,
+  "analyzer_chars": 70023,
   "metrics": {
     "revenue": {
       "value": null,
@@ -21,10 +21,10 @@
       "confidence": null
     },
     "eps": {
-      "value": null,
-      "unit": null,
-      "page": null,
-      "confidence": null
+      "value": 2.0,
+      "unit": "lkr_per_share",
+      "page": 199,
+      "confidence": 0.62
     },
     "operating_profit": {
       "value": null,
@@ -80,5 +80,27 @@
       "page": null,
       "confidence": null
     }
-  }
+  },
+  "fallback_source": "baseline_parsed",
+  "rejected_metrics": [
+    {
+      "metric": "revenue",
+      "value": 0.000205,
+      "unit": "lkr_mn",
+      "reasons": [
+        "implausibly_small_for_lkr_mn"
+      ],
+      "low_quality_text": true
+    },
+    {
+      "metric": "net_income",
+      "value": 4.5e-05,
+      "unit": "lkr_mn",
+      "reasons": [
+        "implausibly_small_for_lkr_mn"
+      ],
+      "low_quality_text": true
+    }
+  ],
+  "low_quality_source_text": true
 }

@@ -3,32 +3,32 @@
   "report_type": "annual_reports",
   "financial_year": "FY2012-13",
   "source_pdf": "data/raw/HAYL/reports/pdfs/annual_report_FY2012-13.pdf",
-  "extracted_at": "2026-04-02T17:14:45.641913Z",
+  "extracted_at": "2026-04-02T18:37:24.412911Z",
   "analyzer": "opencode",
   "analyzer_input": "data/raw/HAYL/reports/analyzer_input/annual_report_fy2012_13.txt",
-  "analyzer_chars": 69804,
+  "analyzer_chars": 69883,
   "metrics": {
     "revenue": {
       "value": 74302.0,
-      "unit": "Rs. mn",
+      "unit": "lkr_mn",
       "page": 14,
       "confidence": 0.95
     },
     "net_income": {
       "value": 3619.0,
-      "unit": "Rs. mn",
+      "unit": "lkr_mn",
       "page": 14,
       "confidence": 0.95
     },
     "eps": {
       "value": 24.72,
-      "unit": "Rs.",
+      "unit": "lkr_per_share",
       "page": 14,
       "confidence": 0.95
     },
     "operating_profit": {
       "value": 5025.0,
-      "unit": "Rs. mn",
+      "unit": "lkr_mn",
       "page": 14,
       "confidence": 0.95
     },
@@ -39,10 +39,10 @@
       "confidence": null
     },
     "issued_shares": {
-      "value": null,
-      "unit": null,
-      "page": null,
-      "confidence": null
+      "value": 74980.0,
+      "unit": "shares",
+      "page": 14,
+      "confidence": 0.7
     },
     "par_value": {
       "value": null,
@@ -52,7 +52,7 @@
     },
     "market_cap": {
       "value": 22403.0,
-      "unit": "Rs. mn",
+      "unit": "lkr_mn",
       "page": 14,
       "confidence": 0.95
     },
@@ -64,19 +64,19 @@
     },
     "pe_ratio": {
       "value": 12.08,
-      "unit": "times",
+      "unit": "ratio",
       "page": 14,
       "confidence": 0.95
     },
     "pb_ratio": {
-      "value": 0.67,
+      "value": null,
       "unit": null,
-      "page": 14,
-      "confidence": 0.85
+      "page": null,
+      "confidence": null
     },
     "dividend_yield": {
       "value": 1.5,
-      "unit": "%",
+      "unit": "percent",
       "page": 14,
       "confidence": 0.95
     }

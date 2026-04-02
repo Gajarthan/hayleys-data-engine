@@ -1,0 +1,82 @@
+{
+  "symbol": "HAYL.N0000",
+  "report_type": "annual_reports",
+  "financial_year": "FY2015-16",
+  "source_pdf": "data/raw/HAYL/reports/pdfs/annual_report_FY2015-16.pdf",
+  "trusted_at": "2026-04-02T18:49:01.943312Z",
+  "metrics": {
+    "revenue": {
+      "value": null,
+      "unit": null,
+      "page": null,
+      "confidence": null
+    },
+    "net_income": {
+      "value": null,
+      "unit": null,
+      "page": null,
+      "confidence": null
+    },
+    "eps": {
+      "value": 16.4,
+      "unit": "lkr_per_share",
+      "page": 121,
+      "confidence": 0.62
+    },
+    "operating_profit": {
+      "value": null,
+      "unit": null,
+      "page": null,
+      "confidence": null
+    },
+    "ebitda": {
+      "value": null,
+      "unit": null,
+      "page": null,
+      "confidence": null
+    },
+    "issued_shares": {
+      "value": null,
+      "unit": null,
+      "page": null,
+      "confidence": null
+    },
+    "par_value": {
+      "value": null,
+      "unit": null,
+      "page": null,
+      "confidence": null
+    },
+    "market_cap": {
+      "value": null,
+      "unit": null,
+      "page": null,
+      "confidence": null
+    },
+    "foreign_percentage": {
+      "value": null,
+      "unit": null,
+      "page": null,
+      "confidence": null
+    },
+    "pe_ratio": {
+      "value": null,
+      "unit": null,
+      "page": null,
+      "confidence": null
+    },
+    "pb_ratio": {
+      "value": null,
+      "unit": null,
+      "page": null,
+      "confidence": null
+    },
+    "dividend_yield": {
+      "value": null,
+      "unit": null,
+      "page": null,
+      "confidence": null
+    }
+  },
+  "trusted_non_null_metrics": 1
+}

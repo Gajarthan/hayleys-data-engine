@@ -3,34 +3,34 @@
   "report_type": "group_company_reports",
   "financial_year": "FY2024-25",
   "source_pdf": "data/raw/HAYL/reports/pdfs/group_haycarb_FY2024-25.pdf",
-  "extracted_at": "2026-04-02T17:20:55.087790Z",
+  "extracted_at": "2026-04-02T18:40:58.755379Z",
   "analyzer": "opencode",
   "analyzer_input": "data/raw/HAYL/reports/analyzer_input/group_haycarb_fy2024_25.txt",
-  "analyzer_chars": 70000,
+  "analyzer_chars": 70071,
   "metrics": {
     "revenue": {
-      "value": 43202.0,
-      "unit": "Rs. Mn",
-      "page": 18,
+      "value": 43200.0,
+      "unit": "lkr_mn",
+      "page": 20,
       "confidence": 0.95
     },
     "net_income": {
       "value": 4270.0,
-      "unit": "Rs. Mn",
-      "page": 29,
+      "unit": "lkr_mn",
+      "page": 20,
       "confidence": 0.95
     },
     "eps": {
       "value": 12.1,
-      "unit": "Rs.",
+      "unit": "lkr_per_share",
       "page": 18,
-      "confidence": 0.95
+      "confidence": 0.98
     },
     "operating_profit": {
       "value": 5754.0,
-      "unit": "Rs. Mn",
+      "unit": "lkr_mn",
       "page": 18,
-      "confidence": 0.95
+      "confidence": 0.98
     },
     "ebitda": {
       "value": null,
@@ -76,9 +76,9 @@
     },
     "dividend_yield": {
       "value": 4.6,
-      "unit": "%",
+      "unit": "percent",
       "page": 18,
-      "confidence": 0.95
+      "confidence": 0.98
     }
   }
 }

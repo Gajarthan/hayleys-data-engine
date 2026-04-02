@@ -3,21 +3,21 @@
   "report_type": "annual_reports",
   "financial_year": "FY2021-22",
   "source_pdf": "data/raw/HAYL/reports/pdfs/annual_report_FY2021-22.pdf",
-  "extracted_at": "2026-04-02T17:17:34.465499Z",
+  "extracted_at": "2026-04-02T18:39:33.131362Z",
   "analyzer": "opencode",
   "analyzer_input": "data/raw/HAYL/reports/analyzer_input/annual_report_fy2021_22.txt",
-  "analyzer_chars": 70000,
+  "analyzer_chars": 70061,
   "metrics": {
     "revenue": {
-      "value": 338.01,
-      "unit": "Rs. bn",
-      "page": 16,
+      "value": 338010.0,
+      "unit": "lkr_mn",
+      "page": 14,
       "confidence": 0.95
     },
     "net_income": {
-      "value": 28.1,
-      "unit": "Rs. bn",
-      "page": 16,
+      "value": 28100.0,
+      "unit": "lkr_mn",
+      "page": 4,
       "confidence": 0.95
     },
     "eps": {
@@ -51,9 +51,9 @@
       "confidence": null
     },
     "market_cap": {
-      "value": 146.13,
-      "unit": "Rs. bn",
-      "page": 16,
+      "value": 146130.0,
+      "unit": "lkr_mn",
+      "page": 14,
       "confidence": 0.95
     },
     "foreign_percentage": {

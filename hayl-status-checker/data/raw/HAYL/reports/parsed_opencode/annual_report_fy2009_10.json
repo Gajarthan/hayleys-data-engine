@@ -3,46 +3,46 @@
   "report_type": "annual_reports",
   "financial_year": "FY2009-10",
   "source_pdf": "data/raw/HAYL/reports/pdfs/annual_report_FY2009-10.pdf",
-  "extracted_at": "2026-04-02T17:11:36.272825Z",
+  "extracted_at": "2026-04-02T18:36:33.209305Z",
   "analyzer": "opencode",
   "analyzer_input": "data/raw/HAYL/reports/analyzer_input/annual_report_fy2009_10.txt",
-  "analyzer_chars": 70000,
+  "analyzer_chars": 70069,
   "metrics": {
     "revenue": {
-      "value": 43176.0,
-      "unit": "Rs. mn",
+      "value": 43716.0,
+      "unit": "lkr_mn",
       "page": 4,
       "confidence": 0.95
     },
     "net_income": {
       "value": 2671.0,
-      "unit": "Rs. mn",
+      "unit": "lkr_mn",
       "page": 4,
       "confidence": 0.95
     },
     "eps": {
       "value": 23.67,
-      "unit": "Rs.",
+      "unit": "lkr_per_share",
       "page": 4,
       "confidence": 0.95
     },
     "operating_profit": {
-      "value": 3351.0,
-      "unit": "Rs. mn",
-      "page": 4,
+      "value": 4000.0,
+      "unit": "lkr_mn",
+      "page": 27,
       "confidence": 0.9
     },
     "ebitda": {
       "value": 4888.0,
-      "unit": "Rs. mn",
+      "unit": "lkr_mn",
       "page": 27,
       "confidence": 0.9
     },
     "issued_shares": {
-      "value": null,
-      "unit": null,
-      "page": null,
-      "confidence": null
+      "value": 75000000.0,
+      "unit": "shares",
+      "page": 4,
+      "confidence": 0.85
     },
     "par_value": {
       "value": null,
@@ -52,7 +52,7 @@
     },
     "market_cap": {
       "value": 16875.0,
-      "unit": "Rs. mn",
+      "unit": "lkr_mn",
       "page": 4,
       "confidence": 0.95
     },
@@ -64,21 +64,21 @@
     },
     "pe_ratio": {
       "value": 9.51,
-      "unit": "times",
+      "unit": "ratio",
       "page": 4,
-      "confidence": 0.9
+      "confidence": 0.95
     },
     "pb_ratio": {
       "value": 1.1,
-      "unit": "times",
+      "unit": "ratio",
       "page": 4,
-      "confidence": 0.85
+      "confidence": 0.9
     },
     "dividend_yield": {
       "value": 1.8,
-      "unit": "%",
+      "unit": "percent",
       "page": 4,
-      "confidence": 0.9
+      "confidence": 0.95
     }
   }
 }

@@ -3,32 +3,32 @@
   "report_type": "quarterly_results",
   "financial_year": "FY2025-26",
   "source_pdf": "data/raw/HAYL/reports/pdfs/quarterly_Q3_FY2025-26.pdf",
-  "extracted_at": "2026-04-02T17:26:08.251438Z",
+  "extracted_at": "2026-04-02T18:44:12.801928Z",
   "analyzer": "opencode",
   "analyzer_input": "data/raw/HAYL/reports/analyzer_input/quarterly_q3_fy2025_26.txt",
-  "analyzer_chars": 57000,
+  "analyzer_chars": 57031,
   "metrics": {
     "revenue": {
       "value": 421404.127,
-      "unit": "Rs. Million",
+      "unit": "lkr_mn",
       "page": 2,
       "confidence": 0.95
     },
     "net_income": {
       "value": 14018.646,
-      "unit": "Rs. Million",
+      "unit": "lkr_mn",
       "page": 2,
       "confidence": 0.95
     },
     "eps": {
       "value": 10.52,
-      "unit": "Rs.",
+      "unit": "lkr_per_share",
       "page": 2,
       "confidence": 0.95
     },
     "operating_profit": {
       "value": 32496.739,
-      "unit": "Rs. Million",
+      "unit": "lkr_mn",
       "page": 2,
       "confidence": 0.95
     },
@@ -39,22 +39,22 @@
       "confidence": null
     },
     "issued_shares": {
-      "value": null,
-      "unit": null,
-      "page": null,
-      "confidence": null
+      "value": 750000000.0,
+      "unit": "shares",
+      "page": 13,
+      "confidence": 0.95
     },
     "par_value": {
-      "value": null,
-      "unit": null,
-      "page": null,
-      "confidence": null
+      "value": 2.1000000000000002e-06,
+      "unit": "lkr_mn",
+      "page": 13,
+      "confidence": 0.85
     },
     "market_cap": {
-      "value": null,
-      "unit": null,
-      "page": null,
-      "confidence": null
+      "value": 146813.0,
+      "unit": "lkr_mn",
+      "page": 14,
+      "confidence": 0.95
     },
     "foreign_percentage": {
       "value": null,
@@ -63,22 +63,22 @@
       "confidence": null
     },
     "pe_ratio": {
-      "value": null,
-      "unit": null,
-      "page": null,
-      "confidence": null
+      "value": 9.31,
+      "unit": "ratio",
+      "page": 14,
+      "confidence": 0.95
     },
     "pb_ratio": {
-      "value": null,
-      "unit": null,
-      "page": null,
-      "confidence": null
+      "value": 1.42,
+      "unit": "ratio",
+      "page": 14,
+      "confidence": 0.9
     },
     "dividend_yield": {
-      "value": null,
-      "unit": null,
-      "page": null,
-      "confidence": null
+      "value": 3.06,
+      "unit": "percent",
+      "page": 12,
+      "confidence": 0.85
     }
   }
 }

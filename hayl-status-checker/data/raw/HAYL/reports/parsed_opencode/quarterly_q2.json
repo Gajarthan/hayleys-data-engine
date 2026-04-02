@@ -3,56 +3,56 @@
   "report_type": "quarterly_results",
   "financial_year": null,
   "source_pdf": "data/raw/HAYL/reports/pdfs/quarterly_Q2.pdf",
-  "extracted_at": "2026-04-02T17:25:46.294347Z",
+  "extracted_at": "2026-04-02T18:43:49.280778Z",
   "analyzer": "opencode",
   "analyzer_input": "data/raw/HAYL/reports/analyzer_input/quarterly_q2.txt",
-  "analyzer_chars": 54440,
+  "analyzer_chars": 54471,
   "metrics": {
     "revenue": {
-      "value": 269526097.0,
-      "unit": "Rs.'000",
+      "value": 269526.097,
+      "unit": "lkr_mn",
       "page": 2,
       "confidence": 0.95
     },
     "net_income": {
-      "value": 7563484.0,
-      "unit": "Rs.'000",
+      "value": 7563.484,
+      "unit": "lkr_mn",
       "page": 2,
       "confidence": 0.95
     },
     "eps": {
       "value": 5.2,
-      "unit": "Rs.",
+      "unit": "lkr_per_share",
       "page": 2,
       "confidence": 0.95
     },
     "operating_profit": {
-      "value": 19550440.0,
-      "unit": "Rs.'000",
+      "value": 19550.44,
+      "unit": "lkr_mn",
       "page": 2,
       "confidence": 0.95
     },
     "ebitda": {
-      "value": 24946904.0,
-      "unit": "Rs.'000",
-      "page": 10,
-      "confidence": 0.8
+      "value": 24946.904,
+      "unit": "lkr_mn",
+      "page": 2,
+      "confidence": 0.85
     },
     "issued_shares": {
       "value": 750000000.0,
       "unit": "shares",
       "page": 13,
-      "confidence": 0.95
+      "confidence": 0.9
     },
     "par_value": {
-      "value": null,
-      "unit": null,
-      "page": null,
-      "confidence": null
+      "value": 2.1000000000000002e-06,
+      "unit": "lkr_mn",
+      "page": 13,
+      "confidence": 0.8
     },
     "market_cap": {
       "value": 139500.0,
-      "unit": "Rs.Mn",
+      "unit": "lkr_mn",
       "page": 14,
       "confidence": 0.95
     },
@@ -64,13 +64,13 @@
     },
     "pe_ratio": {
       "value": 17.89,
-      "unit": "times",
+      "unit": "ratio",
       "page": 14,
       "confidence": 0.95
     },
     "pb_ratio": {
       "value": 1.41,
-      "unit": "times",
+      "unit": "ratio",
       "page": 14,
       "confidence": 0.9
     },
