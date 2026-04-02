@@ -40,5 +40,33 @@
     "pb_ratio": null,
     "dividend_yield": null,
     "fetched_at": "2026-04-02T15:59:38.714713Z"
+  },
+  {
+    "symbol": "HAYL.N0000",
+    "company": "HAYLEYS PLC",
+    "beta": {
+      "triASI": 0.9004329,
+      "SPSL": 0.8157314,
+      "period": "2025",
+      "quarter": 1
+    },
+    "pe_ratio": null,
+    "pb_ratio": null,
+    "dividend_yield": null,
+    "fetched_at": "2026-04-02T16:00:07.521494Z"
+  },
+  {
+    "symbol": "HAYL.N0000",
+    "company": "HAYLEYS PLC",
+    "beta": {
+      "triASI": 0.9004329,
+      "SPSL": 0.8157314,
+      "period": "2025",
+      "quarter": 1
+    },
+    "pe_ratio": null,
+    "pb_ratio": null,
+    "dividend_yield": null,
+    "fetched_at": "2026-04-02T16:01:28.405604Z"
   }
 ]

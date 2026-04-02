@@ -180,7 +180,7 @@ def transform_price_data(symbol, company, symbol_info, fetched_at):
             "month": _float_from(symbol_info, ["monthHigh", "highMonth", "mtdHiPrice"]),
             "year": _float_from(symbol_info, ["yearHigh", "highYear", "ytdHigh", "ytdHiPrice"]),
             "52_week": _float_from(symbol_info, ["week52High", "high52Week", "fiftyTwoWeekHigh", "p12HiPrice"]),
-            "all_time": _float_from(symbol_info, ["allTimeHigh"]),
+            "all_time": _float_from(symbol_info, ["allTimeHigh", "allHiPrice"]),
         },
         "low": {
             "today": _float_from(symbol_info, ["todayLow", "lowToday", "dayLow", "low", "lowTrade"]),
@@ -188,7 +188,7 @@ def transform_price_data(symbol, company, symbol_info, fetched_at):
             "month": _float_from(symbol_info, ["monthLow", "lowMonth", "mtdLowPrice"]),
             "year": _float_from(symbol_info, ["yearLow", "lowYear", "ytdLow", "ytdLowPrice"]),
             "52_week": _float_from(symbol_info, ["week52Low", "low52Week", "fiftyTwoWeekLow", "p12LowPrice"]),
-            "all_time": _float_from(symbol_info, ["allTimeLow"]),
+            "all_time": _float_from(symbol_info, ["allTimeLow", "allLowPrice"]),
         },
         "volume": {
             "today": _int_from(symbol_info, ["todayVolume", "volumeToday", "volume", "tradeVolume", "tdyShareVolume"]),
