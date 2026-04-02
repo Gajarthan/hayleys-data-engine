@@ -1,0 +1,84 @@
+{
+  "symbol": "HAYL.N0000",
+  "report_type": "group_company_reports",
+  "financial_year": "FY2024-25",
+  "source_pdf": "data/raw/HAYL/reports/pdfs/group_talawakelle_tea_estates_FY2024-25.pdf",
+  "extracted_at": "2026-04-02T17:24:42.492908Z",
+  "analyzer": "opencode",
+  "analyzer_input": "data/raw/HAYL/reports/analyzer_input/group_talawakelle_tea_estates_fy2024_25.txt",
+  "analyzer_chars": 70000,
+  "metrics": {
+    "revenue": {
+      "value": 7806.0,
+      "unit": "Rs. Mn",
+      "page": 16,
+      "confidence": 0.95
+    },
+    "net_income": {
+      "value": 1235.0,
+      "unit": "Rs. Mn",
+      "page": 16,
+      "confidence": 0.95
+    },
+    "eps": {
+      "value": 26.0,
+      "unit": "Rs.",
+      "page": 16,
+      "confidence": 0.95
+    },
+    "operating_profit": {
+      "value": 1454.0,
+      "unit": "Rs. Mn",
+      "page": 16,
+      "confidence": 0.95
+    },
+    "ebitda": {
+      "value": 2099.0,
+      "unit": "Rs. Mn",
+      "page": 16,
+      "confidence": 0.95
+    },
+    "issued_shares": {
+      "value": 47500001.0,
+      "unit": "shares",
+      "page": 18,
+      "confidence": 0.95
+    },
+    "par_value": {
+      "value": null,
+      "unit": null,
+      "page": null,
+      "confidence": null
+    },
+    "market_cap": {
+      "value": 6614.38,
+      "unit": "Rs. Mn",
+      "page": 19,
+      "confidence": 0.95
+    },
+    "foreign_percentage": {
+      "value": null,
+      "unit": null,
+      "page": null,
+      "confidence": null
+    },
+    "pe_ratio": {
+      "value": 5.35,
+      "unit": "times",
+      "page": 19,
+      "confidence": 0.95
+    },
+    "pb_ratio": {
+      "value": 0.93,
+      "unit": "times",
+      "page": null,
+      "confidence": 0.8
+    },
+    "dividend_yield": {
+      "value": 5.14,
+      "unit": "%",
+      "page": 19,
+      "confidence": 0.95
+    }
+  }
+}

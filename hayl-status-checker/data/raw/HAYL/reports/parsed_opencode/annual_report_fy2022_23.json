@@ -1,0 +1,84 @@
+{
+  "symbol": "HAYL.N0000",
+  "report_type": "annual_reports",
+  "financial_year": "FY2022-23",
+  "source_pdf": "data/raw/HAYL/reports/pdfs/annual_report_FY2022-23.pdf",
+  "extracted_at": "2026-04-02T17:18:44.320824Z",
+  "analyzer": "opencode",
+  "analyzer_input": "data/raw/HAYL/reports/analyzer_input/annual_report_fy2022_23.txt",
+  "analyzer_chars": 70000,
+  "metrics": {
+    "revenue": {
+      "value": 487431.0,
+      "unit": "Rs. mn",
+      "page": 20,
+      "confidence": 0.95
+    },
+    "net_income": {
+      "value": 27672.0,
+      "unit": "Rs. mn",
+      "page": 20,
+      "confidence": 0.95
+    },
+    "eps": {
+      "value": 21.8,
+      "unit": "Rs.",
+      "page": 20,
+      "confidence": 0.95
+    },
+    "operating_profit": {
+      "value": 61073.0,
+      "unit": "Rs. mn",
+      "page": 20,
+      "confidence": 0.95
+    },
+    "ebitda": {
+      "value": 71088.0,
+      "unit": "Rs. mn",
+      "page": 20,
+      "confidence": 0.95
+    },
+    "issued_shares": {
+      "value": 750.0,
+      "unit": "million",
+      "page": 20,
+      "confidence": 0.95
+    },
+    "par_value": {
+      "value": null,
+      "unit": null,
+      "page": null,
+      "confidence": null
+    },
+    "market_cap": {
+      "value": null,
+      "unit": null,
+      "page": null,
+      "confidence": null
+    },
+    "foreign_percentage": {
+      "value": null,
+      "unit": null,
+      "page": null,
+      "confidence": null
+    },
+    "pe_ratio": {
+      "value": null,
+      "unit": null,
+      "page": null,
+      "confidence": null
+    },
+    "pb_ratio": {
+      "value": null,
+      "unit": null,
+      "page": null,
+      "confidence": null
+    },
+    "dividend_yield": {
+      "value": null,
+      "unit": null,
+      "page": null,
+      "confidence": null
+    }
+  }
+}

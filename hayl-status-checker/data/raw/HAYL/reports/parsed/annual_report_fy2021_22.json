@@ -1,0 +1,44 @@
+{
+  "symbol": "HAYL.N0000",
+  "report_type": "annual_reports",
+  "financial_year": "FY2021-22",
+  "source_pdf": "data/raw/HAYL/reports/pdfs/annual_report_FY2021-22.pdf",
+  "extracted_at": "2026-04-02T17:15:55.294832Z",
+  "metrics": {
+    "revenue": {
+      "value": 210307.0,
+      "unit": "LKR",
+      "page": 28,
+      "confidence": 0.86,
+      "source": "table"
+    },
+    "net_income": {
+      "value": 2895.0,
+      "unit": "LKR",
+      "page": 28,
+      "confidence": 0.86,
+      "source": "table"
+    },
+    "eps": {
+      "value": 0.5,
+      "unit": "LKR/share",
+      "page": 28,
+      "confidence": 0.86,
+      "source": "table"
+    },
+    "operating_profit": {
+      "value": 7.83,
+      "unit": "LKR",
+      "page": 28,
+      "confidence": 0.86,
+      "source": "table"
+    },
+    "ebitda": {
+      "value": 23379.0,
+      "unit": "LKR",
+      "page": 28,
+      "confidence": 0.86,
+      "source": "table"
+    }
+  }
+}

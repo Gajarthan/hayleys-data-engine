@@ -1,0 +1,1377 @@
+[Page 1]
+HAYLEYS PLC
+Interim Report
+FOURTH QUARTER
+Year ended 31st March, 2025
+
+[Page 2]
+STATEMENT OF PROFIT OR LOSS
+Consolidated Consolidated
+Unaudited Audited Unaudited Unaudited
+12 months to 12 months to 3 months to 3 months to
+31.03.25 31.03.24 Change 31.03.25 31.03.24 Change
+Notes Rs.'000 Rs.'000 % Rs.'000 Rs.'000 %
+Revenue 4 492,201,092 436,732,127 13 128,660,861 112,235,627 15
+Cost of sales (369,711,417) (322,427,055) 15 (95,589,587) ( 79,392,082) 20
+Direct interest cost ( 4,177,595) (4,792,620) (13) ( 1,173,583) (1,117,107) 5
+Gross profit 118,312,080 109,512,452 8 3 1,897,691 31,726,438 1
+Other income 5,063,926 3,495,439 45 1,175,787 1,172,348 0
+Distribution expenses (17,925,158) ( 15,564,415) 15 ( 3,924,226) (3,680,575) 7
+Administrative expenses (56,613,478) ( 54,651,133) 4 (14,138,785) ( 14,664,916) (4)
+Other expenses ( 1,070,435) (69,483) >1000 172,245 100,379 72
+Results from operating activities 47,766,935 42,722,860 12 15,182,712 14,653,674 4
+Finance income 6,962,801 9,907,736 (30) 2,185,272 2,396,003 (9)
+Finance cost (19,106,258) ( 27,150,052) (30) ( 4,560,008) (6,448,836) ( 29)
+Net finance cost (12,143,457) ( 17,242,316) (30) ( 2,374,736) (4,052,833) ( 41)
+Change in fair value of investment properties 112,999 9 2,813 22 112,999 9 2,813 22
+Share of profit of equity accounted investees (net of tax) 237,074 159,205 49 6 6,057 1 2,800 416
+Value added tax on financial services (600,530) (396,855) 51 (137,785) (124,026) 11
+Profit before tax for the period 5 35,373,021 25,335,707 40 12,849,247 10,582,428 21
+Tax expense (12,860,429) ( 10,488,984) 23 ( 4,219,565) (2,885,878) 46
+Profit for the period 22,512,592 14,846,723 52 8,629,682 7 ,696,550 12
+Profit for the period attributable to:
+Owners of the parent 13,449,129 6,888,770 95 5,875,794 4,708,433 25
+Non-controlling interest 9,063,463 7,957,953 14 2,753,888 2,988,117 (8)
+Profit for the period 22,512,592 14,846,723 52 8,629,682 7,696,550 12
+Earnings per share
+Basic (Rs.) 17.93 9.19 7.83 6.28
+Diluted (Rs.) 17.93 9.19 7.83 6.28
+The Notes on pages 12 to 14 form an integral part of these Financial Statements.
+Figures in brackets indicate deductions.
+HAYLEYS PLC | Page 2
+[Table]
+Notes | Consolidated | Consolidated
+Unaudited
+12 months to
+31.03.25 | Audited
+12 months to
+31.03.24 | Change | Unaudited
+3 months to
+31.03.25 | Unaudited
+3 months to
+31.03.24 | Change
+Rs.'000 | Rs.'000 | % | Rs.'000 | Rs.'000 | %
+492,201,092
+(369,711,417)
+( 4,177,595) | 128,660,861
+(95,589,587)
+( 1,173,583)
+118,312,080
+5,063,926
+(17,925,158)
+(56,613,478)
+( 1,070,435) | 3 1,897,691
+1,175,787
+( 3,924,226)
+(14,138,785)
+172,245
+47,766,935
+6,962,801
+(19,106,258) | 15,182,712
+2,185,272
+( 4,560,008)
+(12,143,457)
+112,999
+237,074
+(600,530) | ( 2,374,736)
+112,999
+6 6,057
+(137,785)
+35,373,021
+(12,860,429) | 12,849,247
+( 4,219,565)
+22,512,592 | 8,629,682
+13,449,129
+9,063,463 | 5,875,794
+2,753,888
+22,512,592 | 8,629,682
+17.93
+17.93 | 7.83
+7.83
+
+[Page 3]
+STATEMENT OF PROFIT OR LOSS
+Company Company
+Unaudited Audited Unaudited Unaudited
+12 months to 12 months to 3 months to 3 months to
+31.03.25 31.03.24 Change 31.03.25 31.03.24 Change
+Rs.'000 Rs.'000 % Rs.'000 Rs.'000 %
+Revenue 5 637,020 619,987 3 153,446 153,175 0
+Cost of sales (576,521) (559,029) 3 (134,469) (137,965) (3)
+Gross profit 6 0,499 60,958 (1) 1 8,977 1 5,210 25
+Group dividend 5,749,182 5,398,957 6 2,163,317 1,893,638 14
+Other income 846 640 32 - 634 (100)
+Administrative expenses 1,662,769 770,121 1 16 844,082 203,482 315
+Other expenses - (365) (100) - (1) -
+Results from operating activities 7,473,296 6,230,311 20 3,026,376 2,112,963 43
+Finance income 124,169 119,362 4 6 1,231 1 4,375 326
+Finance cost (3,288,357) (4,738,806) (31) (799,484) (902,812) (11)
+Net finance cost (3,164,188) (4,619,444) (32) (738,253) (888,437) (17)
+Change in fair value of investment properties 550 3,700 (85) 550 3,700 (85)
+Profit before tax for the period 5 4,309,658 1,614,567 1 67 2,288,673 1,228,226 86
+Tax expense (318,098) (280,662) 13 6,733 (238,283) (103)
+Profit for the period 3,991,560 1,333,905 1 99 2,295,406 989,943 132
+Earnings per share
+Basic (Rs.) 5.32 1.78 3.06 1.32
+Diluted (Rs.) 5.32 1.78 3.06 1.32
+The Notes on pages 12 to 14 form an integral part of these Financial Statements.
+Figures in brackets indicate deductions.
+HAYLEYS PLC | Page 3
+[Table]
+Company | Company
+Unaudited
+12 months to
+31.03.25 | Audited
+12 months to
+31.03.24 | Change | Unaudited
+3 months to
+31.03.25 | Unaudited
+3 months to
+31.03.24 | Change
+Rs.'000 | Rs.'000 | % | Rs.'000 | Rs.'000 | %
+637,020
+(576,521) | 153,446
+(134,469)
+6 0,499
+5,749,182
+846
+1,662,769
+- | 1 8,977
+2,163,317
+-
+844,082
+-
+7,473,296
+124,169
+(3,288,357) | 3,026,376
+6 1,231
+(799,484)
+(3,164,188)
+550 | (738,253)
+550
+4,309,658
+(318,098) | 2,288,673
+6,733
+3,991,560 | 2,295,406
+5.32
+5.32 | 3.06
+3.06
+
+[Page 4]
+STATEMENT OF COMPREHENSIVE INCOME
+Consolidated Consolidated
+Unaudited Audited Unaudited Unaudited
+12 months to 12 months to 3 months to 3 months to
+31.03.25 31.03.24 Change 31.03.25 31.03.24 Change
+Rs.'000 Rs.'000 % Rs.'000 Rs.'000 %
+Profit for the period 22,512,592 14,846,723 52 8,629,682 7,696,550 12
+Other Comprehensive income
+Items that will not be reclassified subsequently to Statement of
+Profit or Loss
+Revaluation of land 6,524,296 - >100 6,524,296 - >100
+Actuarial gain/(loss) on employee benefit obligations (574,599) (1,087,193) 47 277,438 (1,087,193) 126
+Net change on equity instruments designated at fair value through
+1,567 152 931 1,572 238 5 61
+other comprehensive income
+Tax on other comprehensive income (1,876,526) 313,539 (698) (2,122,150) 313,539 (777)
+Items that will be reclassified subsequently to Statement of
+Profit or Loss
+Net exchange differences on translation of foreign operations (255,922) (3,881,649) 93 390,147 (3,034,022) 113
+Net gain on cash flow hedges 618,242 1,141,742 (46) 9 8,992 425,179 (77)
+Share of other comprehensive income of equity accounted
+2 1,213 ( 377,797) 106 (20,318) ( 377,190) 95
+investees
+Total other comprehensive income for the period, net of tax 4 ,458,271 ( 3,891,206) 215 5 ,149,977 ( 3,759,449) 237
+Total comprehensive income for the period, net of tax 26,970,863 10,955,517 146 13,779,659 3 ,937,101 250
+Total comprehensive income for the period attributable to :
+Owners of the parent 17,536,514 4 ,920,051 256 10,177,491 2,657,840 283
+Non-controlling interest 9 ,434,349 6 ,035,466 56 3,602,168 1,279,261 182
+26,970,863 10,955,517 146 13,779,659 3 ,937,101 250
+The Notes on pages 12 to 14 form an integral part of these Financial Statements.
+Figures in brackets indicate deductions.
+HAYLEYS PLC | Page 4
+[Table]
+Consolidated | Consolidated
+Unaudited
+12 months to
+31.03.25 | Audited
+12 months to
+31.03.24 | Change | Unaudited
+3 months to
+31.03.25 | Unaudited
+3 months to
+31.03.24 | Change
+Rs.'000 | Rs.'000 | % | Rs.'000 | Rs.'000 | %
+22,512,592
+6,524,296
+(574,599)
+1,567
+(1,876,526)
+(255,922)
+618,242
+2 1,213 | 8,629,682
+6,524,296
+277,438
+1,572
+(2,122,150)
+390,147
+9 8,992
+(20,318)
+4 ,458,271 | 5 ,149,977
+26,970,863 | 13,779,659
+17,536,514
+9 ,434,349 | 10,177,491
+3,602,168
+26,970,863 | 13,779,659
+
+[Page 5]
+STATEMENT OF COMPREHENSIVE INCOME
+Company Company
+Unaudited Audited Unaudited Unaudited
+12 months to 12 months to 3 months to 3 months to
+31.03.25 31.03.24 Change 31.03.25 31.03.24 Change
+Rs.'000 Rs.'000 % Rs.'000 Rs.'000 %
+Profit for the period 3,991,560 1 ,333,905 199 2,295,406 989,943 132
+Other Comprehensive income
+Items that will not be reclassified subsequently to Statement of
+Profit or Loss
+Actuarial loss on employee benefit obligations (170,917) (13,933) 1,127 (170,917) (13,933) 1,127
+Tax on other comprehensive income 7,691 6 27 1,127 7,691 6 27 1,127
+Total other comprehensive income for the period, net of tax ( 163,226) ( 13,306) 1,127 ( 163,226) ( 13,306) 1,127
+Total comprehensive income for the period, net of tax 3 ,828,334 1 ,320,599 190 2 ,132,180 9 76,637 118
+The Notes on pages 12 to 14 form an integral part of these Financial Statements.
+Figures in brackets indicate deductions.
+HAYLEYS PLC | Page 5
+[Table]
+Company | Company
+Unaudited
+12 months to
+31.03.25 | Audited
+12 months to
+31.03.24 | Change | Unaudited
+3 months to
+31.03.25 | Unaudited
+3 months to
+31.03.24 | Change
+Rs.'000 | Rs.'000 | % | Rs.'000 | Rs.'000 | %
+3,991,560
+(170,917)
+7,691 | 2,295,406
+(170,917)
+7,691
+( 163,226) | ( 163,226)
+3 ,828,334 | 2 ,132,180
+
+[Page 6]
+STATEMENT OF FINANCIAL POSITION
+Consolidated Company
+Unaudited Audited Unaudited Audited
+as at as at as at as at
+31.03.25 31.03.24 31.03.25 31.03.24
+Rs.'000 Rs.'000 Rs.'000 Rs.'000
+ASSETS
+Non - current assets
+Property, plant & equipment 1 53,768,783 1 33,789,861 912,325 572,936
+Right-of-use assets 1 5,147,537 1 1,733,876 - 63,832
+Investment Properties 2 ,192,662 2,041,561 99,000 98,450
+Biological assets 1 ,651,025 1,506,271 - -
+Intangible assets 1 6,219,878 1 6,165,508 69,306 56,108
+Investments in subsidiaries - - 4 1,379,421 3 9,743,166
+Investments in equity accounted investees 2 ,747,620 2,718,502 1 ,504,863 1,504,863
+Other non-current financial assets 462,204 395,960 42,000 42,000
+Non-current trade and other receivables 1 9,288,757 1 2,052,092 1 ,283,847 808,000
+Other non-current assets 1 ,042,556 952,191 - -
+Deferred tax assets 4 ,037,389 3,362,617 21,497 66,335
+Total non-current assets 2 16,558,411 1 84,718,439 4 5,312,259 4 2,955,690
+Current assets
+Inventories 9 1,940,308 8 5,202,934 32,756 36,423
+Amounts due from subsidiaries - - 4 ,778,305 5,379,688
+Amounts due from equity accounted investees 147,999 169,803 43,596 7,585
+Trade and other receivables 1 39,429,685 1 12,832,350 61,757 55,038
+Other current assets 8 ,125,669 6,269,054 35,790 70,297
+Income tax recoverable 1 ,336,907 1,144,362 - -
+Other current financial assets 1 ,502,311 2,176,135 26,152 19,960
+Short-term deposits 2 7,358,471 2 1,356,037 1 ,864,684 505,529
+Cash in hand and at bank 2 4,292,764 2 8,175,378 1 ,115,433 328,528
+Total current assets 2 94,134,114 2 57,326,053 7 ,958,473 6,403,048
+Total assets 5 10,692,525 4 42,044,492 5 3,270,732 4 9,358,738
+EQUITY AND LIABILITIES
+Stated capital 1 ,575,000 1,575,000 1 ,575,000 1,575,000
+Capital reserves 975,906 870,062 13,226 13,226
+Other components of equity 3 4,166,542 2 9,821,606 - -
+Revenue reserves 5 6,424,777 4 7,896,325 9 ,546,882 1 0,179,300
+Total equity attributable to e quity holders of the company 9 3,142,225 8 0,162,993 1 1,135,108 1 1,767,526
+Non- controlling interest 5 0,950,117 4 5,367,092 - -
+Total Equity 1 44,092,342 1 25,530,085 1 1,135,108 1 1,767,526
+Non - current liabilities
+Interest bearing borrowings 7 1,659,099 5 6,654,168 1 9,313,833 1 4,375,000
+Grants 874,113 913,021 - -
+Deferred tax liabilities 1 4,079,676 1 1,458,489 - -
+Security deposits 1 ,894,630 1,560,728 - -
+Other non-current Liabilities 1 ,705,052 1,750,010 - -
+Other non-current financial liabilities 6 ,406,999 3,252,235 - -
+Employee benefit obligations 1 6,103,974 1 5,262,465 1 ,222,509 1,896,112
+Total non-current liabilities 1 12,723,543 9 0,851,116 2 0,536,342 1 6,271,112
+Current liabilities
+Trade and other payables 8 4,357,278 7 6,689,226 4 ,810,007 4,877,641
+Other current liabilities 7 ,815,062 7,128,127 85,680 89,090
+Other current financial liabilities 2 1,907,141 1 8,927,276 - -
+Amounts due to subsidiaries - - 619,622 388,352
+Amounts due to equity accounted investees 21,068 465 - 385
+Deferred revenue 2 ,122,739 3,625,769 - -
+Income tax payable 4 ,902,222 4,063,743 113,218 112,102
+Current portion of long term interest bearing borrowings 3 0,924,584 2 7,160,079 6 ,899,333 1 0,005,604
+Short-term interest bearing borrowings 1 01,826,546 8 8,068,606 9 ,071,422 5,846,926
+Total current liabilities 2 53,876,640 2 25,663,291 2 1,599,282 2 1,320,100
+Total liabilities 3 66,600,183 3 16,514,407 4 2,135,624 3 7,591,212
+Total equity and liabilities 5 10,692,525 4 42,044,492 5 3,270,732 4 9,358,738
+The Financial Statements have been prepared in compliance with the requirements of the Companies Act no 7 of 2007.
+sgd.
+Milinda Hewagama
+Group Chief Financial Officer
+The Directors are responsible for the preparation and presentation of these Financial Statements.
+Signed for and on behalf of the Board.
+sgd. sgd.
+Mohan Pandithage Sarath Ganegoda
+Chairman & Chief Executive Director
+19th May 2025
+The Notes on pages 12 to 14 form an integral part of these Financial Statements.
+Figures in brackets indicate deductions.
+HAYLEYS PLC | Page 6
+[Table]
+Consolidated | Company
+Unaudited
+as at
+31.03.25 | Audited
+as at
+31.03.24 | Unaudited
+as at
+31.03.25 | Audited
+as at
+31.03.24
+Rs.'000 | Rs.'000 | Rs.'000 | Rs.'000
+1 53,768,783
+1 5,147,537
+2 ,192,662
+1 ,651,025
+1 6,219,878
+-
+2 ,747,620
+462,204
+1 9,288,757
+1 ,042,556
+4 ,037,389 | 1 33,789,861
+1 1,733,876
+2,041,561
+1,506,271
+1 6,165,508
+-
+2,718,502
+395,960
+1 2,052,092
+952,191
+3,362,617 | 912,325
+-
+99,000
+-
+69,306
+4 1,379,421
+1 ,504,863
+42,000
+1 ,283,847
+-
+21,497
+2 16,558,411 | 1 84,718,439 | 4 5,312,259
+9 1,940,308
+-
+147,999
+1 39,429,685
+8 ,125,669
+1 ,336,907
+1 ,502,311
+2 7,358,471
+2 4,292,764 | 8 5,202,934
+-
+169,803
+1 12,832,350
+6,269,054
+1,144,362
+2,176,135
+2 1,356,037
+2 8,175,378 | 32,756
+4 ,778,305
+43,596
+61,757
+35,790
+-
+26,152
+1 ,864,684
+1 ,115,433
+2 94,134,114 | 2 57,326,053 | 7 ,958,473
+5 10,692,525 | 4 42,044,492 | 5 3,270,732
+1 ,575,000
+975,906
+3 4,166,542
+5 6,424,777 | 1,575,000
+870,062
+2 9,821,606
+4 7,896,325 | 1 ,575,000
+13,226
+-
+9 ,546,882
+9 3,142,225 | 8 0,162,993 | 1 1,135,108
+5 0,950,117 | 4 5,367,092 | -
+1 44,092,342 | 1 25,530,085 | 1 1,135,108
+7 1,659,099
+874,113
+1 4,079,676
+1 ,894,630
+1 ,705,052
+6 ,406,999
+1 6,103,974 | 5 6,654,168
+913,021
+1 1,458,489
+1,560,728
+1,750,010
+3,252,235
+1 5,262,465 | 1 9,313,833
+-
+-
+-
+-
+-
+1 ,222,509
+1 12,723,543 | 9 0,851,116 | 2 0,536,342
+8 4,357,278
+7 ,815,062
+2 1,907,141
+-
+21,068
+2 ,122,739
+4 ,902,222
+3 0,924,584
+1 01,826,546 | 7 6,689,226
+7,128,127
+1 8,927,276
+-
+465
+3,625,769
+4,063,743
+2 7,160,079
+8 8,068,606 | 4 ,810,007
+85,680
+-
+619,622
+-
+-
+113,218
+6 ,899,333
+9 ,071,422
+2 53,876,640 | 2 25,663,291 | 2 1,599,282
+3 66,600,183 | 3 16,514,407 | 4 2,135,624
+5 10,692,525 | 4 42,044,492 | 5 3,270,732
+
+[Page 7]
+STATEMENT OF CHANGES IN EQUITY
+For the period ended 31st March Attributable to equity holders of the company
+Capital Reserves Other Components of Equity Revenue Reserves
+Consolidated Stated Reserve Other Revaluation Fair value reserve Cashflow Foreign currency General Timber Bearer Retained Shareholders' Non-controlling Total
+capital on scrip capital reserve of financial assets hedge translation reserve reserve Biological earnings Funds interest Equity
+issue reserve at FVOCI reserve reserve reserve
+Rs. '000 Rs.'000 Rs.'000 Rs.'000 Rs.'000 Rs.'000 Rs.'000 Rs.'000 Rs.'000 Rs.'000 Rs.'000 Rs.'000 Rs.'000 Rs.'000
+Balance as at 1st April 2024 1 ,575,000 175,688 694,374 2 2,841,994 27,881 (1,310,768) 8,262,499 2 ,289,353 2 12,827 1 4,544 4 5,379,601 80,162,993 4 5,367,092 125,530,085
+Profit for the period - - - - - - - - 33,529 3,637 1 3,411,963 13,449,129 9,063,463 22,512,592
+Other Comprehensive income
+Net exchange differences on translation of foreign
+operations - - - - - - (332,281) - - - - ( 332,281) 76,359 (255,922)
+Share of other comprehensive income of equity
+- - - - - - 21,472 - - - (260) 2 1,212 1 21,213
+accounted investees
+Net gain on cash flow hedges - - - - - 565,182 - - - - - 565,182 53,060 618,242
+Net change on equity instruments designated at fair
+- - - - 1,681 - - - - - - 1,681 (114) 1,567
+value through other comprehensive income
+Realised gain on timber - - - - - - - - (6,615) - 6 ,615 - - -
+Revaluation of land - - - 5,840,420 - - - - - - - 5,840,420 683,876 6,524,296
+Actuarial loss on defined benefit obligations - - - - - - - - - - (248,863) ( 248,863) ( 325,736) (574,599)
+Deferred tax on other comprehensive income - - - ( 1,754,011) (504) - - - - - (5,451) (1,759,966) ( 116,560) (1,876,526)
+Total other comprehensive income - - - 4,086,409 1,177 565,182 (310,809) - (6,615) - (247,959) 4,087,385 370,886 4,458,271
+Total Comprehensive income for the period - - - 4,086,409 1,177 565,182 (310,809) - 26,914 3,637 1 3,164,004 17,536,514 9,434,349 26,970,863
+Transactions with owners, recorded directly in equity
+Dividends to equity holders - - - - - - - - - - ( 4,500,000) (4,500,000) (4,207,056) (8,707,056)
+Write-back of unclaimed dividend - - - - - - - - - 79,450 7 9,450 9,096 88,546
+Transfers - 2,475 119,251 - - - - (1,502) - - (120,224) - - -
+Total contributions by and distributions to owners - 2,475 119,251 - - - - (1,502) - - ( 4,540,774) (4,420,550) (4,197,960) (8,618,510)
+Changes in ownership interests in subsidiaries
+Adjustment on changes to non-controlling interest in
+subsidiaries - 2 23 (16,105) 9 ,517 (923) (7,842) 2 ,225 2,746 - - (126,573) ( 136,732) ( 8,792) (145,524)
+Acqusition of/investment in subsidiaries - - - - - - - - - - - - 355,428 355,428
+Total changes in ownership interests in subsidiaries - 2 23 (16,105) 9 ,517 (923) (7,842) 2 ,225 2,746 - - (126,573) ( 136,732) 346,636 209,904
+Total transactions with owners - 2,698 103,146 9 ,517 (923) (7,842) 2 ,225 1,244 - - ( 4,667,347) (4,557,282) (3,851,324) (8,408,606)
+Balance as at 31st March 2025 1,575,000 178,386 797,520 2 6,937,920 28,135 (753,428) 7,953,915 2,290,597 2 39,741 18,181 5 3,876,258 93,142,225 5 0,950,117 144,092,342
+The Notes on pages 12 to 14 form an integral part of these Financial Statements. ( 8,572) 1 0,456,969 2,864 1,784,802 1 1,880 29,329 6,646
+Figures in brackets indicate deductions.
+HAYLEYS PLC | Page 7
+[Table]
+STATEMENT OF CHANGES IN EQUITY
+For the period ended 31st March Attributable to equity holders of the company
+Capital Reserves Other Components of Equity Revenue Reserves
+Consolidated Stated Reserve Other Revaluation Fair value reserve Cashflow Foreign currency General Timber Bearer Retained Shareholders' Non-controlling Total
+capital on scrip capital reserve of financial assets hedge translation reserve reserve Biological earnings Funds interest Equity
+issue reserve at FVOCI reserve reserve reserve
+Rs. '000 Rs.'000 Rs.'000 Rs.'000 Rs.'000 Rs.'000 Rs.'000 Rs.'000 Rs.'000 Rs.'000 Rs.'000 Rs.'000 Rs.'000 Rs.'000
+Balance as at 1st April 2024
+Profit for the period
+Other Comprehensive income
+Net exchange differences on translation of foreign
+operations
+Share of other comprehensive income of equity
+accounted investees
+Net gain on cash flow hedges
+Net change on equity instruments designated at fair
+value through other comprehensive income
+Realised gain on timber
+Revaluation of land
+Actuarial loss on defined benefit obligations
+Deferred tax on other comprehensive income
+Total other comprehensive income
+Total Comprehensive income for the period
+Transactions with owners, recorded directly in equity
+Dividends to equity holders
+Write-back of unclaimed dividend
+Transfers
+Total contributions by and distributions to owners
+Changes in ownership interests in subsidiaries
+Adjustment on changes to non-controlling interest in
+subsidiaries
+Acqusition of/investment in subsidiaries
+Total changes in ownership interests in subsidiaries
+Total transactions with owners
+Balance as at 31st March 2025 | 1 ,575,000 175,688 694,374 2 2,841,994 27,881 (1,310,768) 8,262,499 2 ,289,353 2 12,827 1 4,544 4 5,379,601 80,162,993 4 5,367,092 125,530,085
+- - - - - - - - 33,529 3,637 1 3,411,963 13,449,129 9,063,463 22,512,592
+- - - - - - (332,281) - - - - ( 332,281) 76,359 (255,922)
+- - - - - - 21,472 - - - (260) 2 1,212 1 21,213
+- - - - - 565,182 - - - - - 565,182 53,060 618,242
+- - - - 1,681 - - - - - - 1,681 (114) 1,567
+- - - - - - - - (6,615) - 6 ,615 - - -
+- - - 5,840,420 - - - - - - - 5,840,420 683,876 6,524,296
+- - - - - - - - - - (248,863) ( 248,863) ( 325,736) (574,599)
+- - - ( 1,754,011) (504) - - - - - (5,451) (1,759,966) ( 116,560) (1,876,526)
+- - - 4,086,409 1,177 565,182 (310,809) - (6,615) - (247,959) 4,087,385 370,886 4,458,271
+- - - 4,086,409 1,177 565,182 (310,809) - 26,914 3,637 1 3,164,004 17,536,514 9,434,349 26,970,863
+- - - - - - - - - - ( 4,500,000) (4,500,000) (4,207,056) (8,707,056)
+- - - - - - - - - 79,450 7 9,450 9,096 88,546
+- 2,475 119,251 - - - - (1,502) - - (120,224) - - -
+- 2,475 119,251 - - - - (1,502) - - ( 4,540,774) (4,420,550) (4,197,960) (8,618,510)
+- 2 23 (16,105) 9 ,517 (923) (7,842) 2 ,225 2,746 - - (126,573) ( 136,732) ( 8,792) (145,524)
+- - - - - - - - - - - - 355,428 355,428
+- 2 23 (16,105) 9 ,517 (923) (7,842) 2 ,225 2,746 - - (126,573) ( 136,732) 346,636 209,904
+- 2,698 103,146 9 ,517 (923) (7,842) 2 ,225 1,244 - - ( 4,667,347) (4,557,282) (3,851,324) (8,408,606)
+1,575,000 178,386 797,520 2 6,937,920 28,135 (753,428) 7,953,915 2,290,597 2 39,741 18,181 5 3,876,258 93,142,225 5 0,950,117 144,092,342
+se Financial Statements. ( 8,572) 1 0,456,969 2,864 1,784,802 1 1,880 29,329 6,646
+[Table]
+Capital Reserves | Other Components of Equity | Revenue Reserves
+
+[Page 8]
+STATEMENT OF CHANGES IN EQUITY
+For the period ended 31st March Attributable to equity holders of the company
+Capital Reserves Other Components of Equity Revenue Reserves
+Consolidated Stated Reserve Other Revaluation Fair value reserve Cashflow Foreign currency General Timber Bearer Retained Shareholders' Non-controlling Total
+capital on scrip capital reserve of financial assets hedge translation reserve reserve Biological earnings Funds interest Equity
+issue reserve at FVOCI reserve reserve reserve
+Rs. '000 Rs.'000 Rs.'000 Rs.'000 Rs.'000 Rs.'000 Rs.'000 Rs.'000 Rs.'000 Rs.'000 Rs.'000 Rs.'000 Rs.'000 Rs.'000
+Balance as at 1st April 2023 1,575,000 1 75,688 5 84,656 22,996,507 3 0,951 (2,347,147) 10,784,202 2,292,160 161,651 17,951 42,658,685 78,930,304 43,776,353 122,706,657
+Profit for the period - - - - - - - - 5 3,041 (3,407) 6 ,839,136 6,888,770 7,957,953 1 4,846,723
+Other Comprehensive income
+Net exchange differences on translation of foreign operations - - - - - - (2,141,522) - - - - ( 2,141,522) (1,740,127) ( 3,881,649)
+Share of other comprehensive income of equity accounted - - - - - - ( 377,335) - - - (474) (377,809) 12 (377,797)
+investees
+Net loss on cash flow hedges - - - - - 1 ,025,707 - - - - - 1,025,707 116,035 1,141,742
+Net change on equity instruments designated at fair value - - - - 241 - - - - - - 241 (89) 152
+through other comprehensive income
+Realised gain on timber - - - - - - - - ( 1,865) - 1 ,865 - - -
+Revaluation of land - - - - - - - - - - - - - -
+Actuarial loss on defined benefit obligations - - - - - - - - - - (659,665) (659,665) ( 427,528) ( 1,087,193)
+Income tax on other comprehensive income - - - - - - - - - - 184,329 184,329 129,210 313,539
+Total other comprehensive income - - - - 241 1 ,025,707 (2,518,857) - ( 1,865) - (473,945) ( 1,968,719) (1,922,487) ( 3,891,206)
+Total Comprehensive income for the period - - - - 241 1 ,025,707 (2,518,857) - 5 1,176 (3,407) 6 ,365,191 4,920,051 6,035,466 10,955,517
+- - -
+Transactions with owners, recorded directly in equity - - -
+Dividends to equity holders - - - - - - - - - - ( 4,012,500) ( 4,012,500) (4,218,460) ( 8,230,960)
+Transfers - - 1 13,838 - ( 3,035) - - - - (110,803) - - -
+Total contributions by and distributions to owners - - 1 13,838 - ( 3,035) - - - - - ( 4,123,303) ( 4,012,500) (4,218,460) ( 8,230,960)
+Changes in ownership interests in subsidiaries
+Adjustment on changes to non-controlling interest in
+subsidiaries - - (4,120) (154,513) (276) 10,672 (2,846) (2,807) - - 479,028 325,138 ( 372,000) (46,862)
+Acquisition of / Investment in subsidiaries - - - - - - - - - - - - 145,733 145,733
+Total changes in ownership interests in subsidiaries - - (4,120) (154,513) (276) 10,672 (2,846) (2,807) - - 479,028 325,138 ( 226,267) 98,871
+Total transactions with owners - - 1 09,718 (154,513) ( 3,311) 10,672 (2,846) (2,807) - - ( 3,644,275) ( 3,687,362) (4,444,727) ( 8,132,089)
+Balance as at 31st March 2024 1,575,000 1 75,688 6 94,374 22,841,994 2 7,881 (1,310,768) 8,262,499 2,289,353 212,827 14,544 45,379,601 80,162,993 45,367,092 125,530,085
+The Notes on pages 12 to 14 form an integral part of these Financial Statements.
+Figures in brackets indicate deductions.
+HAYLEYS PLC | Page 8
+[Table]
+STATEMENT OF CHANGES IN EQUITY
+For the period ended 31st March Attributable to equity holders of the company
+Capital Reserves Other Components of Equity Revenue Reserves
+Consolidated Stated Reserve Other Revaluation Fair value reserve Cashflow Foreign currency General Timber Bearer Retained Shareholders' Non-controlling Total
+capital on scrip capital reserve of financial assets hedge translation reserve reserve Biological earnings Funds interest Equity
+issue reserve at FVOCI reserve reserve reserve
+Rs. '000 Rs.'000 Rs.'000 Rs.'000 Rs.'000 Rs.'000 Rs.'000 Rs.'000 Rs.'000 Rs.'000 Rs.'000 Rs.'000 Rs.'000 Rs.'000
+1,575,000 1 75,688 5 84,656 22,996,507 3 0,951 (2,347,147) 10,784,202 2,292,160 161,651 17,951 42,658,685 78,930,304 43,776,353 122,706,657
+Profit for the period - - - - - - - - 5 3,041 (3,407) 6 ,839,136 6,888,770 7,957,953
+Other Comprehensive income
+Net exchange differences on translation of foreign operations - - - - - - (2,141,522) - - - - ( 2,141,522) (1,740,127)
+Share of other comprehensive income of equity accounted - - - - - - ( 377,335) - - - (474) (377,809) 12
+investees
+Net loss on cash flow hedges - - - - - 1 ,025,707 - - - - - 1,025,707 116,035
+Net change on equity instruments designated at fair value - - - - 241 - - - - - - 241 (89)
+through other comprehensive income
+Realised gain on timber - - - - - - - - ( 1,865) - 1 ,865 - -
+Revaluation of land - - - - - - - - - - - - -
+Actuarial loss on defined benefit obligations - - - - - - - - - - (659,665) (659,665) ( 427,528)
+Income tax on other comprehensive income - - - - - - - - - - 184,329 184,329 129,210
+Total other comprehensive income - - - - 241 1 ,025,707 (2,518,857) - ( 1,865) - (473,945) ( 1,968,719) (1,922,487)
+Total Comprehensive income for the period - - - - 241 1 ,025,707 (2,518,857) - 5 1,176 (3,407) 6 ,365,191 4,920,051 6,035,466
+- -
+Transactions with owners, recorded directly in equity - -
+Dividends to equity holders - - - - - - - - - - ( 4,012,500) ( 4,012,500) (4,218,460)
+Transfers - - 1 13,838 - ( 3,035) - - - - (110,803) - -
+Total contributions by and distributions to owners - - 1 13,838 - ( 3,035) - - - - - ( 4,123,303) ( 4,012,500) (4,218,460)
+Changes in ownership interests in subsidiaries
+Adjustment on changes to non-controlling interest in
+subsidiaries - - (4,120) (154,513) (276) 10,672 (2,846) (2,807) - - 479,028 325,138 ( 372,000)
+Acquisition of / Investment in subsidiaries - - - - - - - - - - - - 145,733
+Total changes in ownership interests in subsidiaries - - (4,120) (154,513) (276) 10,672 (2,846) (2,807) - - 479,028 325,138 ( 226,267)
+Total transactions with owners - - 1 09,718 (154,513) ( 3,311) 10,672 (2,846) (2,807) - - ( 3,644,275) ( 3,687,362) (4,444,727)
+Balance as at 31st March 2024
+ncial Statements.
+[Table]
+Capital Reserves | Other Components of Equity | Revenue Reserves
+
+[Page 9]
+STATEMENT OF CHANGES IN EQUITY
+For the period ended 31st March Capital
+Reserve Revenue Reserves
+Company Stated Other General Retained Total
+capital capital reserve earnings Equity
+reserve
+Rs. '000 Rs.'000 Rs.'000 Rs.'000 Rs.'000
+Balance as at 1st April 2024 1,575,000 13,226 382,087 9,797,213 11,767,526
+Profit for the period - - - 3,991,560 3,991,560
+Other Comprehensive income
+Actuarial losses on Employee benefit obligations - - - (170,917) ( 170,917)
+Income tax on other comprehensive income - - - 7,691 7,691
+Total other comprehensive income - - - (163,226) ( 163,226)
+Total Comprehensive income for the period - - - 3,828,334 3,828,334
+Transactions with owners, recorded directly in equity
+Write-back of unclaimed dividend - - - 39,248 39,248
+Dividends to equity holders - - - (4,500,000) (4,500,000)
+Total contributions by and distributions to owners - - - (4,460,752) (4,460,752)
+Total transactions with owners - - - (4,460,752) (4,460,752)
+Balance as at 31st March 2025 1,575,000 13,226 382,087 9,164,795 1 1,135,108
+Balance as at 1st April 2023 1,575,000 13,226 382,087 12,489,114 14,459,427
+Profit for the period - - - 1,333,905 1,333,905
+Other Comprehensive income
+Actuarial losses on Employee benefit obligations - - - (13,933) (13,933)
+Income tax on other comprehensive income 627 627
+Total other comprehensive income - - - (13,306) (13,306)
+Total Comprehensive income for the period - - - 1,320,599 1,320,599
+Transactions with owners, recorded directly in equity
+Dividends to equity holders - - - (4,012,500) (4,012,500)
+Total contributions by and distributions to owners - - - (4,012,500) (4,012,500)
+Total transactions with owners - - - (4,012,500) (4,012,500)
+Balance as at 31st March 2024 1,575,000 13,226 382,087 9,797,213 1 1,767,526
+The Notes on pages 12 to 14 form an integral part of these Financial Statements.
+Figures in brackets indicate deductions.
+HAYLEYS PLC | Page 9
+[Table]
+STATEMENT OF CHANGES IN EQUITY
+For the period ended 31st March Capital
+Reserve Revenue Reserves
+Company Stated Other General Retained Total
+capital capital reserve earnings Equity
+reserve
+Rs. '000 Rs.'000 Rs.'000 Rs.'000 Rs.'000
+Balance as at 1st April 2024 1,575,000 13,226 382,087 9,797,213 11,767,526
+Profit for the period - - - 3,991,560 3,991,560
+Other Comprehensive income
+Actuarial losses on Employee benefit obligations - - - (170,917) ( 170,917)
+Income tax on other comprehensive income - - - 7,691 7,691
+Total other comprehensive income - - - (163,226) ( 163,226)
+Total Comprehensive income for the period - - - 3,828,334 3,828,334
+Transactions with owners, recorded directly in equity
+Write-back of unclaimed dividend - - - 39,248 39,248
+Dividends to equity holders - - - (4,500,000) (4,500,000)
+Total contributions by and distributions to owners - - - (4,460,752) (4,460,752)
+Total transactions with owners - - - (4,460,752) (4,460,752)
+Balance as at 31st March 2025 1,575,000 13,226 382,087 9,164,795 1 1,135,108
+Balance as at 1st April 2023
+Profit for the period - - - 1,333,905 1,333,905
+Other Comprehensive income
+Actuarial losses on Employee benefit obligations - - - (13,933) (13,933)
+Income tax on other comprehensive income 627 627
+Total other comprehensive income - - - (13,306) (13,306)
+Total Comprehensive income for the period - - - 1,320,599 1,320,599
+Transactions with owners, recorded directly in equity
+Dividends to equity holders - - - (4,012,500) (4,012,500)
+Total contributions by and distributions to owners - - - (4,012,500) (4,012,500)
+Total transactions with owners - - - (4,012,500) (4,012,500)
+Balance as at 31st March 2024 1,575,000 13,226 382,087 9,797,213
+Statements.
+[Table]
+Capital
+Reserve | Revenue Reserves
+
+[Page 10]
+STATEMENT OF CASH FLOWS
+Consolidated Company
+Unaudited Audited Unaudited Audited
+12 months to 12 months to 12 months to 12 months to
+31.03.25 31.03.24 31.03.25 31.03.24
+Rs.'000 Rs.'000 Rs.'000 Rs.'000
+Cash flows from operating activities
+Cash generated from operations (Note A) 25,306,064 44,133,786 6,726,395 5 ,648,296
+Employee benefits paid (2,499,011) (1,698,780) (1,073,441) (29,351)
+Income tax paid (10,951,263) (12,008,482) ( 264,453) (283,741)
+Net cash inflow from operating activities 11,855,790 30,426,524 5,388,501 5 ,335,204
+Cash flows from investing activities
+Purchase and construction of property, plant & equipment (20,774,250) (19,919,469) ( 430,848) (420,888)
+Purchase of intangible assets ( 364,979) (380,026) (26,221) (3,086)
+Investments in other non-current assets ( 363,521) (265,708) - -
+Investments in other current financial assets (3,291,340) (6,345,368) - -
+Investments in other non -current financial assets (51,757) - - -
+Investment in equity accounted investees - (182,175) - -
+Decrease due to harvest/(Development of biological assets) 22,452 8,707 - -
+Grants received - capital 24,715 36,551 - -
+Improvements to investment property (38,102) ( 422) - -
+Proceeds from disposal of property, plant & equipment 4 89,296 1 ,085,564 846 806
+Proceeds from insurance claims 4 50,000 500,991 - -
+Proceeds from disposal of intangible assets 1,483 2,523 - -
+Proceeds from disposal of current financial assets 4,086,599 5 ,263,812 - -
+Proceeds from disposal of non-current financial assets 74,669 651,527 - -
+Long term investments in group companies and others (1,158,351) 76,302 ( 753,255) (920,628)
+Interest received 2,492,960 4 ,722,907 71,971 103,805
+Net movement in deferred revenue (1,503,030) 2 ,671,459 - -
+Dividends received from equity accounted investees 2 25,568 610,402 - -
+Dividends received from non-group companies 5,199 1,888 322 227
+Net cash used in investing activities (19,672,389) (11,460,535) (1,137,185) (1,239,764)
+Net cash inflow/(outflow) before financing (7,816,599) 18,965,989 4,251,316 4 ,095,440
+Cash flows from financing activities
+Payment on lease (3,389,638) (1,574,914) (86,166) (86,166)
+Interest paid (including interest capitalized) (13,919,883) (20,762,565) (3,182,530) (4,682,688)
+Dividend paid to non-controlling interest (4,207,056) (4,218,460) - -
+Debenture Redemption (3,093,661) (4,747,644) (3,000,000) (3,521,507)
+Proceeds from interest-bearing borrowings 43,830,495 24,208,036 12,713,167 11,600,000
+Repayment of interest-bearing borrowings (25,390,562) (24,441,873) (7,800,000) (5,900,000)
+Net movement in financial liabilities 6,134,629 2 ,979,601 - -
+Net movement in security deposits 3 33,902 92,336 - -
+Acquisition of non-controlling interest ( 145,524) (46,862) - -
+Dividends paid to equity holders of parent (3,974,223) (3,984,600) (3,974,223) (3,984,600)
+Net cash outflow from financing activities (3,821,521) (32,496,945) (5,329,752) (6,574,961)
+Net increase / (decrease) in cash and cash equivalents (11,638,120) (13,530,956) (1,078,436) (2,479,521)
+Cash and cash equivalents at beginning of the year/period (38,537,191) (25,006,235) (5,012,869) (2,533,348)
+Cash and cash equivalents at end of the year/period (Note B) (50,175,311) (38,537,191) (6,091,305) (5,012,869)
+The Notes on pages 12 to 14 form an integral part of these Financial Statements.
+Figures in brackets indicate deductions.
+HAYLEYS PLC | Page 10
+[Table]
+STATEMENT OF CASH FLOWS
+Consolidated | Company
+Unaudited
+12 months to
+31.03.25 | Audited
+12 months to
+31.03.24 | Unaudited
+12 months to
+31.03.25 | Audited
+12 months to
+31.03.24
+Rs.'000 | Rs.'000 | Rs.'000 | Rs.'000
+Cash flows from operating activities
+Cash generated from operations (Note A) | 25,306,064 | 44,133,786 | 6,726,395
+Employee benefits paid
+Income tax paid | (2,499,011)
+(10,951,263) | (1,698,780)
+(12,008,482) | (1,073,441)
+( 264,453)
+Net cash inflow from operating activities | 11,855,790 | 30,426,524 | 5,388,501
+Cash flows from investing activities
+Purchase and construction of property, plant & equipment
+Purchase of intangible assets
+Investments in other non-current assets
+Investments in other current financial assets
+Investments in other non -current financial assets
+Investment in equity accounted investees
+Decrease due to harvest/(Development of biological assets)
+Grants received - capital
+Improvements to investment property
+Proceeds from disposal of property, plant & equipment
+Proceeds from insurance claims
+Proceeds from disposal of intangible assets
+Proceeds from disposal of current financial assets
+Proceeds from disposal of non-current financial assets
+Long term investments in group companies and others
+Interest received
+Net movement in deferred revenue
+Dividends received from equity accounted investees
+Dividends received from non-group companies | (20,774,250)
+( 364,979)
+( 363,521)
+(3,291,340)
+(51,757)
+-
+22,452
+24,715
+(38,102)
+4 89,296
+4 50,000
+1,483
+4,086,599
+74,669
+(1,158,351)
+2,492,960
+(1,503,030)
+2 25,568
+5,199 | (19,919,469)
+(380,026)
+(265,708)
+(6,345,368)
+-
+(182,175)
+8,707
+36,551
+( 422)
+1 ,085,564
+500,991
+2,523
+5 ,263,812
+651,527
+76,302
+4 ,722,907
+2 ,671,459
+610,402
+1,888 | ( 430,848)
+(26,221)
+-
+-
+-
+-
+-
+-
+-
+846
+-
+-
+-
+-
+( 753,255)
+71,971
+-
+-
+322
+Net cash used in investing activities | (19,672,389) | (11,460,535) | (1,137,185)
+Net cash inflow/(outflow) before financing | (7,816,599) | 18,965,989 | 4,251,316
+Cash flows from financing activities
+Payment on lease
+Interest paid (including interest capitalized)
+Dividend paid to non-controlling interest
+Debenture Redemption
+Proceeds from interest-bearing borrowings
+Repayment of interest-bearing borrowings
+Net movement in financial liabilities
+Net movement in security deposits
+Acquisition of non-controlling interest | (3,389,638)
+(13,919,883)
+(4,207,056)
+(3,093,661)
+43,830,495
+(25,390,562)
+6,134,629
+3 33,902
+( 145,524) | (1,574,914)
+(20,762,565)
+(4,218,460)
+(4,747,644)
+24,208,036
+(24,441,873)
+2 ,979,601
+92,336
+(46,862) | (86,166)
+(3,182,530)
+-
+(3,000,000)
+12,713,167
+(7,800,000)
+-
+-
+-
+Dividends paid to equity holders of parent | (3,974,223) | (3,984,600) | (3,974,223)
+Net cash outflow from financing activities | (3,821,521) | (32,496,945) | (5,329,752)
+Net increase / (decrease) in cash and cash equivalents
+Cash and cash equivalents at beginning of the year/period | (11,638,120)
+(38,537,191) | (13,530,956)
+(25,006,235) | (1,078,436)
+(5,012,869)
+Cash and cash equivalents at end of the year/period (Note B) | (50,175,311) | (38,537,191) | (6,091,305)
+art of these Financial Statements.
+
+[Page 11]
+STATEMENT OF CASH FLOWS
+Consolidated Company
+Unaudited Audited Unaudited Audited
+12 months to 12 months to 12 months to 12 months to
+31.03.25 31.03.24 31.03.25 31.03.24
+Rs.'000 Rs.'000 Rs.'000 Rs.'000
+A. Cash generated from operations
+Profit before tax 3 5,373,021 2 5,335,707 4 ,309,658 1 ,614,567
+Adjustments for:
+Net finance costs 12,143,457 1 7,242,316 3,164,188 4,619,444
+Share of profits from equity accounted investees (237,074) (159,205) - -
+Depreciation on property, plant & equipment 9 ,577,696 8,531,775 9 0,731 5 0,303
+Impairment of property, plant & equipment 9,180 2 2,832 - -
+Amortisation of right of use assets 2 ,345,527 1,858,575 6 3,832 6 3,832
+Change in fair value of investment properties (112,999) ( 92,813) (550) (3,700)
+Change in fair value of agri produce on bearer biological assets (26,418) ( 3,376) - -
+Change in fair value of biological assets (142,455) (206,128) - -
+Gain on the disposal of property, plant & equipment (21,832) (275,287) (118) (275)
+Insurance claims on fire damages ( 1,542,912) (500,991) - -
+Loss on fire damages 9 47,308 - - -
+Amortisation of intangible assets 3 28,467 393,279 1 3,024 1 2,223
+Write-off of property, plant and equipment - 612 - -
+Loss on the disposal of Intangible assets - 123 - -
+Net loss on translation of foreign currency (374,689) (3,151,685) ( 54,579) (15,870)
+Reversal of impairment of investments in subsidiaries - - ( 75,000) -
+Impairment of trade & other receivables 90,598 379,381 - -
+Provision for unrealised profit and write-down of inventories 9 04,019 388,726 - -
+Write-back of trade creditors (135,817) - - -
+Gain on bargain purchase (370,271) ( 13,629) - -
+Impairment/amortisation of other non -current assets 2 78,536 3 4,078 - -
+Provision for post employee benefit obligations 2 ,734,169 3,153,900 228,920 3 49,809
+Grants amortised (63,623) ( 47,668) - -
+6 1,703,888 5 2,890,522 7 ,740,106 6 ,690,333
+(Increase)/decrease in trade and other receivables and other (34,671,666) (19,847,258) (690,687) ( 1,154,730)
+current assets
+(Increase)/decrease in inventories ( 7,755,956) 1,914,040 3,668 112
+Increase/(decrease) in trade and other payables 6 ,029,798 9 ,176,482 ( 326,692) 1 12,581
+2 5,306,064 4 4,133,786 6 ,726,395 5 ,648,296
+Note B - Analysis of cash and cash equivalents
+Cash in hand and at bank 24,292,764 2 8,175,378 1,115,433 3 28,528
+Short - term deposits 27,358,471 2 1,356,037 1,864,684 5 05,529
+51,651,235 4 9,531,415 2,980,117 8 34,057
+Short-term interest bearing borrowings ( 101,826,546) (88,068,606) (9,071,422) ( 5,846,926)
+Cash and cash equivalents (50,175,311) (38,537,191) (6,091,305) ( 5,012,869)
+The Notes on pages 12 to 14 form an integral part of these Financial Statements.
+Figures in brackets indicate deductions.
+HAYLEYS PLC | Page 11
+[Table]
+Consolidated
+Unaudited
+12 months to
+31.03.25 | Audited
+12 months to
+31.03.24 | Unaudited
+12 months to
+31.03.25 | Audited
+12 months to
+31.03.24
+Rs.'000 | Rs.'000 | Rs.'000 | Rs.'000
+3 5,373,021
+12,143,457
+(237,074)
+9 ,577,696 | 2 5,335,707
+1 7,242,316
+(159,205)
+8,531,775
+2 2,832
+1,858,575
+( 92,813)
+( 3,376)
+(206,128)
+(275,287)
+(500,991)
+-
+393,279
+612
+123
+(3,151,685)
+-
+379,381
+388,726
+-
+( 13,629)
+3 4,078
+3,153,900
+( 47,668) | 4 ,309,658
+3,164,188
+-
+9 0,731
+Impairment of property, plant & equipment | 9,180 | -
+2 ,345,527 | 6 3,832
+(112,999) | (550)
+(26,418) | -
+(142,455) | -
+(21,832) | (118)
+( 1,542,912) | -
+9 47,308 | -
+3 28,467 | 1 3,024
+- | -
+- | -
+(374,689) | ( 54,579)
+- | ( 75,000)
+90,598 | -
+9 04,019 | -
+(135,817) | -
+
+[Page 12]
+NOTES TO THE FINANCIAL STATEMENTS
+1 TheInterimCondensedFinancialStatementshavebeenpreparedincompliancewithSriLankaAccountingStandardLKAS34-Interim
+FinancialReporting.TheseInterimCondensedFinancialStatementsshouldbereadinconjunctionwiththeAnnualFinancialStatements
+for the year ended 31st March 2024.
+The Interim Condensed Financial Statements have been prepared on a historical cost basis, except for, land, biological assets and
+financial instruments.
+These Statements also provide information required by the Colombo Stock Exchange.
+2 Therehasnotbeenasignificantchangeinthenatureofthecontingentliabilities,whichweredisclosedintheAnnualReportfortheyear
+ended31stMarch2024.ThepresentationandclassificationoftheFinancialStatementsofthepreviousyearhavebeenamended,where
+relevant, for better presentation and to be comparable with those of the current year.
+3 Otherthanwhatismentionedbelow,noothercircumstanceshavearisensincethereportingdate,whichwouldrequireadjustmentsto,
+or disclosure in the Financial Statements
+Issue of Listed Rated Unsecured Senior Redeemable Debentures
+On 5th May 2025, Hayleys PLC issued Fifty Million (50,000,000) listed rated unsecured senior redeemable debentures ("Debentures"), at
+the par value of Rs. 100/- each, to raise Sri Lankan Rupees Five Billion (Rs. 5,000,000,000/-) with an option to issue up to a further
+Twenty Million (20,000,000) of the said debentures at the discretion of the company, in the event of an oversubscription of the initial
+issue to raise up to a maximum of Sri Lankan Rupees Seven Billion (Rs. 7,000,000,000/-). The issue was oversubscribed and 70,000,000
+debentures as captioned above were allocated to investors.
+4 INDUSTRY SEGMENT REVENUE
+Consolidated
+Total Intra-group External
+Unaudited Audited
+12 months to 12 months to
+31.03.25 31.03.24
+Rs.'000 Rs.'000 Rs.'000 Rs.'000
+Eco Solutions 1 4,994,386 2 ,147,654 1 2,846,732 1 3,846,458
+Hand Protection 4 6,396,483 4 6,224 4 6,350,259 4 3,024,820
+Purification Products 4 3,201,785 3 67,270 4 2,834,515 4 2,743,944
+Textiles 4 4,603,227 1 ,141,870 4 3,461,357 4 9,167,087
+Construction Materials 1 4,338,260 1 ,230,231 1 3,108,029 9 ,936,623
+Agriculture 3 8,167,820 6 57,593 3 7,510,227 3 4,878,891
+Plantations 1 9,612,427 4 30,093 1 9,182,334 1 8,100,621
+Transportation & Logistics 1 08,702,292 1 ,858,539 1 06,843,753 9 1,352,918
+Consumer & Retail 1 08,849,078 3 67,744 1 08,481,334 8 1,496,662
+Industry Inputs 1 0,057,232 5 25,596 9 ,531,636 8 ,416,925
+Power & Energy 1 ,570,388 - 1 ,570,388 1 ,315,100
+Leisure 1 0,352,894 7 01,926 9 ,650,968 9 ,018,855
+Projects & Engineering 2 8,900,932 2 ,277,871 2 6,623,061 1 9,796,041
+Tea Exports 1 3,603,578 4 44,642 1 3,158,936 1 2,198,509
+Others 2 ,240,668 1 ,193,105 1 ,047,563 1 ,438,673
+505,591,450 1 3,390,358 492,201,092 436,732,127
+HAYLEYS PLC | Page 12
+[Table]
+Consolidated
+Total | Intra-group | External
+Unaudited
+12 months to
+31.03.25 | Audited
+12 months to
+31.03.24
+Rs.'000 | Rs.'000 | Rs.'000 | Rs.'000
+1 4,994,386 2 ,147,654 1 2,846,732
+4 6,396,483 4 6,224 4 6,350,259
+4 3,201,785 3 67,270 4 2,834,515
+4 4,603,227 1 ,141,870 4 3,461,357
+1 4,338,260 1 ,230,231 1 3,108,029
+3 8,167,820 6 57,593 3 7,510,227
+1 9,612,427 4 30,093 1 9,182,334
+1 08,702,292 1 ,858,539 1 06,843,753
+1 08,849,078 3 67,744 1 08,481,334
+1 0,057,232 5 25,596 9 ,531,636
+1 ,570,388 - 1 ,570,388
+1 0,352,894 7 01,926 9 ,650,968
+2 8,900,932 2 ,277,871 2 6,623,061
+1 3,603,578 4 44,642 1 3,158,936
+2 ,240,668 1 ,193,105 1 ,047,563
+505,591,450 1 3,390,358 492,201,092
+
+[Page 13]
+NOTES TO THE FINANCIAL STATEMENTS
+-385,305,527 -331,356,584
+5 INDUSTRY SEGMENT RESULTS
+Consolidated
+Unaudited Audited
+12 months to 12 months to
+31.03.25 31.03.24
+Rs.'000 Rs.'000
+Eco Solutions (333,213) 384,362
+Hand Protection 3,813,748 3,786,112
+Purification Products 5,753,601 6,521,097
+Textiles 4,178,908 5,660,334
+Construction Materials 1,910,935 1,052,636
+Agriculture 3,372,771 3,936,649
+Plantations 2,702,483 3,052,678
+Transportation & Logistics 8,596,776 6,805,899
+Consumer & Retail 8,728,184 3,486,525
+Industry Inputs 1,445,070 1,368,494
+Power & Energy 752,494 584,977
+Leisure 543,823 (427,003)
+Projects & Engineering 3,666,731 4,512,848
+Tea Exports 608,677 829,465
+Others 7,987,583 6,728,269
+Segment results 53,728,571 48,283,342
+Non - segment income/(expenses) ( 5,961,636) ( 5,560,482)
+Operating profit 47,766,935 42,722,860
+Net finance cost (12,143,457) (17,242,316)
+Change in fair value of investment properties 112,999 92,813
+Share of profits from equity accounted investees 237,074 159,205
+Value added tax on financial services (600,530) (396,855)
+Profit before tax 35,373,021 25,335,707
+35,373,021 25,335,707
+6 STATED CAPITAL
+Company
+Unaudited Audited
+as at as at
+31.03.25 31.03.24
+Rs.'000 Rs.'000
+Issued and fully paid
+750,000,000 (750,000,000 - 31.03.2024) Ordinary Shares 1,575,000 1,575,000
+HAYLEYS PLC | Page 13
+[Table]
+Consolidated
+Unaudited
+12 months to
+31.03.25 | Audited
+12 months to
+31.03.24
+Rs.'000 | Rs.'000
+(333,213)
+3,813,748
+5,753,601
+4,178,908
+1,910,935
+3,372,771
+2,702,483
+8,596,776
+8,728,184
+1,445,070
+752,494
+543,823
+3,666,731
+608,677
+7,987,583
+53,728,571
+( 5,961,636)
+47,766,935
+(12,143,457)
+112,999
+237,074
+(600,530)
+35,373,021
+[Table]
+Company
+Unaudited
+as at
+31.03.25 | Audited
+as at
+31.03.24
+Rs.'000 | Rs.'000
+
+[Page 14]
+NOTES TO THE FINANCIAL STATEMENTS
+7 ACQUISITION OF SUBSIDIARIES
+In the financial year ended March 31, 2024, Advantis Singapore Pte Ltd (a subsidiary of Hayleys Advantis
+Limited) invested 29% in the share capital ofAdvantis Leo (Thailand) Limited, a partnership with Leo Global
+Logistics of Thailand. Subsequently, in the current financial year, Advantis Singapore Pte Ltd invested in a
+further share, totaling to a majority stake of 50% of the company, thereby obtaining control over the investee.
+InDecember2024,DippedProducts(Thailand) LtdacquiredtheentirestakeinHi-CareThaiGlovesCo.Ltdfor
+a total consideration of Rs. 1.58 bn. The fair values of assets acquired and liabilities assumed through these
+business combinations are given below.
+Advantis Leo Hi-Care Thai
+(Thailand) Gloves Co. Total
+Limited Ltd
+Rs.'000 Rs.'000 Rs.'000
+Property, plant & equipment 1 3,640 3 ,598,237 3 ,611,877
+Right-of-use assets - 3,670 3,670
+Intangible Assets 1,258 - 1,258
+Inventories - 8 7,158 8 7,158
+Trade and other receivables 3 2,151 117,870 150,021
+Interest bearing borrowings - (1,624,511) (1,624,511)
+Retirement benefit obligations - (21,613) (21,613)
+Trade and other payables (96,047) (235,437) (331,484)
+Other current liabilities (14,151) - (14,151)
+Net identifiable assets and liabilities (63,149) 1,925,374 1,862,226
+Non-controlling interests (55,428) - (55,428)
+Goodwill 2 5,428 - 2 5,428
+Gain on bargain purchase - (370,271) (370,271)
+(93,149) 1,555,103 1,461,955
+Satisfied by:
+Cash consideration ( 77,233) ( 1,582,150) ( 1,659,383)
+Fair value of the existing stake ( 3,601) - ( 3,601)
+Cash in hand and bank acquired 173,983 2 7,047 201,030
+93,149 (1,555,103) (1,461,954)
+HAYLEYS PLC | Page 14
+[Table]
+Advantis Leo
+(Thailand)
+Limited | Hi-Care Thai
+Gloves Co.
+Ltd | Total
+Rs.'000 | Rs.'000 | Rs.'000
+1 3,640 3 ,598,237 3 ,611,877
+- 3,670 3,670
+1,258 - 1,258
+- 8 7,158 8 7,158
+3 2,151 117,870 150,021
+- (1,624,511) (1,624,511)
+- (21,613) (21,613)
+(96,047) (235,437) (331,484)
+(14,151) - (14,151)
+(63,149) 1,925,374 1,862,226
+(55,428) - (55,428)
+2 5,428 - 2 5,428
+- (370,271) (370,271)
+(93,149) 1,555,103 1,461,955
+[Table]
+( 77,233) ( 1,582,150) ( 1,659,383)
+( 3,601) - ( 3,601)
+173,983 2 7,047 201,030
+93,149 (1,555,103) (1,461,954)
+
+[Page 15]
+INVESTOR INFORMATION
+MARKET VALUE OF SHARES
+The market value of an ordinary share of Hayleys PLC was as follows:
+31.03.25 31.03.24
+Rs. Rs.
+Last traded price 137.00 8 2.00
+Highest price recorded for the three months ending 149.25 8 6.50
+Lowest price recorded for the three months ending 122.25 7 1.60
+Market capitalisation (Rs. Mn.) 1 02,750 61,575
+RATIOS
+Net assets per share 124.19 106.88
+Price earnings ratio (times) 7.64 8.94
+SHARE TRADING FROM 1ST APRIL, 2024 TO 31ST MARCH, 2025
+No. of transactions 62,097
+No. of shares traded 154,141,309
+Value of shares traded (Rs.) 16,356,554,569.35
+RATIOS 31.03.25 31.03.24
+Debt/ equity ratio 3.17 2.57
+Quick asset ratio 0.37 0.30
+Interest cover 2.34 1.32
+HAYLEYS PLC | Page 15
+[Table]
+31.03.25
+Rs. | 31.03.24
+Rs.
+[Table]
+31.03.25 | 31.03.24
+
+[Page 16]
+INVESTOR INFORMATION
+FIRST TWENTY SHAREHOLDERS AS AT 31ST MARCH, 2025
+Name of the Shareholder No. of Shares %
+1 Mr. K.D.D. Perera 382,596,970 51.01
+2 Trustees of the D.S. Jayasundera Trust 86,980,170 11.60
+3 Seylan Bank PLC/Phantom Investments (Pvt) Ltd 38,556,077 5 .14
+4 McLarens Holdings Ltd 14,103,946 1 .88
+5 Hayleys Group Services (Pvt) Ltd No. 02 A/C 11,170,900 1 .49
+6 Mrs. R.N. Ponnambalam 6,144,380 0 .82
+7 GF Capital Global Limited 5,804,000 0 .77
+8 Mrs. R.M. Spittel 5,646,970 0 .75
+9 Mr. J.M. Spittel 4,655,610 0 .62
+10 Mrs. S.D. Wickremasinghe 4,492,980 0 .60
+11 Mrs. P.M. Godamunne 4,434,470 0 .59
+12 Mrs. A.K. Wikramanayake 4,384,490 0 .58
+13 Mr. S. Rameshan 4,007,620 0 .53
+14 Hatton National Bank PLC - Capital Alliance Quantitative Equity Fund 3,952,536 0 .53
+15 Renuka Hotels PLC 3,315,000 0 .44
+16 Mrs. S.R.D. Wikramanayake 3,239,320 0 .43
+17 Mrs. G.V. De Silva 2,850,830 0 .38
+18 Miss S.H. De Silva 2,850,830 0 .38
+19 Miss N.K.R.H. De Silva 2,834,010 0 .38
+20 Dr. D. Jayanntha 2,580,000 0 .34
+Total 5 94,601,109 79.28
+There were no non voting shares as at 31st March, 2025.
+PUBLIC HOLDING
+Percentage of public holding as at 31st March, 2025. 37.09%
+Total number of Shareholders representing the Public Holding 13,075
+Float - adjusted market capitalization (Rs.) 38,112,112,200
+The Company complies with option 1 of the Listing Rules 7.13.1 (i) (a) which requires no minimum public holding percentage.
+DIRECTORS’ SHAREHOLDINGS AS AT 31ST March, 2025.
+Directors' holdings of ordinary shares in the Company were as follows
+Name of the Director No.of Shares
+Mr. A.M. Pandithage 1 ,253,570
+Mr. K.D.D. Perera 3 82,613,630 *
+Mr. S.C. Ganegoda 2 50,000
+Mr. H.S.R. Kariyawasan 94,270
+Mr. L.R.V. Waidyaratne 379,300
+Ms. J. Dharmasena 210,950
+Dr. H. Cabral, PC -
+Mr. M.Y.A. Perera -
+Mr. R.J. Karunarajah -
+Mr. K.D.G. Gunaratne -
+Mr. T.A.B. Speldewinde 5,000
+Mr. P.Y.S. Perera 2,500
+Mr. A.J. Alles -
+* Inclusive of indirect holding through other companies in which he owns controlling interest.
+HAYLEYS PLC | Page 16
+
+[Page 17]
+CORPORATE INFORMATION
+NAME OF COMPANY AUDIT COMMITTEE
+Hayleys PLC M Y A Perera - Chairman
+(A public limited company, incorporated in Sri Dr H Cabral, PC
+Lanka in 1952) K D G Gunaratne
+T A B Speldewinde (appointed to the committee on 16.10.2024)
+P Y S Perera (appointed to the committee on 16.10.2024)
+COMPANY NUMBER A J Alles (appointed to the committee on 16.10.2024)
+PQ 22 M H Jamaldeen (resigned w.e.f. 14.11.2024)
+STOCK EXCHANGE LISTING
+The ordinary shares of the Company are listed with REMUNERATION COMMITTEE
+the Colombo Stock Exchange of Sri Lanka M Y A Perera - Chairman (appointed as the Chairman of the
+committee on 23.12.2024)
+REGISTERED OFFICE Dr. H Cabral, PC (stepped down as the Chairman of the
+Hayleys Building, committee on 23.12.2024)
+P.O. Box 70, 400, Deans Road, K D G Gunaratne
+Colombo 10, Sri Lanka T A B Speldewinde (appointed to the committee on 17.05.2024)
+Telephone: (94-11)2627000 P Y S Perera (appointed to the committee on 23.12.2024)
+Facsimile: (94-11)2699299 M H Jamaldeen (resigned w.e.f. 14.11.2024)
+Website: http://www.hayleys.com
+NOMINATIONS AND GOVERNANCE COMMITTEE
+DIRECTORS M Y A Perera - Chairman
+A M Pandithage – Chairman & Chief Executive Dr H Cabral, PC
+K D D Perera - Co-Chairman (appointed on K D G Gunaratne
+01.10.2024) T A B Speldewinde (appointed to the committee on 17.05.2024)
+S C Ganegoda P Y S Perera (appointed to the committee on 23.12.2024)
+H S R Kariyawasan
+Dr. H Cabral, PC (ceased to be the Senior
+Independent Director on 23.12.2024) RELATED PARTY TRANSACTIONS REVIEW COMMITTEE
+L R V Waidyaratne P Y S Perera - Chairman (appointed as the Chairman of the
+M Y A Perera (appointed as the Senior Independent committee on 23.12.2024)
+Director on 23.12.2024) Dr. H Cabral, PC (stepped down as the Chairman of the
+Ms. J Dharmasena committee on 23.12.2024)
+R J Karunarajah M Y A Perera
+K D G Gunaratne T A B Speldewinde (appointed to the committee on 17.05.2024)
+T A B Speldewinde K D G Gunaratne (appointed to the committee on 23.12.2024)
+P Y S Perera (appointed on 01.04.2024) S C Ganegoda (stepped down as a member of the committee on
+A J Alles (appointed on 01.10.2024) 23.12.2024)
+M H Jamaldeen (resigned w.e.f. 14.11.2024)
+SECRETARIES
+Hayleys Group Services (Private) Limited
+GROUP MANAGEMENT COMMITTEE 400, Deans Road, Colombo 10, Sri Lanka
+A M Pandithage – Chairman & Chief Executive Telephone: (94-11)2627650
+S C Ganegoda E-mail: info.sec@hayleys.com
+H S R Kariyawasan Please direct any queries about the
+L R V Waidyaratne administration of shareholdings to the Company Secretaries
+Ms. J Dharmasena
+Dr. W G R Rajadurai
+E R P Goonethileke INVESTOR RELATIONS
+Ms. D Talpahewa Please contact Strategic Business Development Unit
+N R Ranatunge Telephone: (94-11)2627662
+D W P N Dediwela E-mail: info@cau.hayleys.com
+H Prematillake
+M H Wijewardene
+R J Karunarajah
+J A W M Jayasekara
+M M A R P Goonetileke
+R H P Janadheera
+T M Hewagama
+HAYLEYS PLC | Page 17

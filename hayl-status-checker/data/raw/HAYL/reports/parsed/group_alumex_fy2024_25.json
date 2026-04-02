@@ -1,0 +1,44 @@
+{
+  "symbol": "HAYL.N0000",
+  "report_type": "group_company_reports",
+  "financial_year": "FY2024-25",
+  "source_pdf": "data/raw/HAYL/reports/pdfs/group_alumex_FY2024-25.pdf",
+  "extracted_at": "2026-04-02T17:29:05.980246Z",
+  "metrics": {
+    "revenue": {
+      "value": 30.4,
+      "unit": "LKR",
+      "page": 13,
+      "confidence": 0.62,
+      "source": "text"
+    },
+    "net_income": {
+      "value": 4.6,
+      "unit": "LKR",
+      "page": 13,
+      "confidence": 0.62,
+      "source": "text"
+    },
+    "eps": {
+      "value": -0.02,
+      "unit": "LKR/share",
+      "page": 28,
+      "confidence": 0.62,
+      "source": "text"
+    },
+    "operating_profit": {
+      "value": 11.97,
+      "unit": "LKR",
+      "page": 28,
+      "confidence": 0.62,
+      "source": "text"
+    },
+    "ebitda": {
+      "value": 1569.0,
+      "unit": "LKR",
+      "page": 28,
+      "confidence": 0.62,
+      "source": "text"
+    }
+  }
+}

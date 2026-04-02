@@ -1,0 +1,44 @@
+{
+  "symbol": "HAYL.N0000",
+  "report_type": "group_company_reports",
+  "financial_year": "FY2024-25",
+  "source_pdf": "data/raw/HAYL/reports/pdfs/group_dipped_products_dpl_FY2024-25.pdf",
+  "extracted_at": "2026-04-02T17:30:25.596481Z",
+  "metrics": {
+    "revenue": {
+      "value": 7.0,
+      "unit": "LKR",
+      "page": 24,
+      "confidence": 0.86,
+      "source": "table"
+    },
+    "net_income": {
+      "value": -13.0,
+      "unit": "LKR",
+      "page": 24,
+      "confidence": 0.86,
+      "source": "table"
+    },
+    "eps": {
+      "value": -13.0,
+      "unit": "LKR/share",
+      "page": 24,
+      "confidence": 0.86,
+      "source": "table"
+    },
+    "operating_profit": {
+      "value": -7.0,
+      "unit": "LKR",
+      "page": 24,
+      "confidence": 0.86,
+      "source": "table"
+    },
+    "ebitda": {
+      "value": null,
+      "unit": null,
+      "page": null,
+      "confidence": 0.0,
+      "source": null
+    }
+  }
+}

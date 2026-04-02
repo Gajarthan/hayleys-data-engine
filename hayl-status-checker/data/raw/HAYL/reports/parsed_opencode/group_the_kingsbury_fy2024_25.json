@@ -1,0 +1,84 @@
+{
+  "symbol": "HAYL.N0000",
+  "report_type": "group_company_reports",
+  "financial_year": "FY2024-25",
+  "source_pdf": "data/raw/HAYL/reports/pdfs/group_the_kingsbury_FY2024-25.pdf",
+  "extracted_at": "2026-04-02T17:25:01.021258Z",
+  "analyzer": "opencode",
+  "analyzer_input": "data/raw/HAYL/reports/analyzer_input/group_the_kingsbury_fy2024_25.txt",
+  "analyzer_chars": 70000,
+  "metrics": {
+    "revenue": {
+      "value": 5327046.0,
+      "unit": "Rs.'000",
+      "page": 10,
+      "confidence": 0.95
+    },
+    "net_income": {
+      "value": 551153.0,
+      "unit": "Rs.'000",
+      "page": 10,
+      "confidence": 0.95
+    },
+    "eps": {
+      "value": 1.14,
+      "unit": "Rs.",
+      "page": 16,
+      "confidence": 0.9
+    },
+    "operating_profit": {
+      "value": 705502.0,
+      "unit": "Rs.'000",
+      "page": 10,
+      "confidence": 0.95
+    },
+    "ebitda": {
+      "value": 906467.0,
+      "unit": "Rs.'000",
+      "page": 10,
+      "confidence": 0.95
+    },
+    "issued_shares": {
+      "value": 484000000.0,
+      "unit": "shares",
+      "page": null,
+      "confidence": 0.7
+    },
+    "par_value": {
+      "value": 1.0,
+      "unit": "Rs.",
+      "page": null,
+      "confidence": 0.5
+    },
+    "market_cap": {
+      "value": 5759600.0,
+      "unit": "Rs.'000",
+      "page": 10,
+      "confidence": 0.9
+    },
+    "foreign_percentage": {
+      "value": null,
+      "unit": null,
+      "page": null,
+      "confidence": null
+    },
+    "pe_ratio": {
+      "value": 10.45,
+      "unit": "times",
+      "page": 10,
+      "confidence": 0.9
+    },
+    "pb_ratio": {
+      "value": 3.0,
+      "unit": "times",
+      "page": null,
+      "confidence": 0.7
+    },
+    "dividend_yield": {
+      "value": null,
+      "unit": null,
+      "page": null,
+      "confidence": null
+    }
+  }
+}

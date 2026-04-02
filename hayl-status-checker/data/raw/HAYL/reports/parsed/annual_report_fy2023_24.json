@@ -1,0 +1,44 @@
+{
+  "symbol": "HAYL.N0000",
+  "report_type": "annual_reports",
+  "financial_year": "FY2023-24",
+  "source_pdf": "data/raw/HAYL/reports/pdfs/annual_report_FY2023-24.pdf",
+  "extracted_at": "2026-04-02T17:24:29.899515Z",
+  "metrics": {
+    "revenue": {
+      "value": 283.0,
+      "unit": "LKR",
+      "page": 26,
+      "confidence": 0.86,
+      "source": "table"
+    },
+    "net_income": {
+      "value": -17.0,
+      "unit": "LKR",
+      "page": 124,
+      "confidence": 0.86,
+      "source": "table"
+    },
+    "eps": {
+      "value": 24.34,
+      "unit": "LKR/share",
+      "page": 18,
+      "confidence": 0.62,
+      "source": "text"
+    },
+    "operating_profit": {
+      "value": 9.94,
+      "unit": "LKR",
+      "page": 18,
+      "confidence": 0.62,
+      "source": "text"
+    },
+    "ebitda": {
+      "value": null,
+      "unit": null,
+      "page": null,
+      "confidence": 0.0,
+      "source": null
+    }
+  }
+}

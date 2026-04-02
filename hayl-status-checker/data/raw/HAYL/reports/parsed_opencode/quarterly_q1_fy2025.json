@@ -1,0 +1,84 @@
+{
+  "symbol": "HAYL.N0000",
+  "report_type": "quarterly_results",
+  "financial_year": "FY20-25",
+  "source_pdf": "data/raw/HAYL/reports/pdfs/quarterly_Q1_FY2025.pdf",
+  "extracted_at": "2026-04-02T17:25:21.266419Z",
+  "analyzer": "opencode",
+  "analyzer_input": "data/raw/HAYL/reports/analyzer_input/quarterly_q1_fy2025.txt",
+  "analyzer_chars": 54003,
+  "metrics": {
+    "revenue": {
+      "value": 130638065.0,
+      "unit": "Rs.'000",
+      "page": 1,
+      "confidence": 0.95
+    },
+    "net_income": {
+      "value": 3177311.0,
+      "unit": "Rs.'000",
+      "page": 1,
+      "confidence": 0.95
+    },
+    "eps": {
+      "value": 2.01,
+      "unit": "Rs.",
+      "page": 1,
+      "confidence": 0.95
+    },
+    "operating_profit": {
+      "value": 8875822.0,
+      "unit": "Rs.'000",
+      "page": 1,
+      "confidence": 0.95
+    },
+    "ebitda": {
+      "value": null,
+      "unit": null,
+      "page": null,
+      "confidence": null
+    },
+    "issued_shares": {
+      "value": null,
+      "unit": null,
+      "page": null,
+      "confidence": null
+    },
+    "par_value": {
+      "value": null,
+      "unit": null,
+      "page": null,
+      "confidence": null
+    },
+    "market_cap": {
+      "value": null,
+      "unit": null,
+      "page": null,
+      "confidence": null
+    },
+    "foreign_percentage": {
+      "value": null,
+      "unit": null,
+      "page": null,
+      "confidence": null
+    },
+    "pe_ratio": {
+      "value": null,
+      "unit": null,
+      "page": null,
+      "confidence": null
+    },
+    "pb_ratio": {
+      "value": null,
+      "unit": null,
+      "page": null,
+      "confidence": null
+    },
+    "dividend_yield": {
+      "value": null,
+      "unit": null,
+      "page": null,
+      "confidence": null
+    }
+  }
+}

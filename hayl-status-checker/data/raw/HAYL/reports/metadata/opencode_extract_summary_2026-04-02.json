@@ -16,5 +16,14 @@
     "processed": 1,
     "skipped": 0,
     "failed": 0
+  },
+  {
+    "run_at": "2026-04-02T17:26:25.109060Z",
+    "symbol": "HAYL.N0000",
+    "analyzer": "opencode",
+    "total_pdfs": 31,
+    "processed": 30,
+    "skipped": 1,
+    "failed": 0
   }
 ]
