@@ -297,6 +297,11 @@ def _metadata_file_for(category, downloaded_at):
     return os.path.join(METADATA_DIR, f"{category}_{date_part}.json")
 
 
+def _summary_file_for(run_at):
+    date_part = run_at[:10]
+    return os.path.join(METADATA_DIR, f"scrape_summary_{date_part}.json")
+
+
 def _append_json_record(file_path, record):
     temp_path = file_path + ".tmp"
     records = []
@@ -325,10 +330,59 @@ def _append_json_record(file_path, record):
     os.replace(temp_path, file_path)
 
 
+def _metadata_record_exists(category, pdf_url, local_path):
+    if not os.path.isdir(METADATA_DIR):
+        return False
+
+    prefix = f"{category}_"
+    for file_name in os.listdir(METADATA_DIR):
+        if not (file_name.startswith(prefix) and file_name.endswith(".json")):
+            continue
+
+        file_path = os.path.join(METADATA_DIR, file_name)
+        try:
+            with open(file_path, "r", encoding="utf-8") as source_file:
+                existing = json.load(source_file)
+        except (json.JSONDecodeError, OSError):
+            continue
+
+        if not isinstance(existing, list):
+            continue
+
+        for entry in existing:
+            if not isinstance(entry, dict):
+                continue
+            if entry.get("pdf_url") == pdf_url or entry.get("local_path") == local_path:
+                return True
+
+    return False
+
+
 def save_report_metadata(metadata_record):
+    if _metadata_record_exists(
+        category=metadata_record["category"],
+        pdf_url=metadata_record["pdf_url"],
+        local_path=metadata_record["local_path"],
+    ):
+        return False
+
     file_path = _metadata_file_for(metadata_record["category"], metadata_record["downloaded_at"])
     _append_json_record(file_path, metadata_record)
     return True
+
+
+def save_scrape_summary(summary):
+    run_record = {
+        "run_at": _utc_now_iso(),
+        "symbol": SYMBOL,
+        "source_page": REPORTS_PAGE_URL,
+        "total_links_found": summary.get("total_links_found", 0),
+        "pdfs_downloaded": summary.get("pdfs_downloaded", 0),
+        "pdfs_skipped": summary.get("pdfs_skipped", 0),
+        "metadata_records_written": summary.get("metadata_records_written", 0),
+    }
+    file_path = _summary_file_for(run_record["run_at"])
+    _append_json_record(file_path, run_record)
 
 
 def scrape_and_store_reports():
@@ -375,8 +429,9 @@ def scrape_and_store_reports():
         }
 
         try:
-            save_report_metadata(metadata_record)
-            metadata_written += 1
+            wrote = save_report_metadata(metadata_record)
+            if wrote:
+                metadata_written += 1
         except (OSError, ValueError, TypeError, json.JSONDecodeError) as exc:
             logging.error("Failed to save metadata for %s: %s", report["pdf_url"], str(exc))
 
@@ -391,6 +446,7 @@ def scrape_and_store_reports():
 def main():
     logging.basicConfig(level=logging.INFO, format="%(asctime)s | %(levelname)s | %(message)s")
     summary = scrape_and_store_reports()
+    save_scrape_summary(summary)
     print(json.dumps(summary, ensure_ascii=False))
 
 

@@ -1,0 +1,20 @@
+[
+  {
+    "run_at": "2026-04-02T16:51:17.956147Z",
+    "symbol": "HAYL.N0000",
+    "source_page": "https://www.hayleys.com/annual-reports/",
+    "total_links_found": 31,
+    "pdfs_downloaded": 0,
+    "pdfs_skipped": 31,
+    "metadata_records_written": 0
+  },
+  {
+    "run_at": "2026-04-02T16:51:56.311060Z",
+    "symbol": "HAYL.N0000",
+    "source_page": "https://www.hayleys.com/annual-reports/",
+    "total_links_found": 31,
+    "pdfs_downloaded": 0,
+    "pdfs_skipped": 31,
+    "metadata_records_written": 0
+  }
+]
