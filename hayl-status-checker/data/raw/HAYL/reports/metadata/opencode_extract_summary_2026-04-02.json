@@ -1,0 +1,20 @@
+[
+  {
+    "run_at": "2026-04-02T17:09:39.005706Z",
+    "symbol": "HAYL.N0000",
+    "analyzer": "opencode",
+    "total_pdfs": 1,
+    "processed": 0,
+    "skipped": 0,
+    "failed": 1
+  },
+  {
+    "run_at": "2026-04-02T17:11:36.275827Z",
+    "symbol": "HAYL.N0000",
+    "analyzer": "opencode",
+    "total_pdfs": 1,
+    "processed": 1,
+    "skipped": 0,
+    "failed": 0
+  }
+]

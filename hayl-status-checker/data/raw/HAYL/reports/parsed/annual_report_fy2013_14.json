@@ -1,0 +1,44 @@
+{
+  "symbol": "HAYL.N0000",
+  "report_type": "annual_reports",
+  "financial_year": "FY2013-14",
+  "source_pdf": "data/raw/HAYL/reports/pdfs/annual_report_FY2013-14.pdf",
+  "extracted_at": "2026-04-02T17:06:42.223792Z",
+  "metrics": {
+    "revenue": {
+      "value": 65806.0,
+      "unit": "LKR",
+      "page": 8,
+      "confidence": 0.62,
+      "source": "text"
+    },
+    "net_income": {
+      "value": 8.0,
+      "unit": "LKR",
+      "page": 32,
+      "confidence": 0.62,
+      "source": "text"
+    },
+    "eps": {
+      "value": 13.06,
+      "unit": "LKR/share",
+      "page": 8,
+      "confidence": 0.62,
+      "source": "text"
+    },
+    "operating_profit": {
+      "value": null,
+      "unit": null,
+      "page": null,
+      "confidence": 0.0,
+      "source": null
+    },
+    "ebitda": {
+      "value": 10.0,
+      "unit": "LKR",
+      "page": 51,
+      "confidence": 0.62,
+      "source": "text"
+    }
+  }
+}
