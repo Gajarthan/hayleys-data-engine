@@ -300,6 +300,49 @@ def parse_stock_data(raw_response):
     return transform_all_data(raw_response)
 
 
+def _strip_fetched_at(value):
+    if isinstance(value, dict):
+        return {k: _strip_fetched_at(v) for k, v in value.items() if k != "fetched_at"}
+    if isinstance(value, list):
+        return [_strip_fetched_at(item) for item in value]
+    return value
+
+
+def _get_latest_saved_record(category, symbol=SYMBOL):
+    category_dir = os.path.join(RAW_DIR, _symbol_root(symbol), category)
+    if not os.path.isdir(category_dir):
+        return None
+
+    prefix = f"{symbol}_"
+    candidates = sorted(
+        [name for name in os.listdir(category_dir) if name.startswith(prefix) and name.endswith(".json")],
+        reverse=True,
+    )
+
+    for file_name in candidates:
+        file_path = os.path.join(category_dir, file_name)
+        try:
+            with open(file_path, "r", encoding="utf-8") as source_file:
+                existing_data = json.load(source_file)
+            if isinstance(existing_data, list) and existing_data and isinstance(existing_data[-1], dict):
+                return existing_data[-1]
+        except (json.JSONDecodeError, OSError):
+            continue
+    return None
+
+
+def has_new_data(all_data, symbol=SYMBOL):
+    new_price = all_data.get("price")
+    if not isinstance(new_price, dict):
+        return True
+
+    latest_price = _get_latest_saved_record("price", symbol=symbol)
+    if not isinstance(latest_price, dict):
+        return True
+
+    return _strip_fetched_at(new_price) != _strip_fetched_at(latest_price)
+
+
 def append_to_json_file(record, category="price", symbol=SYMBOL):
     date_part = record["fetched_at"][:10]
     file_name = f"{symbol}_{date_part}.json"
@@ -373,6 +416,11 @@ def main():
 
     transformed = parse_stock_data(raw_response)
     timestamp = transformed.get("price", {}).get("fetched_at") or datetime.datetime.now(datetime.timezone.utc).isoformat()
+
+    if not has_new_data(transformed, symbol=SYMBOL):
+        logging.info("No new data for %s. Skipping write.", SYMBOL)
+        print(f"No new data for {SYMBOL}")
+        return
 
     if save_category_data(transformed):
         logging.info("Stored %s at %s", SYMBOL, timestamp)
