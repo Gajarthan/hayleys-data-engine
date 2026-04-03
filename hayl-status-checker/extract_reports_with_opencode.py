@@ -9,6 +9,7 @@ import subprocess
 
 import pdfplumber
 from export_trusted_reports import export_trusted_reports
+from generate_fundamental_analytics import generate_fundamental_analytics
 
 SYMBOL = "HAYL.N0000"
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))
@@ -791,7 +792,17 @@ def main():
     except Exception as exc:
         logging.error("Trusted export failed: %s", str(exc))
 
-    output = {"extraction": extraction_summary, "trusted_export": trusted_summary}
+    analytics_summary = None
+    try:
+        analytics_summary = generate_fundamental_analytics()
+    except Exception as exc:
+        logging.error("Fundamental analytics generation failed: %s", str(exc))
+
+    output = {
+        "extraction": extraction_summary,
+        "trusted_export": trusted_summary,
+        "fundamental_analytics": analytics_summary,
+    }
     print(json.dumps(output, ensure_ascii=False))
 
 

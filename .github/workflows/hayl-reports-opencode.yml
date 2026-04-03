@@ -89,6 +89,7 @@ jobs:
           path: |
             hayl-status-checker/data/raw/HAYL/reports/parsed_opencode
             hayl-status-checker/data/raw/HAYL/reports/parsed_trusted
+            hayl-status-checker/data/raw/HAYL/reports/analytics
             hayl-status-checker/data/raw/HAYL/reports/metadata
           retention-days: 14
 

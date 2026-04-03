@@ -4,7 +4,7 @@
     "report_type": "annual_reports",
     "financial_year": "FY2009-10",
     "source_pdf": "data/raw/HAYL/reports/pdfs/annual_report_FY2009-10.pdf",
-    "trusted_at": "2026-04-02T18:57:34.539949Z",
+    "trusted_at": "2026-04-03T02:26:03.919462Z",
     "metrics": {
       "revenue": {
         "value": 43716.0,
@@ -86,7 +86,7 @@
     "report_type": "annual_reports",
     "financial_year": "FY2010-11",
     "source_pdf": "data/raw/HAYL/reports/pdfs/annual_report_FY2010-11.pdf",
-    "trusted_at": "2026-04-02T18:57:34.540949Z",
+    "trusted_at": "2026-04-03T02:26:03.921458Z",
     "metrics": {
       "revenue": {
         "value": 55753.0,
@@ -168,7 +168,7 @@
     "report_type": "annual_reports",
     "financial_year": "FY2011-12",
     "source_pdf": "data/raw/HAYL/reports/pdfs/annual_report_FY2011-12.pdf",
-    "trusted_at": "2026-04-02T18:57:34.541949Z",
+    "trusted_at": "2026-04-03T02:26:03.923462Z",
     "metrics": {
       "revenue": {
         "value": 62465.0,
@@ -250,7 +250,7 @@
     "report_type": "annual_reports",
     "financial_year": "FY2012-13",
     "source_pdf": "data/raw/HAYL/reports/pdfs/annual_report_FY2012-13.pdf",
-    "trusted_at": "2026-04-02T18:57:34.543111Z",
+    "trusted_at": "2026-04-03T02:26:03.925462Z",
     "metrics": {
       "revenue": {
         "value": 74302.0,
@@ -332,7 +332,7 @@
     "report_type": "annual_reports",
     "financial_year": "FY2013-14",
     "source_pdf": "data/raw/HAYL/reports/pdfs/annual_report_FY2013-14.pdf",
-    "trusted_at": "2026-04-02T18:57:34.544472Z",
+    "trusted_at": "2026-04-03T02:26:03.927457Z",
     "metrics": {
       "revenue": {
         "value": 80554.0,
@@ -414,7 +414,7 @@
     "report_type": "annual_reports",
     "financial_year": "FY2014-15",
     "source_pdf": "data/raw/HAYL/reports/pdfs/annual_report_FY2014-15.pdf",
-    "trusted_at": "2026-04-02T18:57:34.546787Z",
+    "trusted_at": "2026-04-03T02:26:03.928459Z",
     "metrics": {
       "revenue": {
         "value": 92562.0,
@@ -496,7 +496,7 @@
     "report_type": "annual_reports",
     "financial_year": "FY2015-16",
     "source_pdf": "data/raw/HAYL/reports/pdfs/annual_report_FY2015-16.pdf",
-    "trusted_at": "2026-04-02T18:57:34.547812Z",
+    "trusted_at": "2026-04-03T02:26:03.931057Z",
     "metrics": {
       "revenue": {
         "value": null,
@@ -578,7 +578,7 @@
     "report_type": "annual_reports",
     "financial_year": "FY2016-17",
     "source_pdf": "data/raw/HAYL/reports/pdfs/annual_report_FY2016-17.pdf",
-    "trusted_at": "2026-04-02T18:57:34.548804Z",
+    "trusted_at": "2026-04-03T02:26:03.932786Z",
     "metrics": {
       "revenue": {
         "value": 111383.0,
@@ -660,7 +660,7 @@
     "report_type": "annual_reports",
     "financial_year": "FY2017-18",
     "source_pdf": "data/raw/HAYL/reports/pdfs/annual_report_FY2017-18.pdf",
-    "trusted_at": "2026-04-02T18:57:34.549806Z",
+    "trusted_at": "2026-04-03T02:26:03.934797Z",
     "metrics": {
       "revenue": {
         "value": 163249.0,
@@ -742,7 +742,7 @@
     "report_type": "annual_reports",
     "financial_year": "FY2018-19",
     "source_pdf": "data/raw/HAYL/reports/pdfs/annual_report_FY2018-19.pdf",
-    "trusted_at": "2026-04-02T18:57:34.551803Z",
+    "trusted_at": "2026-04-03T02:26:03.936794Z",
     "metrics": {
       "revenue": {
         "value": null,
@@ -824,7 +824,7 @@
     "report_type": "annual_reports",
     "financial_year": "FY2019-20",
     "source_pdf": "data/raw/HAYL/reports/pdfs/annual_report_FY2019-20.pdf",
-    "trusted_at": "2026-04-02T18:57:34.552901Z",
+    "trusted_at": "2026-04-03T02:26:03.938793Z",
     "metrics": {
       "revenue": {
         "value": 210307.0,
@@ -906,7 +906,7 @@
     "report_type": "annual_reports",
     "financial_year": "FY2020-21",
     "source_pdf": "data/raw/HAYL/reports/pdfs/annual_report_FY2020-21.pdf",
-    "trusted_at": "2026-04-02T18:57:34.554046Z",
+    "trusted_at": "2026-04-03T02:26:03.940794Z",
     "metrics": {
       "revenue": {
         "value": 241276.0,
@@ -988,7 +988,7 @@
     "report_type": "annual_reports",
     "financial_year": "FY2021-22",
     "source_pdf": "data/raw/HAYL/reports/pdfs/annual_report_FY2021-22.pdf",
-    "trusted_at": "2026-04-02T18:57:34.555207Z",
+    "trusted_at": "2026-04-03T02:26:03.942793Z",
     "metrics": {
       "revenue": {
         "value": 338010.0,
@@ -1070,7 +1070,7 @@
     "report_type": "annual_reports",
     "financial_year": "FY2022-23",
     "source_pdf": "data/raw/HAYL/reports/pdfs/annual_report_FY2022-23.pdf",
-    "trusted_at": "2026-04-02T18:57:34.557390Z",
+    "trusted_at": "2026-04-03T02:26:03.944793Z",
     "metrics": {
       "revenue": {
         "value": 487431.0,
@@ -1152,7 +1152,7 @@
     "report_type": "annual_reports",
     "financial_year": "FY2023-24",
     "source_pdf": "data/raw/HAYL/reports/pdfs/annual_report_FY2023-24.pdf",
-    "trusted_at": "2026-04-02T18:57:34.559389Z",
+    "trusted_at": "2026-04-03T02:26:03.946790Z",
     "metrics": {
       "revenue": {
         "value": 436833.0,
@@ -1234,7 +1234,7 @@
     "report_type": "annual_reports",
     "financial_year": "FY2024-25",
     "source_pdf": "data/raw/HAYL/reports/pdfs/annual_report_FY2024-25.pdf",
-    "trusted_at": "2026-04-02T18:57:34.560393Z",
+    "trusted_at": "2026-04-03T02:26:03.949526Z",
     "metrics": {
       "revenue": {
         "value": 492201.0,
@@ -1316,7 +1316,7 @@
     "report_type": "group_company_reports",
     "financial_year": "FY2024-25",
     "source_pdf": "data/raw/HAYL/reports/pdfs/group_alumex_FY2024-25.pdf",
-    "trusted_at": "2026-04-02T18:57:34.563395Z",
+    "trusted_at": "2026-04-03T02:26:03.950796Z",
     "metrics": {
       "revenue": {
         "value": 14300.0,
@@ -1398,7 +1398,7 @@
     "report_type": "group_company_reports",
     "financial_year": "FY2024-25",
     "source_pdf": "data/raw/HAYL/reports/pdfs/group_dipped_products_dpl_FY2024-25.pdf",
-    "trusted_at": "2026-04-02T18:57:34.565385Z",
+    "trusted_at": "2026-04-03T02:26:03.953002Z",
     "metrics": {
       "revenue": {
         "value": 79289.0,
@@ -1480,7 +1480,7 @@
     "report_type": "group_company_reports",
     "financial_year": "FY2024-25",
     "source_pdf": "data/raw/HAYL/reports/pdfs/group_haycarb_FY2024-25.pdf",
-    "trusted_at": "2026-04-02T18:57:34.566385Z",
+    "trusted_at": "2026-04-03T02:26:03.971731Z",
     "metrics": {
       "revenue": {
         "value": 43200.0,
@@ -1562,7 +1562,7 @@
     "report_type": "group_company_reports",
     "financial_year": "FY2024-25",
     "source_pdf": "data/raw/HAYL/reports/pdfs/group_hayleys_fabric_FY2024-25.pdf",
-    "trusted_at": "2026-04-02T18:57:34.568448Z",
+    "trusted_at": "2026-04-03T02:26:03.974706Z",
     "metrics": {
       "revenue": {
         "value": null,
@@ -1644,7 +1644,7 @@
     "report_type": "group_company_reports",
     "financial_year": "FY2024-25",
     "source_pdf": "data/raw/HAYL/reports/pdfs/group_hayleys_fibre_FY2024-25.pdf",
-    "trusted_at": "2026-04-02T18:57:34.569452Z",
+    "trusted_at": "2026-04-03T02:26:03.976725Z",
     "metrics": {
       "revenue": {
         "value": 4751.0,
@@ -1726,7 +1726,7 @@
     "report_type": "group_company_reports",
     "financial_year": "FY2024-25",
     "source_pdf": "data/raw/HAYL/reports/pdfs/group_hayleys_leisure_FY2024-25.pdf",
-    "trusted_at": "2026-04-02T18:57:34.570452Z",
+    "trusted_at": "2026-04-03T02:26:03.978717Z",
     "metrics": {
       "revenue": {
         "value": 3332.079,
@@ -1808,7 +1808,7 @@
     "report_type": "group_company_reports",
     "financial_year": "FY2024-25",
     "source_pdf": "data/raw/HAYL/reports/pdfs/group_horana_plantations_FY2024-25.pdf",
-    "trusted_at": "2026-04-02T18:57:34.571452Z",
+    "trusted_at": "2026-04-03T02:26:03.980847Z",
     "metrics": {
       "revenue": {
         "value": 3697.0,
@@ -1890,7 +1890,7 @@
     "report_type": "group_company_reports",
     "financial_year": "FY2024-25",
     "source_pdf": "data/raw/HAYL/reports/pdfs/group_singer_finance_FY2024-25.pdf",
-    "trusted_at": "2026-04-02T18:57:34.572455Z",
+    "trusted_at": "2026-04-03T02:26:03.982434Z",
     "metrics": {
       "revenue": {
         "value": 9.706033,
@@ -1972,7 +1972,7 @@
     "report_type": "group_company_reports",
     "financial_year": "FY2024-25",
     "source_pdf": "data/raw/HAYL/reports/pdfs/group_singer_sri_lanka_FY2024-25.pdf",
-    "trusted_at": "2026-04-02T18:57:34.573451Z",
+    "trusted_at": "2026-04-03T02:26:03.984434Z",
     "metrics": {
       "revenue": {
         "value": 88240.636,
@@ -2054,7 +2054,7 @@
     "report_type": "group_company_reports",
     "financial_year": "FY2024-25",
     "source_pdf": "data/raw/HAYL/reports/pdfs/group_talawakelle_tea_estates_FY2024-25.pdf",
-    "trusted_at": "2026-04-02T18:57:34.575965Z",
+    "trusted_at": "2026-04-03T02:26:03.986439Z",
     "metrics": {
       "revenue": {
         "value": 7806.0,
@@ -2136,7 +2136,7 @@
     "report_type": "group_company_reports",
     "financial_year": "FY2024-25",
     "source_pdf": "data/raw/HAYL/reports/pdfs/group_the_kingsbury_FY2024-25.pdf",
-    "trusted_at": "2026-04-02T18:57:34.576971Z",
+    "trusted_at": "2026-04-03T02:26:03.988434Z",
     "metrics": {
       "revenue": {
         "value": 5327.046,
@@ -2218,7 +2218,7 @@
     "report_type": "quarterly_results",
     "financial_year": "FY20-25",
     "source_pdf": "data/raw/HAYL/reports/pdfs/quarterly_Q1_FY2025.pdf",
-    "trusted_at": "2026-04-02T18:57:34.577970Z",
+    "trusted_at": "2026-04-03T02:26:03.989434Z",
     "metrics": {
       "revenue": {
         "value": 130638.065,
@@ -2300,7 +2300,7 @@
     "report_type": "quarterly_results",
     "financial_year": null,
     "source_pdf": "data/raw/HAYL/reports/pdfs/quarterly_Q2.pdf",
-    "trusted_at": "2026-04-02T18:57:34.578970Z",
+    "trusted_at": "2026-04-03T02:26:03.991748Z",
     "metrics": {
       "revenue": {
         "value": 269526.097,
@@ -2382,7 +2382,7 @@
     "report_type": "quarterly_results",
     "financial_year": "FY2025-26",
     "source_pdf": "data/raw/HAYL/reports/pdfs/quarterly_Q3_FY2025-26.pdf",
-    "trusted_at": "2026-04-02T18:57:34.580971Z",
+    "trusted_at": "2026-04-03T02:26:03.992808Z",
     "metrics": {
       "revenue": {
         "value": 421404.127,
@@ -2464,7 +2464,7 @@
     "report_type": "quarterly_results",
     "financial_year": "FY2023-24",
     "source_pdf": "data/raw/HAYL/reports/pdfs/quarterly_Q4_FY2023-24.pdf",
-    "trusted_at": "2026-04-02T18:57:34.582374Z",
+    "trusted_at": "2026-04-03T02:26:03.994779Z",
     "metrics": {
       "revenue": {
         "value": 492201.092,

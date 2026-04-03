@@ -1,0 +1,113 @@
+[
+  {
+    "run_at": "2026-04-03T06:02:22.529206Z",
+    "symbol": "HAYL.N0000",
+    "source_dataset_exists": true,
+    "source_dataset_path": "data/raw/HAYL/reports/parsed_trusted/trusted_reports_dataset.json",
+    "records_analyzed": 31,
+    "annual_records_analyzed": 16,
+    "coverage": {
+      "revenue": {
+        "metric_key": "revenue",
+        "total_records": 16,
+        "non_null_records": 14,
+        "coverage_pct": 87.5
+      },
+      "net_profit": {
+        "metric_key": "net_income",
+        "total_records": 16,
+        "non_null_records": 14,
+        "coverage_pct": 87.5
+      },
+      "operating_margin": {
+        "metric_key": "operating_margin",
+        "total_records": 16,
+        "non_null_records": 13,
+        "coverage_pct": 81.25
+      },
+      "free_cash_flow": {
+        "metric_key": "free_cash_flow",
+        "total_records": 16,
+        "non_null_records": 0,
+        "coverage_pct": 0.0
+      },
+      "eps": {
+        "metric_key": "eps",
+        "total_records": 16,
+        "non_null_records": 15,
+        "coverage_pct": 93.75
+      },
+      "roe": {
+        "metric_key": "roe",
+        "total_records": 16,
+        "non_null_records": 0,
+        "coverage_pct": 0.0
+      },
+      "debt_to_equity": {
+        "metric_key": "debt_to_equity",
+        "total_records": 16,
+        "non_null_records": 0,
+        "coverage_pct": 0.0
+      }
+    },
+    "latest": {
+      "financial_year": "FY2024-25",
+      "revenue": 492201.0,
+      "net_profit": 22513.0,
+      "operating_margin_pct": 9.7,
+      "free_cash_flow": null,
+      "eps": 17.93,
+      "roe": null,
+      "debt_to_equity": null
+    },
+    "year_over_year": {
+      "financial_year": "FY2024-25",
+      "revenue_growth_pct": 12.67,
+      "net_profit_growth_pct": 51.63,
+      "eps_growth_pct": 95.1,
+      "operating_margin_change_pct_point": -0.08
+    },
+    "skeptical_checks": {
+      "profit_up_cashflow_down": {
+        "available": false,
+        "flagged_count": 0,
+        "flags": []
+      },
+      "revenue_up_margin_down": {
+        "available": true,
+        "flagged_count": 4,
+        "flags": [
+          {
+            "financial_year": "FY2010-11",
+            "previous_revenue": 43716.0,
+            "current_revenue": 55753.0,
+            "previous_operating_margin_pct": 9.15,
+            "current_operating_margin_pct": 5.23
+          },
+          {
+            "financial_year": "FY2012-13",
+            "previous_revenue": 62465.0,
+            "current_revenue": 74302.0,
+            "previous_operating_margin_pct": 7.69,
+            "current_operating_margin_pct": 6.76
+          },
+          {
+            "financial_year": "FY2017-18",
+            "previous_revenue": 111383.0,
+            "current_revenue": 163249.0,
+            "previous_operating_margin_pct": 8.69,
+            "current_operating_margin_pct": 6.99
+          },
+          {
+            "financial_year": "FY2024-25",
+            "previous_revenue": 436833.0,
+            "current_revenue": 492201.0,
+            "previous_operating_margin_pct": 9.78,
+            "current_operating_margin_pct": 9.7
+          }
+        ]
+      }
+    },
+    "quality_score": 68
+  }
+]

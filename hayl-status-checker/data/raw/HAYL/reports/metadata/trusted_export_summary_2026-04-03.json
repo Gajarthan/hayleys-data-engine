@@ -1,0 +1,9 @@
+[
+  {
+    "run_at": "2026-04-03T02:26:03.999759Z",
+    "total_source_reports": 31,
+    "trusted_reports_written": 31,
+    "dataset_written": true,
+    "dataset_path": "data/raw/HAYL/reports/parsed_trusted/trusted_reports_dataset.json"
+  }
+]

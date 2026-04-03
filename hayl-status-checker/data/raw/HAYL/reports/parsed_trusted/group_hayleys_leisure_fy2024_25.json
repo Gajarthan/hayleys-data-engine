@@ -3,7 +3,7 @@
   "report_type": "group_company_reports",
   "financial_year": "FY2024-25",
   "source_pdf": "data/raw/HAYL/reports/pdfs/group_hayleys_leisure_FY2024-25.pdf",
-  "trusted_at": "2026-04-02T18:57:34.570452Z",
+  "trusted_at": "2026-04-03T02:26:03.978717Z",
   "metrics": {
     "revenue": {
       "value": 3332.079,

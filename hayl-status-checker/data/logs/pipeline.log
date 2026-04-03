@@ -12,3 +12,15 @@ No new data for HAYL.N0000
 {"extraction": {"total_pdfs": 31, "processed": 0, "skipped": 31, "failed": 0}, "trusted_export": {"run_at": "2026-04-02T18:57:34.587811Z", "total_source_reports": 31, "trusted_reports_written": 31, "dataset_written": true, "dataset_path": "data/raw/HAYL/reports/parsed_trusted/trusted_reports_dataset.json"}}
 [2026-04-03T00:27:35.3241304+05:30] Completed hayl-status-checker\extract_reports_with_opencode.py
 [2026-04-03T00:27:35.3331442+05:30] Pipeline completed
+[2026-04-03T07:55:44.0440039+05:30] Starting pipeline
+[2026-04-03T07:55:44.0778014+05:30] Running hayl-status-checker\fetch_hayl_stock.py
+Stored HAYL.N0000 at 2026-04-03T02:25:45.310098Z
+2026-04-03 07:55:45,331 | INFO | Stored HAYL.N0000 at 2026-04-03T02:25:45.310098Z
+[2026-04-03T07:55:46.1780927+05:30] Completed hayl-status-checker\fetch_hayl_stock.py
+[2026-04-03T07:55:46.1855043+05:30] Running hayl-status-checker\scrape_hayleys_reports.py
+{"total_links_found": 31, "pdfs_downloaded": 0, "pdfs_skipped": 31, "metadata_records_written": 0}
+[2026-04-03T07:56:03.3988799+05:30] Completed hayl-status-checker\scrape_hayleys_reports.py
+[2026-04-03T07:56:03.4048779+05:30] Running hayl-status-checker\extract_reports_with_opencode.py
+{"extraction": {"total_pdfs": 31, "processed": 0, "skipped": 31, "failed": 0}, "trusted_export": {"run_at": "2026-04-03T02:26:03.999759Z", "total_source_reports": 31, "trusted_reports_written": 31, "dataset_written": true, "dataset_path": "data/raw/HAYL/reports/parsed_trusted/trusted_reports_dataset.json"}}
+[2026-04-03T07:56:04.4373646+05:30] Completed hayl-status-checker\extract_reports_with_opencode.py
+[2026-04-03T07:56:04.4423662+05:30] Pipeline completed
