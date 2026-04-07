@@ -46,5 +46,17 @@
     },
     "security_id": 505,
     "fetched_at": "2026-04-07T07:55:13.169444Z"
+  },
+  {
+    "symbol": "HAYL.N0000",
+    "company": "HAYLEYS PLC",
+    "isin": "LK0080N00008",
+    "issue_date": "1953-01-01",
+    "logos": {
+      "company_logo": "upload_logo/505_1600924002.jpeg",
+      "tag_logo": "upload_tag_logo/k1rzA8OhK3weQKan_1Mar2026060059GMT_1772344859065.png"
+    },
+    "security_id": 505,
+    "fetched_at": "2026-04-07T08:57:05.894426Z"
   }
 ]
