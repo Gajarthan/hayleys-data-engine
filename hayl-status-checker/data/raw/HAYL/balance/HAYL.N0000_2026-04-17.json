@@ -31,5 +31,16 @@
     "foreign_holdings": null,
     "foreign_percentage": null,
     "fetched_at": "2026-04-17T07:09:15.333765Z"
+  },
+  {
+    "symbol": "HAYL.N0000",
+    "company": "HAYLEYS PLC",
+    "issued_shares": 750000000,
+    "par_value": 1.0,
+    "market_cap": 176625000000.0,
+    "market_cap_percent": 2.144357,
+    "foreign_holdings": null,
+    "foreign_percentage": null,
+    "fetched_at": "2026-04-17T08:59:59.999652Z"
   }
 ]
