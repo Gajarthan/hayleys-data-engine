@@ -244,5 +244,46 @@
       "year": 11378902000.0
     },
     "fetched_at": "2026-08-18T06:33:17.810404Z"
+  },
+  {
+    "symbol": "HAYL.N0000",
+    "company": "HAYLEYS PLC",
+    "last_price": 225.5,
+    "previous_close": 227.5,
+    "change_value": -2.0,
+    "change_percent": -0.8791208791208791,
+    "high": {
+      "today": 227.0,
+      "week": 228.0,
+      "month": 228.0,
+      "year": 260.0,
+      "52_week": 260.0,
+      "all_time": 860.0
+    },
+    "low": {
+      "today": 225.5,
+      "week": 225.5,
+      "month": 222.0,
+      "year": 196.0,
+      "52_week": 170.25,
+      "all_time": 30.5
+    },
+    "volume": {
+      "today": 34029,
+      "week": 84926,
+      "month": 10484102,
+      "year": 50164544,
+      "52_week": 81255478
+    },
+    "trades": {
+      "today": 71
+    },
+    "turnover": {
+      "today": 7691253.0,
+      "week": 19210868.0,
+      "month": 2348298500.0,
+      "year": 11378902000.0
+    },
+    "fetched_at": "2026-08-18T07:32:59.802033Z"
   }
 ]
