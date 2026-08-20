@@ -38,5 +38,15 @@
     "operating_profit": null,
     "ebitda": null,
     "fetched_at": "2026-08-20T05:02:28.564924Z"
+  },
+  {
+    "symbol": "HAYL.N0000",
+    "company": "HAYLEYS PLC",
+    "revenue": null,
+    "net_income": null,
+    "eps": null,
+    "operating_profit": null,
+    "ebitda": null,
+    "fetched_at": "2026-08-20T05:55:02.371192Z"
   }
 ]
